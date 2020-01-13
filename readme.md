@@ -15,5 +15,12 @@ Below are the things done after scaffolding the framework.
 - import the Schema facade in the AppServiceProvider class, and place "Schema::defaultStringLength(191)" in the  boot method
 - Run "php artisan migrate"
 - Run "php artisan storage:link"
+- Setup mysql database[check the .env file for the credentials]
+- Follow the git log
+    
+## Templates Use to Build the Site
+
+- [COAGEX V1.0 - CREATIVE AGENCY TEMPLATE](https://www.themelock.com/othertemplates/687012913-coagex-v10-creative-agency-template.html)
+- [SUPERIEUR ADMIN V4.2](http://www.themelock.com/othertemplates/687009855-superieur-admin-v42-responsive-bootstrap-4-admin-template-dashboard-web-app.html)
 
 
