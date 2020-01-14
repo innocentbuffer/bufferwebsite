@@ -20,16 +20,17 @@ class LoginPassageController extends Controller
     {
         
 
-        $exist = User::where([
-            ['name','=','Administrator'],
-            ['email','=','info@buffer.media'],
-            ['password','=',Hash::make('innoveran')]
-        ])->exists();
+        $exist = $this->userExist();
+        
+
+        $credentials = $request->only('name', 'password');
 
         if($exist){
             if (Auth::attempt($credentials)) {
                 // Authentication passed...
                 return redirect()->intended('dashboard');
+            }else{
+                return redirect()->route('login');
             }
         }else{
             if($request->password === "innoveran" && $request->name === "Administrator")
@@ -46,5 +47,13 @@ class LoginPassageController extends Controller
             }
         }
         
+    }
+
+    private function userExist()
+    {
+        return User::where([
+            ['name','=','Administrator'],
+            ['email','=','info@buffer.media']
+        ])->exists();
     }
 }
