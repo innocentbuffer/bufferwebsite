@@ -13,4 +13,8 @@ require('laravel-mix-imagemin');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .imagemin('resources/images/logo','public/images/logo');
+    .imagemin('images/**/**.*',
+        {
+            context:'resources'
+        }
+    );
