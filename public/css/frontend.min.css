@@ -11,3 +11,16 @@ body{
 footer{
     background-color: #212331;
 }
+.footer-text-color{
+    color: #bab5df
+}
+.footer-list li{
+    margin-bottom: .25rem;
+}
+.footer-anchor li a{
+    color: #bab5df;
+}
+.footer-anchor-media li a{
+    background: transparent;
+    border: 1px solid #6e679b;
+}
