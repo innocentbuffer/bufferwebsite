@@ -14,7 +14,6 @@ body{
 footer{
     background-color: #212331;
 }
-<<<<<<< HEAD
 .footer-text-color{
     color: #bab5df
 }
@@ -27,9 +26,4 @@ footer{
 .footer-anchor-media li a{
     background: transparent;
     border: 1px solid #6e679b;
-=======
-.action-btn-outline{
-    border: 2px solid #19AA98;
-    border-radius: 8%;
->>>>>>> frontendnav
 }

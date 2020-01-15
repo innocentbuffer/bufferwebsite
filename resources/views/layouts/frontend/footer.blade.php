@@ -3,7 +3,7 @@
         <div class="col-12 col-md-3 mb-5 mb-md-0">
             <header>
                 <h3 class="mt-3 mt-md-0 mb-3">
-                    <a href="" alt=""><img src="images/logo/footer_logo.png" alt="buffer media logo" style="width:50%"></a>
+                    <a href="" alt=""><img src="images/logo/footer_logo.png" alt="buffer media logo" style="width:70%"></a>
                 </h3>
             </header>
             <div>
