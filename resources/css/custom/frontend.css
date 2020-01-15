@@ -4,10 +4,17 @@
 body{
     font-family: 'minaregular';
 }
+.buffer-bold li a{
+    font-family: 'minabold';
+}
 .comp-background{
     background-color: #19AA98;
 }
 
 footer{
     background-color: #212331;
+}
+.action-btn-outline{
+    border: 2px solid #19AA98;
+    border-radius: 8%;
 }
