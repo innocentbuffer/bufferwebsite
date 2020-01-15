@@ -5,6 +5,7 @@ Buffer media site is develop with Laravel framework and some Node package manage
 - Laravel Version [5.8.*].
 - npm packages (package.json)
 - git
+- Mina font [Bold and Regular]
 
 ## After Scaffolding
 Below are the things done after scaffolding the framework.
