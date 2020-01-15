@@ -30,7 +30,7 @@
         </div>
         <div class="col-12 col-md-3 mb-5 mb-md-0">
             <header>
-                <h3 class="mt-3 mt-md-0">ABOUT US</h3>
+                <h4 class="mt-3 mt-md-0">ABOUT US</h4>
             </header>
             <div>
                 <ul class="list-unstyled">
@@ -43,7 +43,7 @@
         </div>
         <div class="col-12 col-md-3 mb-5 mb-md-0">
             <header>
-                <h3 class="mt-3 mt-md-0">SOLUTIONS</h3>
+                <h4 class="mt-3 mt-md-0">SOLUTIONS</h4>
             </header>
             <div>
                 <ul class="list-unstyled">
@@ -57,7 +57,7 @@
         </div>
         <div class="col-12 col-md-3 mb-5 mb-md-0">
             <header>
-                <h3 class="mt-3 mt-md-0">MEDIA</h3>
+                <h4 class="mt-3 mt-md-0">MEDIA</h4>
             </header>
             <div>
                 <ul class="list-inline">

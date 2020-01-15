@@ -1,3 +1,9 @@
+@import '../vendor/mina-regular/stylesheet.css';
+@import '../vendor/mina-bold/stylesheet.css';
+
+body{
+    font-family: 'minaregular';
+}
 .comp-background{
     background-color: #19AA98;
 }
