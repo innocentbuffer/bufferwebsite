@@ -18,5 +18,17 @@ mix.js('resources/js/app.js', 'public/js')
     .imagemin('images/**/**.*',
         {
             context:'resources'
+        },
+        {
+            optipng: {
+                optimizationLevel: 5
+            },
+            jpegtran: null,
+            plugins: [
+                require('imagemin-mozjpeg')({
+                    quality: 100,
+                    progressive: true,
+                }),
+            ],
         }
     );
