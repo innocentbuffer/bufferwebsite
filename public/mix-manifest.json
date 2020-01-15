@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/images/logo/nav_logo.png": "/images/logo/nav_logo.png",
     "/images/logo/footer_logo.png": "/images/logo/footer_logo.png",
     "/css/frontend.min.css": "/css/frontend.min.css",
     "/css/backend.min.css": "/css/backend.min.css"
