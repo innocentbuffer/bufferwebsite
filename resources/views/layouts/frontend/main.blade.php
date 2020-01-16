@@ -13,26 +13,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- custom compiled and minified stylesheet -->
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/frontend.min.css">
     <link rel="stylesheet" href="css/backend.min.css">
 </head>
 <body>
-    <!-- header start -->
-    <header class="buffer-navbar">
-        @include('layouts.frontend.nav')
-    </header>
-    <!-- header end -->
-    <!-- main start -->
-    <main>
-        
-    </main>
-    <!-- main end -->
-    <!-- footer start -->
-    <footer class="px-md-5 py-5">
-        @include('layouts.frontend.footer')
-    </footer>
-    <!-- footer end -->
-
+    <section class="loader-section">
+        <div id="buffer-spinner">
+            <img src="images/logo/spinner.png" alt="">
+        </div>
+    </section>
+    <section class="main-section">
+        <!-- header start -->
+        <header class="buffer-navbar">
+            @include('layouts.frontend.nav')
+        </header>
+        <!-- header end -->
+        <!-- main start -->
+        <main>
+            
+        </main>
+        <!-- main end -->
+        <!-- footer start -->
+        <footer class="px-md-5 py-5">
+            @include('layouts.frontend.footer')
+        </footer>
+        <!-- footer end -->
+    </section>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -42,5 +49,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom JavaScript -->
+    <script src="js/app.js"></script>
+
+    <!-- custom JavaScript -->
+    <script src="js/custom/main.min.js"></script>
 </body>
 </html>
