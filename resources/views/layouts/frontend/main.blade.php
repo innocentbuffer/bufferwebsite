@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- custom compiled and minified stylesheet -->
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/frontend.min.css">
     <link rel="stylesheet" href="css/backend.min.css">
 </head>
@@ -48,6 +49,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom JavaScript -->
+    <script src="js/app.js"></script>
 
     <!-- custom JavaScript -->
     <script src="js/custom/main.min.js"></script>
