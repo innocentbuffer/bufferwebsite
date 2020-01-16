@@ -20,7 +20,7 @@
 <body>
     <section class="loader-section">
         <div id="buffer-spinner">
-            <img src="images/logo/spinner.png" alt="">
+            <img id="spinner-img" src="images/logo/spinner.png" alt="">
         </div>
     </section>
     <section class="main-section">

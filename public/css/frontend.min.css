@@ -59,3 +59,16 @@ footer{
     top: 45%;
     left: 45%;
 }
+
+#spinner-img{
+    animation: spin 500ms infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
