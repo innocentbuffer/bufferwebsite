@@ -1,10 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/images/logo/favicon.ico": "/images/logo/favicon.ico",
-    "/images/logo/nav_logo.png": "/images/logo/nav_logo.png",
-    "/images/logo/footer_logo.png": "/images/logo/footer_logo.png",
-    "/images/logo/spinner.png": "/images/logo/spinner.png",
     "/css/frontend.min.css": "/css/frontend.min.css",
     "/css/backend.min.css": "/css/backend.min.css",
     "/js/custom/main.min.js": "/js/custom/main.min.js"

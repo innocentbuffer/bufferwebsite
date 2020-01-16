@@ -14,8 +14,8 @@
 
     <!-- custom compiled and minified stylesheet -->
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/frontend.css">
     <link rel="stylesheet" href="css/frontend.min.css">
-    <link rel="stylesheet" href="css/backend.min.css">
 </head>
 <body>
     <section class="loader-section">
@@ -50,10 +50,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <!-- custom JavaScript -->
+    <!-- custom JavaScript 
     <script src="js/app.js"></script>
+    -->
+    <script src="js/custom/main.js"></script>
 
-    <!-- custom JavaScript -->
+    <!-- custom  minified JavaScript 
     <script src="js/custom/main.min.js"></script>
+    -->
 </body>
 </html>
