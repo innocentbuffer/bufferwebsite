@@ -15,7 +15,7 @@
                     <form action="" method="post">
                         @csrf
                         <div class="input-group">
-                            <input type="email" class="form-control" name="email" placeholder="example@example.com" id="email">
+                            <input type="email" class="form-control" name="email" placeholder="Your email address" id="email">
                             <div class="input-group-append">
                                 <button class="btn comp-background text-white" type="submit">
                                     <i class="fa fa-paper-plane "></i>
