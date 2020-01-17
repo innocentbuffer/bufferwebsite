@@ -5,5 +5,29 @@
 @endsection
 
 @section('content')
-   
+   <section>
+        <div class="portfolio-pages">
+            <div class="container">
+                <div class="text-center">
+                    <h1>Buffer Portfolio</h1>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Praesent a viverra leo. Morbi purus augue, lacinia vel molestie.
+                    </p>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio-headmove">
+                        <div class="single-portfolio">
+                            <div class="portfolio-content">
+                                <img src="images/portfolio/4.jpg" alt="">
+                                <div class="portfolio-content">Port content</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h3>Title</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
 @endsection

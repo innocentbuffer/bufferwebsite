@@ -1,8 +1,8 @@
-@import '../vendor/mina-regular/stylesheet.css';
-@import '../vendor/mina-bold/stylesheet.css';
+@import 'vendor/mina-regular/stylesheet.css';
+@import 'vendor/mina-bold/stylesheet.css';
 
 body{
-    font-family: 'minabold';
+    font-family: 'minaregular';
 }
 .buffer-bold li a{
     font-family: 'minabold';
@@ -23,10 +23,12 @@ footer{
 }
 .footer-anchor li a{
     color: #bab5df;
+    
 }
 .footer-anchor-media li a{
     background: transparent;
     border: 1px solid #6e679b;
+    font-size: 11px;
 }
 
 .action-btn-outline{
@@ -135,6 +137,21 @@ footer{
 .client{
     padding: 70px;
     background-color: #fff;
+}
+
+.portfolio-pages{
+    padding: 120px 0;
+    background-image: url(../images/slider/header.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+
+.portfolio-image {
+    position: relative;
 }
 
 @keyframes spin{
