@@ -3,7 +3,7 @@
         <div class="col-12 col-md-3 mb-5 mb-md-0">
             <header>
                 <h3 class="mt-3 mt-md-0 mb-3">
-                    <a href="" alt=""><img src="images/logo/footer_logo.png" alt="buffer media logo" style="width:70%"></a>
+                    <a href="./" alt=""><img src="images/logo/footer_logo.png" alt="buffer media logo" style="width:70%"></a>
                 </h3>
             </header>
             <div>
@@ -34,10 +34,12 @@
             </header>
             <div>
                 <ul class="list-unstyled footer-list footer-anchor">
-                    <li><a href="">Company</a></li>
+                    <li><a href="{{ route('company') }}">Company</a></li>
                     <li><a href="">Contact</a></li>
+                    <!--
                     <li><a href="">Careers</a></li>
                     <li><a href="">Blog</a></li>
+                    -->
                 </ul>
             </div>   
         </div>
@@ -47,11 +49,11 @@
             </header>
             <div>
                 <ul class="list-unstyled footer-list footer-anchor">
-                    <li><a href="">Enterprise Messaging</a></li>
-                    <li><a href="">Voice</a></li>
-                    <li><a href="">Mobile Vas</a></li>
-                    <li><a href="">Digital Marketing</a></li>
-                    <li><a href="">Content Distribution</a></li>
+                    <li><a href="{{ route('entmsg') }}">Enterprise Messaging</a></li>
+                    <li><a href="{{ route('voice') }}">Voice</a></li>
+                    <li><a href="{{ route('mvas') }}">Mobile Vas</a></li>
+                    <li><a href="{{ route('dmtk') }}">Digital Marketing</a></li>
+                    <li><a href="{{ route('contdis') }}">Content Distribution</a></li>
                 </ul>
             </div>
         </div>

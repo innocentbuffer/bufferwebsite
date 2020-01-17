@@ -23,11 +23,11 @@
                             <div class="row mx-0 w-100">
                                 <div class="col-md-6">
                                     <ul class="list-unstyled submenu">
-                                        <li><a >Enterprise Messaging</a></li>
-                                        <li><a>Voice</a></li>
-                                        <li><a>Mobile Vas</a></li>
-                                        <li><a>Digital Marketing</a></li>
-                                        <li><a>Content Distribution</a></li>
+                                        <li><a href="{{ route('entmsg') }}">Enterprise Messaging</a></li>
+                                        <li><a href="{{ route('voice') }}">Voice</a></li>
+                                        <li><a href="{{ route('mvas') }}">Mobile Vas</a></li>
+                                        <li><a href="{{ route('dmtk') }}">Digital Marketing</a></li>
+                                        <li><a href="{{ route('contdis') }}">Content Distribution</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-8">
@@ -38,7 +38,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('login') }}">PORTFOLIO</a>
+                    <a class="nav-link text-white" href="{{ route('portfolio') }}">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
                     <a class="nav-link text-white" href="{{ route('login') }}">CONTACT</a>

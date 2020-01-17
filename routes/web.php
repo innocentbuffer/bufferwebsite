@@ -11,11 +11,22 @@
 |
 */
 
+//Controllers for frontend pages
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('portfolio', 'FrontPagesController@portfolio')->name('portfolio');
+Route::get('company', 'FrontPagesController@company')->name('company');
+Route::get('enterprise-messaging', 'FrontPagesController@enterpriseMessaging')->name('entmsg');
+Route::get('voice', 'FrontPagesController@voice')->name('voice');
+Route::get('mobile-vas', 'FrontPagesController@mobileVas')->name('mvas');
+Route::get('digital-marketing', 'FrontPagesController@digitalMarketing')->name('dmtk');
+Route::get('content-distribution', 'FrontPagesController@contentDistribution')->name('contdis');
 
+//Auth Controllers
 Auth::routes(['register'=>false]);
 Route::post('loginpassage', 'LoginPassageController@authenticate');
+
+
 
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');

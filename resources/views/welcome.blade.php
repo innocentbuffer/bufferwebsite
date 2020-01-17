@@ -1,5 +1,9 @@
 @extends('layouts.frontend.main')
 
+@section('title')
+    Buffer Home
+@endsection
+
 @section('content')
     <section>
         <div class="welcome-banner">
