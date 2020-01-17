@@ -17,7 +17,7 @@
             </svg>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 d-flex align-items-center">
+                    <div class="col-md-5 d-flex">
                         <div class="section-description">
                             <h3>OUR SOLUTIONS</h3>
                             <p>
@@ -29,7 +29,7 @@
                         <div class="row">
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 shadow-sm border-0">
-                                    <img src="images/solutions/bulk_sms.png" alt="buffer media bulk sms" class="card-img-top" />
+                                    <img src="images/solutions/bulk_sms.png" alt="buffer media bulk sms" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">Bulk SMS</h4>
                                         <p class="card-text">
@@ -38,8 +38,8 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0">
-                                    <img src="images/solutions/whatsapp.png" alt="buffer media bulk sms" class="card-img-top" />
+                                <div class="card border-0 mb-3 md-md-0">
+                                    <img src="images/solutions/whatsapp.png" alt="buffer media bulk sms" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">WhatsApp Business API</h4>
                                         <p class="card-text">
@@ -51,17 +51,17 @@
                             </div>
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 border-0">
-                                    <img src="images/solutions/t_sms.png" alt="buffer media transcational SMS" class="card-img-top" />
+                                    <img src="images/solutions/t_sms.png" alt="buffer media transactional SMS" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">Transcational SMS</h4>
+                                        <h4 class="card-title">Transactional SMS</h4>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0">
-                                    <img src="images/solutions/rcs.png" alt="buffer media RCS business messaging" class="card-img-top" />
+                                <div class="card border-0 mb-3 mb-md-0">
+                                    <img src="images/solutions/rcs.png" alt="buffer media RCS business messaging" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">RCS Business Messaging</h4>
                                         <p class="card-text">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 border-0">
-                                    <img src="images/solutions/outband_dialer.png" alt="buffer media outband dialer" class="card-img-top" />
+                                    <img src="images/solutions/outband_dialer.png" alt="buffer media outband dialer" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">Outband Dialer</h4>
                                         <p class="card-text">
@@ -83,7 +83,7 @@
                                     </div>
                                 </div>
                                 <div class="card border-0">
-                                    <img src="images/solutions/sdp.png" alt="buffer media digital content SDP" class="card-img-top" />
+                                    <img src="images/solutions/sdp.png" alt="buffer media digital content SDP" class="card-img-top" style="height: 100px;width: 120px;margin: auto;" />
                                     <div class="card-body">
                                         <h4 class="card-title">Digital Content SDP</h4>
                                         <p class="card-text">
@@ -121,21 +121,21 @@
         </div>
     </section>
     <section>
-        <div class="client">
+        <div class="client px-2">
             <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
-                        <div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
+                        <div class="client-section">
                             <img src="images/clients/2.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
-                        <div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
+                        <div class="client-section">
                             <img src="images/clients/2.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
-                        <div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
+                        <div class="client-section">
                             <img src="images/clients/2.png" alt="">
                         </div>
                     </div>

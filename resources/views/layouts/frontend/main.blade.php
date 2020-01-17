@@ -39,7 +39,13 @@
             @include('layouts.frontend.footer')
         </footer>
         <!-- footer end -->
+        <!--Scroll-->
+        <div class="scrollup-hide scrollup">
+            <a href="#top" class="text-white" title="click to scroll up"><i class="fa fa-facebook p-2"></i></a>
+        </div>
     </section>
+
+    
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -50,9 +56,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <!-- custom JavaScript 
+    
     <script src="js/app.js"></script>
-    -->
+   
     <script src="js/custom/main.js"></script>
 
     <!-- custom  minified JavaScript 
