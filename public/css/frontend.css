@@ -6,6 +6,7 @@ body{
 }
 .buffer-bold li a{
     font-family: 'minabold';
+    color: white
 }
 .comp-background{
     background-color: #19AA98;
@@ -34,9 +35,11 @@ footer{
 }
 
 .buffer-navbar{
-    position: sticky;
+    position: absolute;
+    width:100%;
     top: 0;
     z-index: 10;
+    background-color: transparent;
 }
 .main-section{
     display: none;
@@ -72,7 +75,7 @@ footer{
     position: absolute;
     z-index: 9;
     top: 57px;
-    background-color: green;
+    background-color: #1d2124c9;
     color: white;
     width: 100%;
     left: 0;
@@ -83,6 +86,55 @@ footer{
 }
 .submenu li{
     margin-bottom: 10px;
+}
+
+.welcome-banner{
+    position: relative;
+    background-image: url(../images/slider/header.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.our-solutions{
+    position: relative;
+    background: linear-gradient(to top, #FDFFFD, #F5FFF5, rgba(202, 245, 202, 0.3));
+    padding: 120px 0 45px 0;
+}
+#curve path {
+    fill: #fff;
+}
+#curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+.section-description h3{
+    position: relative;
+    margin-bottom: 3rem;
+}
+.section-description h3:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    background-color: #66E9AE;
+    height: 5px;
+    width: 70px;
+}
+.portfolio{
+    padding: 120px 0;
+    background: linear-gradient(to bottom, #FDFFFD, #F5FFF5A8, #a3f2a324);
+    border-bottom-left-radius: 73% 40%;
+    border-bottom-right-radius: 50% 20%;
+}
+.client{
+    padding: 70px;
+    background-color: #fff;
 }
 
 @keyframes spin{

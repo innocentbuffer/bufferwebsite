@@ -34,9 +34,11 @@ footer{
 }
 
 .buffer-navbar{
-    position: sticky;
+    position: absolute;
+    width:100%;
     top: 0;
     z-index: 10;
+    background-color: transparent;
 }
 .main-section{
     display: none;
@@ -72,7 +74,7 @@ footer{
     position: absolute;
     z-index: 9;
     top: 57px;
-    background-color: green;
+    background-color: #1d2124c9;
     color: white;
     width: 100%;
     left: 0;
@@ -83,6 +85,12 @@ footer{
 }
 .submenu li{
     margin-bottom: 10px;
+}
+
+.welcome-banner{
+    position: relative;
+    background-image: url(img/header.png);
+    height: 100vh;
 }
 
 @keyframes spin{

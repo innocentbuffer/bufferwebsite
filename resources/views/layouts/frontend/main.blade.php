@@ -14,8 +14,8 @@
 
     <!-- custom compiled and minified stylesheet -->
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/frontend.css">
     <link rel="stylesheet" href="css/frontend.min.css">
+    <link rel="stylesheet" href="css/frontend.css">
 </head>
 <body>
     <section class="loader-section">
@@ -25,13 +25,13 @@
     </section>
     <section class="main-section">
         <!-- header start -->
-        <header class="buffer-navbar">
+        <header class="buffer-navbar border-0">
             @include('layouts.frontend.nav')
         </header>
         <!-- header end -->
         <!-- main start -->
         <main>
-            
+        @yield('content') 
         </main>
         <!-- main end -->
         <!-- footer start -->

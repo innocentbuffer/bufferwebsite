@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 require('laravel-mix-imagemin');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -16,20 +17,21 @@ mix.js('resources/js/app.js', 'public/js')
     .styles('public/css/frontend.css','public/css/frontend.min.css')
     .styles('public/css/backend.css','public/css/backend.min.css')
     .scripts('public/js/custom/main.js','public/js/custom/main.min.js')
-    .imagemin('public/images/**/**.*',
-        {
-            context:'resources'
+    .imagemin('images/logo/**.*',
+    {
+        context: 'resources',
+    },
+    {
+        optipng: {
+            optimizationLevel: 9
         },
-        {
-            optipng: {
-                optimizationLevel: 5
-            },
-            jpegtran: null,
-            plugins: [
-                require('imagemin-mozjpeg')({
-                    quality: 100,
-                    progressive: true,
-                }),
-            ],
-        }
+        jpegtran: null,
+        
+        plugins: [
+            require('imagemin-mozjpeg')({
+                quality: 100,
+                progressive: true,
+            }),
+        ],
+    }
     );

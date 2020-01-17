@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-    <div class="container">
+<nav class="navbar navbar-expand-md navbar-light border-0">
+    <div class="container ">
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="images/logo/nav_logo.png" alt="buffer media logo black">
         </a>
@@ -17,7 +17,7 @@
             <ul class="navbar-nav ml-auto buffer-bold ">
                 <!-- Authentication Links -->
                 <li class="nav-item" id="solution-toggle">
-                    <a class="nav-link"  href="{{ route('login') }}">SOLUTIONS <i class="fa fa-caret-down" id="solutions-down"></i><i id="solutions-up" class="fa fa-caret-up"></i></a>
+                    <a class="nav-link text-white"  href="{{ route('login') }}">SOLUTIONS <i class="fa fa-caret-down" id="solutions-down"></i><i id="solutions-up" class="fa fa-caret-up"></i></a>
                     <div id="solutions-dropdown">
                         <div class="container my-5">
                             <div class="row mx-0 w-100">
@@ -38,10 +38,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">PORTFOLIO</a>
+                    <a class="nav-link text-white" href="{{ route('login') }}">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
-                    <a class="nav-link" href="{{ route('login') }}">CONTACT</a>
+                    <a class="nav-link text-white" href="{{ route('login') }}">CONTACT</a>
                 </li>
             </ul>
         </div>
