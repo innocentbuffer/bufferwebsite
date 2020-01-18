@@ -90,6 +90,9 @@ footer{
 #solution-toggle:hover #solutions-dropdown{
     display: block;
 }
+#solution-toggle a i:hover{
+    display: block;
+}
 .submenu li{
     margin-bottom: 10px;
 }
@@ -189,6 +192,24 @@ footer{
     background: white;
     color: #19AA98;
 }
+.single-portfolio{
+    width: 315px;
+    height: 410px   
+}
+
+.single-portfolio img{
+    transition: display 2s ease-in;
+}
+.single-portfolio img:hover{
+    display: none; 
+}
+.portfolio-des{
+    position: absolute;
+    width: 315px;
+    height: 100%;
+}
+
+
 
 @keyframes spin{
     from{

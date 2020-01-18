@@ -117,6 +117,82 @@
 
                     </div>
                 </div>
+                <div>
+                    <div class="slick-portfolio">
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
+                            <div class="portfolio-des">
+                                <div class="card h-100">
+                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Helo</h4>
+                                        <p class="card-text">jndkjkkdkjkjkd</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

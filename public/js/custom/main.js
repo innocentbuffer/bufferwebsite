@@ -12,7 +12,44 @@ $(function(){
 
     $('.scrollup-hide').on('click', scrollToTop);
 
-    
+    $('.slick-portfolio').slick({
+        arrows: true,
+		prevArrow: "<i class='fas fa-chevron-left left-arrow'></i>",
+		nextArrow: "<i class='fas fa-chevron-right right-arrow'></i>",
+		infinite: true,
+		lazyLoad: 'ondemand',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					dots: false
+				}
+    		},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					dots: false
+				}
+    		},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: false
+				}
+    		}
+
+			]
+    });
 });
 
 window.addEventListener("scroll", showScrollButton);

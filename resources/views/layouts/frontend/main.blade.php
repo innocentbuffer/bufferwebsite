@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Css Vendors-->
+    <link rel="stylesheet" href="css/vendors/slick.css">
+
     <!-- custom compiled and minified stylesheet -->
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/frontend.min.css">
@@ -60,6 +63,9 @@
     <script src="js/app.js"></script>
    
     <script src="js/custom/main.js"></script>
+
+    <!--Js Vendors -->
+    <script src="js/vendors/slick.min.js"></script>
 
     <!-- custom  minified JavaScript 
     <script src="js/custom/main.min.js"></script>
