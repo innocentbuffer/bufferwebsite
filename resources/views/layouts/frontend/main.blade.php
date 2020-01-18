@@ -25,7 +25,7 @@
     </section>
     <section class="main-section">
         <!-- header start -->
-        <header class="buffer-navbar border-0">
+        <header id="frontend-head" class="buffer-navbar border-0">
             @include('layouts.frontend.nav')
         </header>
         <!-- header end -->

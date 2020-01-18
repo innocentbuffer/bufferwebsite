@@ -38,7 +38,7 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0 mb-3 md-md-0">
+                                <div class="card border-0 mb-3 shadow-sm md-md-0">
                                     <img src="images/solutions/whatsapp.png" alt="buffer media bulk sms" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">WhatsApp Business API</h4>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 border-0">
+                                <div class="card mb-3 shadow-sm border-0">
                                     <img src="images/solutions/t_sms.png" alt="buffer media transactional SMS" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">Transactional SMS</h4>
@@ -60,7 +60,7 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0 mb-3 mb-md-0">
+                                <div class="card border-0 mb-3 shadow-sm mb-md-0">
                                     <img src="images/solutions/rcs.png" alt="buffer media RCS business messaging" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">RCS Business Messaging</h4>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 border-0">
+                                <div class="card mb-3 shadow-sm border-0">
                                     <img src="images/solutions/outband_dialer.png" alt="buffer media outband dialer" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
                                     <div class="card-body">
                                         <h4 class="card-title">Outband Dialer</h4>
@@ -82,7 +82,7 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0">
+                                <div class="card shadow-sm border-0">
                                     <img src="images/solutions/sdp.png" alt="buffer media digital content SDP" class="card-img-top" style="height: 100px;width: 120px;margin: auto;" />
                                     <div class="card-body">
                                         <h4 class="card-title">Digital Content SDP</h4>
