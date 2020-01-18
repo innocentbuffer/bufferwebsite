@@ -7,7 +7,28 @@
 @section('content')
     <section>
         <div class="welcome-banner">
-
+            <div class="banner-body">
+                <div class="row">
+                    <div class="col-md-7 comp_bold px-5">
+                        <div>
+                            <h1>Creative</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
+                                deserunt porro nihil culpa illo deleniti.
+                            </p>
+                        </div>
+                        <div class="action-btn">
+                            <button  id="quote" class="btn btn-lg shadow-sm">Get A Quote</button><button id="hello" class="btn btn-lg comp-background shadow-sm ml-1 text-white">Say Hello</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div><img src="images/solutions/bulk_sms.png" alt="" srcset=""  style="width:355px;height:380px"></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section>

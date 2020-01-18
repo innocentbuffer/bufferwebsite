@@ -8,6 +8,10 @@ body{
     font-family: 'minabold';
     color: white
 }
+.comp_bold{
+    font-family: 'minabold';
+    font-weight: 700;
+}
 .comp-background{
     background-color: #19AA98;
 }
@@ -96,6 +100,13 @@ footer{
 .submenu li{
     margin-bottom: 10px;
 }
+
+.submenu li a{
+}
+.submenu li a:hover{
+    text-decoration: none;
+}
+
 
 .welcome-banner{
     position: relative;
@@ -207,6 +218,43 @@ footer{
     position: absolute;
     width: 315px;
     height: 100%;
+}
+
+.sub-voice, .sub-vas, .sub-content, .sub-digital{
+    display: none;
+}
+
+
+.active{
+    transition: width 1s ease-in;
+}
+
+.active::before{
+    position: absolute;
+    content: '';
+    left: 5;
+    bottom: -15px;
+    background-color: #66E9AE;
+    height: 2px;
+    width: 70px;
+    top:20px
+}
+
+.banner-body{
+    position: absolute;
+    top: 180px;
+}
+
+.action-btn{
+    margin-top: 100px;
+}
+
+.action-btn button{
+    border-radius: 50px;
+}
+
+.action-btn #quote{
+    border:2px solid #66E9AE;
 }
 
 

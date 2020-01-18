@@ -1,9 +1,10 @@
 <nav class="navbar navbar-expand-md navbar-light border-0">
     <div class="container ">
         <a class="navbar-brand" href="{{ url('/') }}">
-    </a>
-    <img src="images/logo/nav_logo.png" id="navlogo" alt="buffer media logo black" style="width:130px; height:43px">
-    <img src="images/logo/logo-salute.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px">
+            <img src="images/logo/nav_logo.png" id="navlogo" alt="buffer media logo black" style="width:130px; height:43px">
+            <img src="images/logo/logo-salute.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px">
+
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,17 +23,21 @@
                     <div id="solutions-dropdown">
                         <div class="container my-5">
                             <div class="row mx-0 w-100">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <ul class="list-unstyled submenu">
-                                        <li><a href="{{ route('entmsg') }}">Enterprise Messaging</a></li>
+                                        <li class="active"><a href="{{ route('entmsg') }}" >Enterprise Messaging</a></li>
                                         <li><a href="{{ route('voice') }}">Voice</a></li>
                                         <li><a href="{{ route('mvas') }}">Mobile Vas</a></li>
                                         <li><a href="{{ route('dmtk') }}">Digital Marketing</a></li>
                                         <li><a href="{{ route('contdis') }}">Content Distribution</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-md-8">
-
+                                <div class="col-md-8 position-relative">
+                                    @include('frontend-includes.welcome-page.enterprise')
+                                    @include('frontend-includes.welcome-page.voice')
+                                    @include('frontend-includes.welcome-page.vas')
+                                    @include('frontend-includes.welcome-page.digital')
+                                    @include('frontend-includes.welcome-page.content')
                                 </div>
                             </div>
                         </div>
