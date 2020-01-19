@@ -50,7 +50,6 @@ $(function(){
             var content = event.target.textContent.toLowerCase().trim().replace(" ","");
             var idContent = "#"+content;
             var classContent = "."+content;
-            console.log(idContent);
             if($(idContent).is(":visible")) {
             return;
             }
@@ -60,17 +59,30 @@ $(function(){
             $(idContent).show();
             });
        
+    
+    $('.enquire').on('click', function(event){
+        var heading = "";
+        if(event.target.textContent == "CONTACT")
+        {
+            heading = " Contact Us";
+        }else{
+            heading = event.target.textContent;
+        }
+        
+        $('.modal-title').text(heading);
+        $("#myModal").modal()
+    });
+
 
     $('.slick-portfolio').slick({
         arrows: true,
 		prevArrow: "<i class='fas fa-chevron-left left-arrow'></i>",
 		nextArrow: "<i class='fas fa-chevron-right right-arrow'></i>",
 		infinite: true,
-		lazyLoad: 'ondemand',
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 500,
         responsive: [
 			{
 				breakpoint: 1200,

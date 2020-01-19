@@ -12,7 +12,7 @@
                     <div class="col-md-7 comp_bold px-5">
                         <div>
                             <div class="banner-slide-content banner-content-active">
-                                <h1>Creative</h1>
+                                <h1>SMS</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
@@ -20,7 +20,7 @@
                                 </p>
                             </div>
                             <div class="banner-slide-content">
-                                <h1>home</h1>
+                                <h1>Dial</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
@@ -28,7 +28,7 @@
                                 </p>
                             </div>
                             <div class="banner-slide-content">
-                                <h1>Crea</h1>
+                                <h1>Whatsapp</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
@@ -37,10 +37,10 @@
                             </div>
                         </div>
                         <div class="action-btn">
-                            <button  id="quote" class="btn btn-lg shadow-sm">Get A Quote</button><button id="hello" class="btn btn-lg comp-background shadow-sm ml-1 text-white">Say Hello</button>
+                            <button  id="quote" class="btn btn-lg shadow-sm enquire">Get A Quote</button><button id="hello" class="btn btn-lg comp-background shadow-sm ml-1 text-white enquire">Say Hello</button>
                         </div>
                     </div>
-                    <div class="col-md-5 ">
+                    <div class="col-md-5 d-none d-md-block ">
                         <div id="banner-img-slider">
                             <div class="position-relative" > 
                                 <div class="banner-slide-item banner-img-active"><img src="images/solutions/bulk_sms.png" alt="" srcset=""  style="width:100%;height:380px"></div>

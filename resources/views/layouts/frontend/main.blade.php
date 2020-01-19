@@ -46,6 +46,7 @@
         <div class="scrollup-hide scrollup">
             <a href="#top" class="text-white p-2" title="click to scroll up"><i class="fa fa-angle-up" style="font-size:30px"></i></a>
         </div>
+        @include('layouts.frontend.modal')
     </section>
 
     

@@ -35,7 +35,7 @@
             <div>
                 <ul class="list-unstyled footer-list footer-anchor">
                     <li><a href="{{ route('company') }}">Company</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="btn p-0 enquire">Contact</a></li>
                     <!--
                     <li><a href="">Careers</a></li>
                     <li><a href="">Blog</a></li>

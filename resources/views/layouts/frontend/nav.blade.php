@@ -47,7 +47,7 @@
                     <a class="nav-link text-white" href="{{ route('portfolio') }}">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
-                    <a class="nav-link text-white" href="{{ route('login') }}">CONTACT</a>
+                    <a class="nav-link text-white enquire btn text-left"  >CONTACT</a>
                 </li>
             </ul>
         </div>
