@@ -84,7 +84,7 @@ footer{
     display: none;
     position: absolute;
     z-index: 9;
-    top: 51px;
+    top: 56px;
     background-color: #1d2124c9;
     color: white;
     width: 100%;
@@ -185,8 +185,6 @@ footer{
     transform: rotateX(35deg);
     z-index: 2111111;
     display: inline-block;
-    width: 40px;
-    height: 45px;
      
 }
 
@@ -220,11 +218,6 @@ footer{
     height: 100%;
 }
 
-.sub-voice, .sub-vas, .sub-content, .sub-digital{
-    display: none;
-}
-
-
 .active{
     transition: width 1s ease-in;
 }
@@ -243,10 +236,12 @@ footer{
 .banner-body{
     position: absolute;
     top: 180px;
+    width: 100%;
 }
 
 .action-btn{
-    margin-top: 100px;
+    position: absolute;
+    top: 280px;
 }
 
 .action-btn button{
@@ -257,6 +252,24 @@ footer{
     border:2px solid #66E9AE;
 }
 
+.banner-slide-item{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.banner-img-active{
+    display: block;
+}
+
+
+.banner-slide-content{
+    position: absolute;
+    display: none;
+}
+.banner-content-active{
+    display: block;
+}
 
 
 @keyframes spin{

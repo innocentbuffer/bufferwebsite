@@ -44,7 +44,7 @@
         <!-- footer end -->
         <!--Scroll-->
         <div class="scrollup-hide scrollup">
-            <a href="#top" class="text-white" title="click to scroll up"><i class="fa fa-facebook p-2"></i></a>
+            <a href="#top" class="text-white p-2" title="click to scroll up"><i class="fa fa-angle-up" style="font-size:30px"></i></a>
         </div>
     </section>
 
