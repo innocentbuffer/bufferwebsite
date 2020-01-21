@@ -15,6 +15,9 @@ body{
 .comp-background{
     background-color: #19AA98;
 }
+.comp-background{
+    color: #19AA98;
+}
 
 footer{
     background-color: #212331;
@@ -159,11 +162,6 @@ footer{
 
 .portfolio-pages{
     padding: 120px 0;
-    background-image: url(../images/slider/header.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
     height: inherit;
 }
@@ -269,6 +267,36 @@ footer{
 }
 .banner-content-active{
     display: block;
+}
+
+.aboutus-section{
+    padding: 120px 0 45px 0;
+}
+
+.aboutus-core-section{
+    background: linear-gradient(to top, #FDFFFD, #F5FFF5, rgba(202, 245, 202, 0.3));
+    padding: 120px 0 45px 0;
+}
+
+.portfolio-content{
+    position: absolute;
+    width: 100%;
+    height: initial;
+    top: 0;
+    height: 311.84px;
+}
+.portfolio-img{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 311.84px;
+}
+
+.scrollup-hide a{
+    display: block;
+    width: 35px;
+    text-align: center;
+    height: 42px;
 }
 
 

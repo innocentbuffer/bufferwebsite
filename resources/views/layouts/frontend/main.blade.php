@@ -28,7 +28,7 @@
     </section>
     <section class="main-section">
         <!-- header start -->
-        <header id="frontend-head" class="buffer-navbar border-0">
+        <header id="frontend-head" class="buffer-navbar border-0 {{strpos(url()->current(), 'login') || isset($otherPages) ? 'head-static' :''}}">
             @include('layouts.frontend.nav')
         </header>
         <!-- header end -->
@@ -38,9 +38,11 @@
         </main>
         <!-- main end -->
         <!-- footer start -->
-        <footer class="px-md-5 py-5">
-            @include('layouts.frontend.footer')
-        </footer>
+        @if(!strpos(url()->current(), 'login'))
+            <footer class="px-md-5 py-5">
+                @include('layouts.frontend.footer')
+            </footer>
+        @endif
         <!-- footer end -->
         <!--Scroll-->
         <div class="scrollup-hide scrollup">

@@ -17,9 +17,19 @@
                 <div class="row ">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 portfolio-headmove">
                         <div class="single-portfolio">
-                            <div class="portfolio-content">
-                                <img src="images/portfolio/4.jpg" alt="">
-                                <div class="portfolio-content">Port content</div>
+                            <div class="portfolio-content position-relative">
+                                <img src="images/portfolio/4.jpg" alt="" class="portfolio-img">
+                                <div class="portfolio-content ">
+                                    <div class="card">
+                                        <img src="" alt="" srcset="">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Welcome</h5>
+                                            <p class="card-text">
+                                                welcome
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
