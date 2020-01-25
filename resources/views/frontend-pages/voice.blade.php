@@ -6,7 +6,7 @@
 
 @section('content')
     <section>
-        <div class="aboutus-section bg-white">
+        <div class="aboutus-section">
             <div class="container">
                 <div class="text-center">
                     <h1>VOICE SOLUTION</h1>
@@ -30,7 +30,7 @@
         </div>
    </section>
    <section>
-        <div class="aboutus-section bg-white">
+        <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
@@ -47,7 +47,7 @@
         </div>
    </section>
    <section>
-        <div class="aboutus-section bg-white">
+        <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">

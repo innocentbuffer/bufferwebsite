@@ -3,6 +3,7 @@
 
 body{
     font-family: 'minaregular';
+    background-color: #fcfcfb;
 }
 .buffer-bold li a{
     font-family: 'minabold';
@@ -216,6 +217,13 @@ footer{
     color: #19AA98;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
+.head-static-login{
+    position: sticky;
+    top:0;
+    background: white;
+    color: #19AA98;
+    background-color: #f8fafc;
+}
 .single-portfolio{
     width: 315px;
     height: 410px   
@@ -321,7 +329,25 @@ footer{
     top:-40px
 }
 
+.button-blink::after{
+    position: absolute;
+    content: '';
+    border-bottom: .13em dotted hsla(0,0%,100%,.3);
+    width: .60em;
+    top: 25px;
+    margin-left: 3px;
+    animation: blink 1.2s infinite;
+}
 
+.button-white-blink::after{
+    position: absolute;
+    content: '';
+    border-bottom: .13em solid #1b1e2124;
+    width: .60em;
+    top: 25px;
+    margin-left: 3px;
+    animation: blink-white 1.2s infinite;
+}
 
 
 @keyframes spin{
@@ -330,5 +356,22 @@ footer{
     }
     to{
         transform: scale(1);
+    }
+}
+
+@keyframes blink{
+    from{
+        border-bottom: .13em solid hsla(0,0%,100%,.3);
+    }
+    to{
+        border-bottom: .13em solid #f8f9fa;
+    }
+}
+@keyframes blink-white{
+    from{
+        border-bottom: .13em solid #1b1e2124;
+    }
+    to{
+        border-bottom: .13em solid #1b1e21eb;
     }
 }

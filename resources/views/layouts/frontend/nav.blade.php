@@ -1,16 +1,11 @@
 <nav class="navbar navbar-expand-md navbar-light border-0">
     <div class="container ">
         <a class="navbar-brand" href="{{ url('/') }}">
-            @if(isset($otherPages))
-                <img src="images/logo/nav_logo.png" alt="buffer media logo black" style="width:130px; height:43px; display:inline">
-            @else
-                <img src="images/logo/nav_logo.png" id="navlogo" alt="buffer media logo black" style="width:130px; height:43px; 
-                {{strpos(url()->current(), 'login') || strpos(url()->current(), 'company') ? 'display:inline' :'display:none'}}">
-            @endif
+           
+              
+         
+            <img src="images/logo/nav_logo.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px; ">
             
-            @if(!isset($otherPages))
-                <img src="images/logo/nav_logo.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px; {{strpos(url()->current(), 'login') || strpos(url()->current(), 'company') ? 'display:none' :'display:inline'}}">
-            @endif
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -26,7 +21,7 @@
             <ul class="navbar-nav ml-auto buffer-bold ">
                 <!-- Authentication Links -->
                 <li class="nav-item" id="solution-toggle">
-                    <a class="nav-link {{strpos(url()->current(), 'login') || isset($otherPages) ? 'text-dark' :'text-white'}}">SOLUTIONS</a>
+                    <a class="nav-link">SOLUTIONS</a>
                     <div id="solutions-dropdown">
                         <div class="container my-5">
                             <div class="row mx-0 w-100">
@@ -49,10 +44,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{strpos(url()->current(), 'login') || isset($otherPages) ? 'text-dark' :'text-white'}}" href="{{ route('portfolio') }}">PORTFOLIO</a>
+                    <a class="nav-link">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
-                    <a class="nav-link {{strpos(url()->current(), 'login') || isset($otherPages) ? 'text-dark' :'text-white'}} enquire btn text-left">CONTACT</a>
+                    <a class="nav-link enquire btn text-left">CONTACT</a>
                 </li>
             </ul>
         </div>

@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="action-btn">
-                            <button  id="quote" class="btn btn-lg shadow-sm enquire">Get A Quote</button><button id="hello" class="btn btn-lg comp-background shadow-sm ml-1 text-white enquire">Say Hello</button>
+                            <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire"><span class="button-blink"> Say Hello</span></button>
                         </div>
                     </div>
                     <div class="col-md-5 d-none d-md-block ">
@@ -157,20 +157,18 @@
 
                     </div>
                 </div>
-                <div class="row d-flex align-items-center justify-content-center">
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
-                        <div class="client-section">
-                            <img src="images/clients/2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
-                        <div class="client-section">
-                            <img src="images/clients/2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-4">
-                        <div class="client-section">
-                            <img src="images/clients/2.png" alt="">
+                <div class="trusted-by ">
+                    <div class="mx-md-4 py-md-4 shadow bg-white">
+                        <div class="slick-portfolio">
+                            <div>
+                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
+                            </div>
                         </div>
                     </div>
                 </div>

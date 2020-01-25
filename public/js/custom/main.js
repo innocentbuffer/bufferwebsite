@@ -122,14 +122,10 @@ function showScrollButton(event){
         $(".scrollup-hide").addClass("scrollup");
         $("#frontend-head").addClass("head-static");
         $(".body-header").addClass('body-header-opacity');
-        $("#salutelogo").hide();
-        $("#navlogo").show();
     }else if(window.pageYOffset == 0 ){
         $(".scrollup-hide").removeClass("scrollup");
         $("#frontend-head").removeClass("head-static");
         $(".body-header").removeClass('body-header-opacity');
-        $("#salutelogo").show();
-        $("#navlogo").hide();
     }
    
 }

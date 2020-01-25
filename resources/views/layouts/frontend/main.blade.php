@@ -28,7 +28,7 @@
     </section>
     <section class="main-section">
         <!-- header start -->
-        <header id="frontend-head" class="buffer-navbar border-0 {{strpos(url()->current(), 'login') || isset($otherPages) ? 'head-static' :''}}">
+        <header id="frontend-head" class="buffer-navbar border-0 {{strpos(url()->current(), 'login') ? 'head-static-login' :''}}">
             @include('layouts.frontend.nav')
         </header>
         <!-- header end -->
