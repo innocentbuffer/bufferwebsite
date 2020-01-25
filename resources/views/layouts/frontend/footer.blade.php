@@ -51,10 +51,10 @@
             <div>
                 <ul class="list-unstyled footer-list footer-anchor">
                     <li><a href="{{ route('entmsg') }}">Enterprise Messaging</a></li>
-                    <li><a href="{{ route('voice') }}">Voice</a></li>
-                    <li><a href="{{ route('mvas') }}">Mobile Vas</a></li>
+                    <li><a href="{{ route('voice') }}">Enterprise Voice</a></li>
                     <li><a href="{{ route('dmtk') }}">Digital Marketing</a></li>
-                    <li><a href="{{ route('contdis') }}">Content Distribution</a></li>
+                    <li><a href="{{ route('connectivity') }}">Connectivity</a></li>
+                    <li><a href="{{ route('contdis') }}">Products</a></li>
                 </ul>
             </div>
         </div>
@@ -64,10 +64,10 @@
             </header>
             <div>
                 <ul class="list-inline footer-anchor footer-anchor-media">
-                    <li class="list-inline-item"><a href="https://www.facebook.com/buffermediaLTD/" class="rounded-circle p-2" title="Buffer Facebook Link"><i class="b-text-color fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/BufferMedia" class="rounded-circle p-2" title="Buffer Twitter Link"><i class="b-text-color fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="https://pinterest.com/buffermedia" class="rounded-circle p-2" title="Buffer Pinterest Link"><i class="b-text-color fa fa-pinterest" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle p-2" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/buffermediaLTD/" class="rounded-circle px-2 py-1" title="Buffer Facebook Link"><i class="b-text-color fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/BufferMedia" class="rounded-circle px-2 py-1" title="Buffer Twitter Link"><i class="b-text-color fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://pinterest.com/buffermedia" class="rounded-circle px-2 py-1" title="Buffer Pinterest Link"><i class="b-text-color fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle px-2 py-1" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
                 <ul class="list-unstyled footer-list footer-anchor">
                     <li><a href="">Suport</a></li>

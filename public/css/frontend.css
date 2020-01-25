@@ -1,5 +1,5 @@
-@import 'vendor/mina-regular/stylesheet.css';
-@import 'vendor/mina-bold/stylesheet.css';
+@import 'vendors/mina-regular/stylesheet.css';
+@import 'vendors/mina-bold/stylesheet.css';
 
 body{
     font-family: 'minaregular';
@@ -10,7 +10,6 @@ body{
 }
 .comp_bold{
     font-family: 'minabold';
-    font-weight: 700;
 }
 .comp-background{
     background-color: #19AA98;
@@ -113,7 +112,8 @@ footer{
 
 .welcome-banner{
     position: relative;
-    background-image: url(../images/slider/header3.png);
+    /* background-image: url(../images/banner/banner-back.png); */
+    background-color: #fcfcfb;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -122,13 +122,17 @@ footer{
     height: 100vh;
 }
 
+.back-ground{
+    background-image: url(../images/banner/banner-back.png);
+}
+
 .our-solutions{
     position: relative;
     background: linear-gradient(to top, #FDFFFD, #F5FFF5, rgba(202, 245, 202, 0.3));
     padding: 120px 0 45px 0;
 }
 #curve path {
-    fill: #fff;
+    fill: #fcfcfb;
 }
 #curve {
     position: absolute;
@@ -136,14 +140,26 @@ footer{
     left: 0;
     transform: rotate(180deg);
 }
-.section-description h3{
+.section-description h3, .section-description-left h3{
     position: relative;
     margin-bottom: 3rem;
+}
+.section-description-left h3{
+    text-align: right;
 }
 .section-description h3:before{
     position: absolute;
     content: '';
     left: 0;
+    bottom: -15px;
+    background-color: #66E9AE;
+    height: 5px;
+    width: 70px;
+}
+.section-description-left h3:before{
+    position: absolute;
+    content: '';
+    right: 0;
     bottom: -15px;
     background-color: #66E9AE;
     height: 5px;
@@ -198,6 +214,7 @@ footer{
     top:0;
     background: white;
     color: #19AA98;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .single-portfolio{
     width: 315px;
@@ -239,7 +256,7 @@ footer{
 
 .action-btn{
     position: absolute;
-    top: 280px;
+    top: 230px;
 }
 
 .action-btn button{
@@ -254,6 +271,7 @@ footer{
     position: absolute;
     width: 100%;
     display: none;
+    top:-60px
 }
 
 .banner-img-active{
@@ -298,6 +316,12 @@ footer{
     text-align: center;
     height: 42px;
 }
+
+.sub-solution{
+    top:-40px
+}
+
+
 
 
 @keyframes spin{

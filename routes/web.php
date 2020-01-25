@@ -19,7 +19,7 @@ Route::get('portfolio', 'FrontPagesController@portfolio')->name('portfolio');
 Route::get('company', 'FrontPagesController@company')->name('company');
 Route::get('enterprise-messaging', 'FrontPagesController@enterpriseMessaging')->name('entmsg');
 Route::get('voice', 'FrontPagesController@voice')->name('voice');
-Route::get('mobile-vas', 'FrontPagesController@mobileVas')->name('mvas');
+Route::get('connectivity', 'FrontPagesController@connectivity')->name('connectivity');
 Route::get('digital-marketing', 'FrontPagesController@digitalMarketing')->name('dmtk');
 Route::get('content-distribution', 'FrontPagesController@contentDistribution')->name('contdis');
 

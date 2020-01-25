@@ -9,30 +9,18 @@
         <div class="welcome-banner">
             <div class="banner-body ">
                 <div class="row mx-0">
-                    <div class="col-md-7 comp_bold px-5">
-                        <div>
+                    <div class="col-md-7 px-5">
+                        <div class="back-ground">
                             <div class="banner-slide-content banner-content-active">
-                                <h1>SMS</h1>
+                                <h1 class="comp_bold">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
-                                    deserunt porro nihil culpa illo deleniti.
+                                    Buffer helps brands discover new and better ways to achieve their goals and desires around the mobile and digital space by providing solutions that connect them to their interests.
                                 </p>
                             </div>
                             <div class="banner-slide-content">
-                                <h1>Dial</h1>
+                                <h1 class="comp_bold text-uppercase">Result driven, yet cost-effective digital and mobile solutions</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
-                                    deserunt porro nihil culpa illo deleniti.
-                                </p>
-                            </div>
-                            <div class="banner-slide-content">
-                                <h1>Whatsapp</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Quod ab tenetur itaque ullam repellendus ipsum! Nesciunt,
-                                    deserunt porro nihil culpa illo deleniti.
+                                    There are 173 million Nigerians either unreached or underreached, we can help you reach them in minutes and give them the dose of your brand that turns all prospects to customers with out cost-effective solutions.
                                 </p>
                             </div>
                         </div>
@@ -43,9 +31,18 @@
                     <div class="col-md-5 d-none d-md-block ">
                         <div id="banner-img-slider">
                             <div class="position-relative" > 
-                                <div class="banner-slide-item banner-img-active"><img src="images/solutions/bulk_sms.png" alt="" srcset=""  style="width:100%;height:380px"></div>
-                                <div class="banner-slide-item"><img src="images/solutions/outband_dialer.png" alt="" srcset=""  style="width:100%;height:380px"></div>
-                                <div class="banner-slide-item"><img src="images/solutions/whatsapp.png" alt="" srcset=""  style="width:100%;height:380px"></div>
+                                <div class="banner-slide-item banner-img-active">
+                                    <video id="vid" style="width:100%; height:100%" autoplay muted>
+                                        <source src="animation/emerg.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="banner-slide-item">
+                                    <video id="vid" style="width:100%; height:100%" autoplay muted>
+                                        <source src="animation/result.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                    </video>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,21 +57,13 @@
             </svg>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 d-flex">
-                        <div class="section-description">
-                            <h3>OUR SOLUTIONS</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
+                <div class="col-md-7">
                         <div class="row">
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 shadow-sm border-0">
-                                    <img src="images/solutions/bulk_sms.png" alt="buffer media bulk sms" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
+                                    <img src="images/solutions/bulk-sms.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">Bulk SMS</h4>
+                                        <h5 class="card-title text-center">SMS</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -82,9 +71,9 @@
                                     </div>
                                 </div>
                                 <div class="card border-0 mb-3 shadow-sm md-md-0">
-                                    <img src="images/solutions/whatsapp.png" alt="buffer media bulk sms" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
+                                    <img src="images/solutions/whatsapp.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">WhatsApp Business API</h4>
+                                        <h5 class="card-title text-center">WhatsApp Business API</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -94,9 +83,9 @@
                             </div>
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 shadow-sm border-0">
-                                    <img src="images/solutions/t_sms.png" alt="buffer media transactional SMS" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
+                                    <img src="images/solutions/inbound_marketing.png" alt="buffer media transactional SMS" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">Transactional SMS</h4>
+                                        <h5 class="card-title text-center">Inbound Marketing</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -104,9 +93,9 @@
                                     </div>
                                 </div>
                                 <div class="card border-0 mb-3 shadow-sm mb-md-0">
-                                    <img src="images/solutions/rcs.png" alt="buffer media RCS business messaging" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
+                                    <img src="images/solutions/ivr.png" alt="buffer media RCS business messaging" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">RCS Business Messaging</h4>
+                                        <h5 class="card-title text-center">IVR</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -116,9 +105,9 @@
                             </div>
                             <div class="col-md-4 px-1">
                                 <div class="card mb-3 shadow-sm border-0">
-                                    <img src="images/solutions/outband_dialer.png" alt="buffer media outband dialer" class="card-img-top" style="height: 100px;width: 120px;margin: auto;"/>
+                                    <img src="images/solutions/outband-dialer.png" alt="buffer media outband dialer" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
-                                        <h4 class="card-title">Outband Dialer</h4>
+                                        <h5 class="card-title text-center">Outband Dialer</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -126,9 +115,9 @@
                                     </div>
                                 </div>
                                 <div class="card shadow-sm border-0">
-                                    <img src="images/solutions/sdp.png" alt="buffer media digital content SDP" class="card-img-top" style="height: 100px;width: 120px;margin: auto;" />
+                                    <img src="images/solutions/content_marketing.png" alt="buffer media digital content SDP" class="card-img-top mt-2" style="width: 60px;margin: auto;" />
                                     <div class="card-body">
-                                        <h4 class="card-title">Digital Content SDP</h4>
+                                        <h5 class="card-title text-center">Content Marketing</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
@@ -139,18 +128,26 @@
                             
                         </div>
                     </div>
+                    <div class="col-md-5 d-flex">
+                        <div class="section-description-left">
+                            <h3>OUR SOLUTIONS</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="bg-white">
+    <section>
         <div class="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h3>PORTFOLIO</h3>
+                            <h3>TRUSTED BY</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id.
                             </p>
@@ -160,88 +157,6 @@
 
                     </div>
                 </div>
-                <div>
-                    <div class="slick-portfolio">
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-portfolio">
-                            <img src="images/portfolio/p2.png" alt="" style="width:315px; height:415px">
-                            <div class="portfolio-des">
-                                <div class="card h-100">
-                                    <img src="images/solutions/bulk_sms.png" alt="" class="card-img-top mx-auto mt-5" style="width:180px ">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Helo</h4>
-                                        <p class="card-text">jndkjkkdkjkjkd</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="client px-2">
-            <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="col-xl-2 col-lg-2 col-md-4 col-4">
                         <div class="client-section">

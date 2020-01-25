@@ -1,7 +1,7 @@
 @extends('layouts.frontend.main')
 
 @section('title')
-    Mobile Vas
+    Connectivity
 @endsection
     
 @section('content')

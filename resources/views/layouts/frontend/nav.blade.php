@@ -9,7 +9,7 @@
             @endif
             
             @if(!isset($otherPages))
-                <img src="images/logo/logo-salute.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px; {{strpos(url()->current(), 'login') || strpos(url()->current(), 'company') ? 'display:none' :'display:inline'}}">
+                <img src="images/logo/nav_logo.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px; {{strpos(url()->current(), 'login') || strpos(url()->current(), 'company') ? 'display:none' :'display:inline'}}">
             @endif
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -26,23 +26,21 @@
             <ul class="navbar-nav ml-auto buffer-bold ">
                 <!-- Authentication Links -->
                 <li class="nav-item" id="solution-toggle">
-                    <a class="nav-link {{strpos(url()->current(), 'login') || isset($otherPages) ? 'text-dark' :'text-white'}}"  href="{{ route('login') }}">SOLUTIONS <i class="fa fa-caret-down" id="solutions-down"></i><i id="solutions-up" class="fa fa-caret-up"></i></a>
+                    <a class="nav-link {{strpos(url()->current(), 'login') || isset($otherPages) ? 'text-dark' :'text-white'}}">SOLUTIONS</a>
                     <div id="solutions-dropdown">
                         <div class="container my-5">
                             <div class="row mx-0 w-100">
                                 <div class="col-md-4">
                                     <ul class="list-unstyled submenu">
                                         <li><a href="{{ route('entmsg') }}" class="subsub active enterprisemessaging">Enterprise Messaging</a></li>
-                                        <li><a href="{{ route('voice') }}" class="subsub voice">Voice</a></li>
-                                        <li><a href="{{ route('mvas') }}" class="subsub mobilevas">Mobile Vas</a></li>
+                                        <li><a href="{{ route('voice') }}" class="subsub voice">Enterprise Voice</a></li>
                                         <li><a href="{{ route('dmtk') }}" class="subsub ">Digital Marketing</a></li>
-                                        <li><a href="{{ route('contdis') }}" class="subsub">Content Distribution</a></li>
+                                        <li><a href="{{ route('contdis') }}" class="subsub">Connectivity</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-8 position-relative">
                                     @include('frontend-includes.welcome-page.enterprise')
                                     @include('frontend-includes.welcome-page.voice')
-                                    @include('frontend-includes.welcome-page.vas')
                                     @include('frontend-includes.welcome-page.digital')
                                     @include('frontend-includes.welcome-page.content')
                                 </div>

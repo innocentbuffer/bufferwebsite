@@ -1,28 +1,30 @@
 $(function(){
-
+    var currentSlide = $('.banner-slide-item.banner-img-active');
+    var contentSlide = $('.banner-slide-content.banner-content-active');
     
-
     setInterval(() => {
-        var currentSlide = $('.banner-slide-item.banner-img-active');
+       
         var nextSlide = currentSlide.next();
-        currentSlide.fadeOut(4000).removeClass('banner-img-active');
-        nextSlide.fadeIn(4000).addClass('banner-img-active');
+        currentSlide.fadeOut(500).removeClass('banner-img-active');
+        nextSlide.fadeIn(6000).addClass('banner-img-active');
+        currentSlide = $('.banner-slide-item.banner-img-active');
 
         if(nextSlide.length == 0){
-            $('.banner-slide-item').first().fadeIn("4000").addClass('banner-img-active');
+            $('.banner-slide-item').first().fadeIn("6000").addClass('banner-img-active');
         }
-    }, 8000);
+    }, 6000);
 
     setInterval(() => {
-        var contentSlide = $('.banner-slide-content.banner-content-active');
+        
         var contentnextSlide = contentSlide.next();
-        contentSlide.slideUp(5000).removeClass('banner-content-active');
-        contentnextSlide.slideDown(5000).addClass('banner-content-active');
+        contentSlide.fadeOut(500).removeClass('banner-content-active');
+        contentnextSlide.fadeIn(6000).addClass('banner-content-active');
+        contentSlide = $('.banner-slide-content.banner-content-active');
 
         if(contentnextSlide.length == 0){
-            $('.banner-slide-content').first().slideDown("5000").addClass('banner-content-active');
+            $('.banner-slide-content').first().fadeIn("6000").addClass('banner-content-active');
         }
-    }, 8000);
+    }, 6000);
 
     
 
@@ -51,7 +53,7 @@ $(function(){
             var idContent = "#"+content;
             var classContent = "."+content;
             if($(idContent).is(":visible")) {
-            return;
+                return;
             }
             
             divContent.hide();
@@ -120,19 +122,19 @@ function showScrollButton(event){
         $(".scrollup-hide").addClass("scrollup");
         $("#frontend-head").addClass("head-static");
         $(".body-header").addClass('body-header-opacity');
-        $(".buffer-bold li a").removeClass("text-white");
         $("#salutelogo").hide();
         $("#navlogo").show();
     }else if(window.pageYOffset == 0 ){
         $(".scrollup-hide").removeClass("scrollup");
         $("#frontend-head").removeClass("head-static");
         $(".body-header").removeClass('body-header-opacity');
-        $(".buffer-bold li a").addClass("text-white");
         $("#salutelogo").show();
         $("#navlogo").hide();
     }
    
 }
+
+document.getElementById('vid').play();
 
 function scrollToTop(event){
     event.preventDefault();

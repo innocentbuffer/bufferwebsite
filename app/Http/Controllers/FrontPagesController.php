@@ -25,9 +25,9 @@ class FrontPagesController extends Controller
     {
         return view('frontend-pages.voice', ['otherPages'=>$this->otherPages]);
     }
-    public function mobileVas()
+    public function connectivity()
     {
-        return view('frontend-pages.mobile-vas');
+        return view('frontend-pages.connectivity');
     }
     public function digitalMarketing()
     {
