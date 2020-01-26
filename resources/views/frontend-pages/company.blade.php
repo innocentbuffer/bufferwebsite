@@ -37,33 +37,42 @@
                     <h3>CORE VALUE</h3>
                 </div>
                 <div class="row mx-0">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card">
-                            <img src="images/company/innovation.png" alt="buffer innovation value" class="mx-auto" style="width:67px" srcset="">
+                            <img src="images/company/loyalty.png" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><strong>INTEGRITY</strong> </h5>
+                                <p class="card-text">We continue to uphold our reputation of reliability and loyalty through our powerful network. Our state-of-the-art technology makes it possible to provide transparent solutions and create relationships with our clients worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/company/ux.jpg" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><strong>RELIABILITY</strong> </h5>
+                                <p class="card-text">The goal is to give our customers the experience of a lifetime. Precisely how we make you feel with every interaction you have with Buffer and all our customer touchpoints.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/company/innovation.png" alt="buffer innovation value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><strong>INNOVATION</strong> </h5>
                                 <p class="card-text">We are challenging the norm and helping companies and brands fulfil unmet consumer needs, by offering new ways to accomplish goals, make lives easier, better, happier, more exciting, satisfying, and more productive.</p>
-                                <a href="" class="btn text-white card-link stretched-link comp-background">MORE INFO</a>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card">
-                            <img src="images/company/loyalty.png" alt="buffer loyalty value" class="mx-auto" style="width:67px" srcset="">
+                            <img src="images/company/ux.jpg" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><strong>INTEGRITY & RELIABILITY</strong> </h5>
-                                <p class="card-text">We continue to uphold our reputation of reliability and loyalty through our powerful network. Our state-of-the-art technology makes it possible to provide transparent solutions and create relationships with our clients worldwide.</p>
-                                <a href="" class="btn text-white card-link stretched-link comp-background">MORE INFO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="images/company/ux.jpg" alt="buffer loyalty value" class="mx-auto" style="width:67px" srcset="">
-                            <div class="card-body">
-                                <h5 class="card-title text-center"><strong>USER EXPERIENCE</strong> </h5>
+                                <h5 class="card-title text-center"><strong>CUSTOMER SATISFACTION</strong> </h5>
                                 <p class="card-text">The goal is to give our customers the experience of a lifetime. Precisely how we make you feel with every interaction you have with Buffer and all our customer touchpoints.</p>
-                                <a href="" class="btn text-white card-link stretched-link comp-background">MORE INFO</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -95,7 +104,7 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>OUR MISSION</h3>
-                            <p>Our mission is to create lifetime opportunities for people and brands through continuous development of innovative and engaging mobile solutions. We are not just product developers, we are problem solvers and connectivity enablers, and we view every mobile solution we develop as a product.</p>
+                            <p>We seek lifetime opportunities for people and brands through continuous, innovative and engaging mobile solutions.</p>
                         </div>
                     </div>
                     <div class="col-md-6">

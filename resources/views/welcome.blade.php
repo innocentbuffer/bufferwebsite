@@ -158,16 +158,23 @@
                     </div>
                 </div>
                 <div class="trusted-by ">
-                    <div class="mx-md-4 py-md-4 shadow bg-white">
-                        <div class="slick-portfolio">
-                            <div>
-                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
+                    <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container">
+                        <div class="row d-flex align-items-center justify-content-center trusted-by-row">
+                            <div class="col-md-2 trusted-item">
+                                <div href=""  class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:113px;height:60px">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
-                            </div>
-                            <div>
-                                <a href=""><img src="images/clients/2.png" alt="" style="width:113px;height:60px"></a>
+                            <div class="col-md-2 trusted-item">
+                                <div href=""  class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:113px;height:60px">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
