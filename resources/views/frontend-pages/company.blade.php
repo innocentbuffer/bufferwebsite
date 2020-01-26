@@ -37,7 +37,7 @@
                     <h3>CORE VALUE</h3>
                 </div>
                 <div class="row mx-0">
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
                         <div class="card">
                             <img src="images/company/loyalty.png" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
                         <div class="card">
                             <img src="images/company/ux.jpg" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
                         <div class="card">
                             <img src="images/company/innovation.png" alt="buffer innovation value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-md-0">
                         <div class="card">
                             <img src="images/company/ux.jpg" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">

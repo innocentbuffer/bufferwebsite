@@ -27,10 +27,10 @@
                             <div class="row mx-0 w-100">
                                 <div class="col-md-4">
                                     <ul class="list-unstyled submenu">
-                                        <li><a href="{{ route('entmsg') }}" class="subsub active enterprisemessaging">Enterprise Messaging</a></li>
-                                        <li><a href="{{ route('voice') }}" class="subsub voice">Enterprise Voice</a></li>
-                                        <li><a href="{{ route('dmtk') }}" class="subsub ">Digital Marketing</a></li>
-                                        <li><a href="{{ route('contdis') }}" class="subsub">Connectivity</a></li>
+                                        <li><a href="{{ route('entmsg') }}" class="subsub active enterprisemessaging" id="subenterprisemessaging">Enterprise Messaging</a></li>
+                                        <li><a href="{{ route('voice') }}" class="subsub voice" id="subenterprisevoice">Enterprise Voice</a></li>
+                                        <li><a href="{{ route('dmtk') }}" class="subsub " id="subdigitalmarketing">Digital Marketing</a></li>
+                                        <li><a href="{{ route('contdis') }}" class="subsub" id="subconnectivity">Connectivity</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-8 position-relative">

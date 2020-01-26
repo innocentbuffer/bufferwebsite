@@ -32,6 +32,11 @@ footer{
     color: #bab5df;
     
 }
+.footer-anchor li a:hover{
+    text-decoration: none;
+    color: #178371;
+    
+}
 .footer-anchor-media li a{
     background: transparent;
     border: 1px solid #6e679b;
@@ -105,6 +110,7 @@ footer{
 }
 
 .submenu li a{
+    position: relative;
 }
 .submenu li a:hover{
     text-decoration: none;
@@ -153,7 +159,7 @@ footer{
     content: '';
     left: 0;
     bottom: -15px;
-    background-color: #66E9AE;
+    background-color: #19aa98;
     height: 5px;
     width: 70px;
 }
@@ -162,7 +168,7 @@ footer{
     content: '';
     right: 0;
     bottom: -15px;
-    background-color: #66E9AE;
+    background-color: #19aa98;
     height: 5px;
     width: 70px;
 }
@@ -220,9 +226,7 @@ footer{
 .head-static-login{
     position: sticky;
     top:0;
-    background: white;
-    color: #19AA98;
-    background-color: #f8fafc;
+    background-color: #fcfcfb;
 }
 .single-portfolio{
     width: 315px;
@@ -253,7 +257,7 @@ footer{
     background-color: #66E9AE;
     height: 2px;
     width: 70px;
-    top:20px
+    top: 20px;
 }
 
 .banner-body{

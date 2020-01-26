@@ -63,12 +63,15 @@ $(function(){
             var content = event.target.textContent.toLowerCase().trim().replace(" ","");
             var idContent = "#"+content;
             var classContent = "."+content;
+            var sub = "#sub"+content;
             if($(idContent).is(":visible")) {
                 return;
             }
             
             divContent.hide();
             headings.removeClass('active');
+            console.log(sub);
+            $(sub).addClass('active');
             $(idContent).show();
             });
        
