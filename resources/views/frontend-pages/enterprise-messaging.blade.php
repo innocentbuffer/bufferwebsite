@@ -8,56 +8,134 @@
     <section>
         <div class="aboutus-section">
             <div class="container">
-                <div class="text-center">
-                    <h1>ENTERPRISE MESSAGING SOLUTION</h1>
-                    <p class="mb-5">
-                        AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.
-                    </p>
-                </div>
-                <div class="row mx-0">
+                <div class="row mx-0" >
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h3>Enterprise Messaging</h3>
-                            <p>Buffer media has been transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale. We enable monetization of digital content (games, music, movies, apps), in Africa, and help consumers locate amazing products, services & apps via mobile interactions.</p>
-                            <p>In a world of technology, presence is all that matter to a corporate entity. Make your business presence known and felt technologically wise. The world they say is already a global village. Buffer helps you reach the unreached, the era of bricks and mortar marketing is in extinction. With our services, proper product positioning is all you need to place your product in the hearts of your customers. Why not employ the right strategy and let Buffer tell your story better.</p>
+                            <h6>ENTERPRISE MESSAGING</h6>
+                            <h1 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h1>
+                            <p>
+                                PERSONALISED MESSAGING SOLUTIONS WITH HIGHEST OPEN RATES.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <section>
+        <a name="sms"></a>
+        <div class="aboutus-section">
+            <div class="container">
+                <div class="row mx-0" >
+                    <div class="col-md-6">
+                        <img src="images/emsg/sms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-description">
+                            <h3>SMS</h3>
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="sms"><span class="button-blink" data-qoute="sms"> Get a qoute</span></button>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
    </section>
    <section>
+       <a name="rcs"></a>
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                        <div class="section-description">
+                            <h3>RCS BUSINESS MESSAGING</h3>
+
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="rcs business messaging"><span class="button-blink" data-qoute="rcs business messaging"> Get a qoute</span></button>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="section-description">
-                            <h3>OUR VISION</h3>
-                            <p>Our Vision is creating value and a unique mobile experience. Armed with our team of experts, we provide the most efficient and reliable portfolio of products and services that are able to survive market and technology dynamics.</p>
-                        </div>
+                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>
         </div>
    </section>
    <section>
+       <a name="whatsapp"></a>
+        <div class="aboutus-section">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-md-6">
+                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-description">
+                            <h3>WHATSAPP BUSINESS API</h3>
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="whatsapp business api"><span class="button-blink" data-qoute="whatsapp business api"> Get a qoute</span></button>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+   </section>
+   <section>
+        <a name="2-way"></a>
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h3>OUR MISSION</h3>
-                            <p>Our mission is to create lifetime opportunities for people and brands through continuous development of innovative and engaging mobile solutions. We are not just product developers, we are problem solvers and connectivity enablers, and we view every mobile solution we develop as a product.</p>
+                            <h3>2-WAY MESSAGING</h3>
+                            <p>Get quick access to your customers or clients with our two way messaging platform, also our platform gives  your customers access to directly get in touch with your company, initiate conversation and give you direct feedbacks on your products and services</p>
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="2-way messaging"><span class="button-blink" data-qoute="2-way messaging"> Get a qoute</span></button>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section>
+        <a name="number-lookup"></a>
+        <div class="aboutus-section">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-md-6">
+                        <img src="images/emsg/way-msg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-description">
+                            <h3>NUMBER LOOKUP</h3>
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="number lookup"><span class="button-blink" data-qoute="number lookup"> Get a qoute</span></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+   </section>
+   <section>
+        <a name="secure-opt"></a>
+        <div class="aboutus-section">
+            <div class="container">
+                <div class="row mx-0">
+                    
+                    <div class="col-md-6">
+                        <div class="section-description">
+                            <h3>SECURE OPT</h3>
+                            <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="secure opt"><span class="button-blink" data-qoute="secure opt"> Get a qoute</span></button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>

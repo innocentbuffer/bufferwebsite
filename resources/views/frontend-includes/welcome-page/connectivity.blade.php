@@ -6,7 +6,7 @@
                 <div class="card border-0 bg-transparent">
                     <img src="images/solutions/bulk_sms.png" alt="" class="mx-auto" style="width:60px">
                     <div class="card-body p-0 text-center">
-                        <a href="" class="text-white stretched-link">Premium Used</a>
+                        <a href="/connectivity#premium" class="text-white stretched-link submenu-content-item">Premium Ussd</a>
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <div class="card border-0 bg-transparent">
                     <img src="images/solutions/bulk_sms.png" alt="" class="mx-auto" style="width:60px">
                     <div class="card-body p-0 text-center">
-                        <a href="" class="text-white stretched-link">Direct billing source</a>
+                        <a href="/connectivity#directbilling" class="text-white stretched-link submenu-content-item">Direct billing service</a>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="card border-0 bg-transparent">
                     <img src="images/solutions/bulk_sms.png" alt="" class="mx-auto" style="width:60px">
                     <div class="card-body p-0 text-center">
-                        <a href="" class="text-white stretched-link">Wap billing</a>
+                        <a href="/connectivity#wapbilling" class="text-white stretched-link submenu-content-item">Wap billing</a>
                     </div>
                 </div>
             </div>

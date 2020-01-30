@@ -30,14 +30,14 @@
                                         <li><a href="{{ route('entmsg') }}" class="subsub active enterprisemessaging" id="subenterprisemessaging">Enterprise Messaging</a></li>
                                         <li><a href="{{ route('voice') }}" class="subsub voice" id="subenterprisevoice">Enterprise Voice</a></li>
                                         <li><a href="{{ route('dmtk') }}" class="subsub " id="subdigitalmarketing">Digital Marketing</a></li>
-                                        <li><a href="{{ route('contdis') }}" class="subsub" id="subconnectivity">Connectivity</a></li>
+                                        <li><a href="{{ route('connectivity') }}" class="subsub" id="subconnectivity">Connectivity</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-8 position-relative">
                                     @include('frontend-includes.welcome-page.enterprise')
                                     @include('frontend-includes.welcome-page.voice')
                                     @include('frontend-includes.welcome-page.digital')
-                                    @include('frontend-includes.welcome-page.content')
+                                    @include('frontend-includes.welcome-page.connectivity')
                                 </div>
                             </div>
                         </div>

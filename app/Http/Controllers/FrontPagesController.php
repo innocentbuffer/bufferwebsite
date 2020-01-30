@@ -27,7 +27,7 @@ class FrontPagesController extends Controller
     }
     public function connectivity()
     {
-        return view('frontend-pages.connectivity');
+        return view('frontend-pages.connectivity', ['otherPages'=>$this->otherPages]);
     }
     public function digitalMarketing()
     {

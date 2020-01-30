@@ -11,22 +11,26 @@
     <!-- CDN compiled and minified stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    
     <!-- Css Vendors-->
-    <link rel="stylesheet" href="css/vendors/slick.css">
 
     <!-- custom compiled and minified stylesheet -->
     <link rel="stylesheet" href="css/app.css">
+    <!--
     <link rel="stylesheet" href="css/frontend.min.css">
+-->
     <link rel="stylesheet" href="css/frontend.css">
+    
 </head>
 <body>
+    
     <section class="loader-section">
         <div id="buffer-spinner">
             <img id="spinner-img" src="images/logo/spinner.png" alt="">
         </div>
     </section>
-    <section class="main-section">
+    <section class="{{isset($otherPages) ?'':'main-section'}}">
         <!-- header start -->
         <header id="frontend-head" class="buffer-navbar border-0 {{strpos(url()->current(), 'login') ? 'head-static-login' :''}}">
             @include('layouts.frontend.nav')
@@ -61,14 +65,15 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     
     <script src="js/app.js"></script>
    
     <script src="js/custom/main.js"></script>
 
     <!--Js Vendors -->
-    <script src="js/vendors/slick.min.js"></script>
+
 
     <!-- custom  minified JavaScript 
     <script src="js/custom/main.min.js"></script>

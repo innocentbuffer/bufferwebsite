@@ -11,6 +11,7 @@ body{
 }
 .comp_bold{
     font-family: 'minabold';
+    color: #19aa98;
 }
 .comp-background{
     background-color: #19AA98;
@@ -283,7 +284,7 @@ footer{
     position: absolute;
     width: 100%;
     display: none;
-    top:-60px
+    top:-100px
 }
 
 .banner-img-active{
@@ -332,15 +333,20 @@ footer{
 .sub-solution{
     top:-40px
 }
-
+.button-blink{
+    position: relative;
+}
 .button-blink::after{
     position: absolute;
     content: '';
     border-bottom: .13em dotted hsla(0,0%,100%,.3);
     width: .60em;
-    top: 25px;
+    top: 18px;
     margin-left: 3px;
     animation: blink 1.2s infinite;
+}
+.button-white-blink{
+    position: relative;
 }
 
 .button-white-blink::after{
@@ -348,7 +354,7 @@ footer{
     content: '';
     border-bottom: .13em solid #1b1e2124;
     width: .60em;
-    top: 25px;
+    top: 18px;
     margin-left: 3px;
     animation: blink-white 1.2s infinite;
 }
@@ -375,6 +381,11 @@ footer{
     height: 100%;
     top: 0px;
     position: absolute;
+}
+
+.submenu-content-item:hover{
+    text-decoration: none;
+    color: #178371;
 }
 
 @keyframes spin{
