@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="">
+@endsection
+
 @section('title')
     Connectivity
 @endsection

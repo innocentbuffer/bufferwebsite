@@ -4,24 +4,49 @@ $(function(){
         $('.loader-section').hide();
         $('.main-section').show();
     }, 500);  
-
     
-    
-
     $(".trusted-item").on('mouseover', function(event){
-        var container = $(event.target).children().first();
+        var container = $(event.target).find('div');
         var containerText = container.children().last();
         container.addClass('trusted-body-pos');
         container.addClass('shadow-sm');
         containerText.show();
     });
-    $(".trusted-item").on('mouseleave', function(event){
-        var container = $(event.target).children().first();
-        var containerText = container.children().last();
+    
+
+    $(".trusted-content").on('mouseleave', function(event){
+        var containerText = $(event.target);
+        var container = containerText.parent();
+        containerText.hide();
+        container.removeClass('trusted-body-pos');
+        container.removeClass('shadow-sm');
         console.log(event.target);
+        
+    });
+    $(".trusted-img").on('mouseleave', function(event){
+        var containerText = $(event.target).next();
+        var container = containerText.parent();
+        containerText.hide();
+        container.removeClass('trusted-body-pos');
+        container.removeClass('shadow-sm');
+        console.log(event.target);
+        
+    });
+    $(".trusted-body").on('mouseleave', function(event){
+        var container = $(event.target);
+        var containerText = $(event.target).find('p');
+        container.removeClass('trusted-body-pos');
+        container.removeClass('shadow-sm');
+        containerText.hide();        
+    });
+    $(".trusted-item").on('mouseleave', function(event){
+        var container = $(event.target).find('div');
+        var containerText = container.children().last();
+        container.removeClass('trusted-body-pos');
+        container.removeClass('shadow-sm');
         containerText.hide();
     });
-
+    
 
    
 
@@ -131,6 +156,6 @@ tns({
 });
 
 
-  ScrollReveal().reveal('.cardReveal');
+  
 
   

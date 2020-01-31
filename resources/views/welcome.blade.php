@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="Buffer Media is a digital marketing and mobile VAS service company in Nigeria that has transformed the way African businesses reach their customers">
+@endsection
+
 @section('title')
     Buffer Home
 @endsection
@@ -60,7 +65,7 @@
                 <div class="col-md-7">
                         <div class="row">
                             <div class="col-md-4 px-1 ">
-                                <div class="card mb-3 shadow-sm border-0 ">
+                                <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
                                     <img src="images/icons/bulk-sms.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body ">
                                         <h5 class="card-title text-center">SMS</h5>
@@ -70,7 +75,7 @@
                                         <a href="/enterprise-messaging#sms" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0 mb-3 shadow-sm md-md-0">
+                                <div class="card border-0 mb-3 shadow md-md-0 solution-card-bottom cardReveal">
                                     <img src="images/icons/whatsapp.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">WhatsApp Business API</h5>
@@ -82,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 shadow-sm border-0">
+                                <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
                                     <img src="images/icons/inbound_marketing.png" alt="buffer media transactional SMS" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Inbound Marketing</h5>
@@ -92,7 +97,7 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card border-0 mb-3 shadow-sm mb-md-0">
+                                <div class="card border-0 mb-3 shadow mb-md-0 solution-card-bottom cardReveal">
                                     <img src="images/icons/ivr.png" alt="buffer media RCS business messaging" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">IVR</h5>
@@ -104,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 shadow-sm border-0">
+                                <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
                                     <img src="images/icons/outband-dialer.png" alt="buffer media outband dialer" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Outband Dialer</h5>
@@ -114,7 +119,7 @@
                                         <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
-                                <div class="card shadow-sm border-0">
+                                <div class="card shadow border-0 solution-card-bottom cardReveal">
                                     <img src="images/icons/content_marketing.png" alt="buffer media digital content SDP" class="card-img-top mt-2" style="width: 60px;margin: auto;" />
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Content Marketing</h5>
@@ -131,7 +136,7 @@
                     <div class="col-md-5 d-flex">
                         <div class="section-description-left">
                             <h3>OUR SOLUTIONS</h3>
-                            <p>
+                            <p class="cardRevealText">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
                             </p>
                         </div>
@@ -148,7 +153,7 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>TRUSTED BY</h3>
-                            <p>
+                            <p class="trustedByText">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id.
                             </p>
                         </div>
@@ -158,19 +163,35 @@
                     </div>
                 </div>
                 <div class="trusted-by ">
-                    <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container">
+                    <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container trustedContainer">
                         <div class="row d-flex align-items-center justify-content-center trusted-by-row">
-                            <div class="col-2 trusted-item">
-                                <div href=""  class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:80%;height:100%">
+                            <div class="col-2 trusted-item trustedContainerImg1">
+                                <div class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-2 trusted-item">
-                                <div href=""  class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:80%;height:100%">
+                            <div class="col-2 trusted-item trustedContainerImg2">
+                                <div class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-2 trusted-item trustedContainerImg3">
+                                <div class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-2 trusted-item trustedContainerImg4">
+                                <div class="trusted-body">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>

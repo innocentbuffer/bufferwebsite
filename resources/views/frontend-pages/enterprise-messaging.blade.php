@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="Reach global audience through customizable messaging platform; offer customers better customer experience with SMS, secure OTP, 2-way messaging, number look-up">
+@endsection
+
 @section('title')
     Enterprise Messaging
 @endsection

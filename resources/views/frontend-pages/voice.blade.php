@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="Buffer enterprise voice messaging provides reliable, secure means to improve customer support, customer experience, retention with WhatsApp business messaging">
+@endsection
+
 @section('title')
     Voice Solutions
 @endsection
@@ -12,7 +17,7 @@
                 <div class="row mx-0" >
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h6>VOICE</h6>
+                            <h6>ENTERPRISE VOICE</h6>
                             <h3 class="comp_bold">STEP-UP LEAD GENERATION AND CUSTOMER EXPERIENCE THROUGH CUSTOMIZABLE & INNOVATIVE VOICE SOLUTIONS.</h3>
                             <p>
                                 Create unique experiences for your customers by personalizing campaigns and enriching their journey with voice applications. We offer secure and reliable voice solutions with a diverse product line up, allowing enterprises to manage inbound & outbound calls.
@@ -58,7 +63,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/evoice/eivr.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>
@@ -70,7 +75,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">

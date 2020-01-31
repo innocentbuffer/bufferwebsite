@@ -69,10 +69,10 @@
                     <li class="list-inline-item"><a href="https://pinterest.com/buffermedia" class="rounded-circle px-2 py-1" title="Buffer Pinterest Link"><i class="b-text-color fa fa-pinterest" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle px-2 py-1" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
-                <ul class="list-unstyled footer-list footer-anchor">
-                    <li><a href="">Suport</a></li>
-                    <li><a href="">Sales</a></li>
-                    <li><a href="">Developer</a></li>
+                <ul class="list-unstyled footer-list footer-anchor" class="mr-2">
+                    <li><a class="btn p-0 enquire"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1"> Support</a></li>
+                    <li><a class="btn p-0 enquire"><img src="images/icons/sales.png" alt="contact buffer suport" class="mr-1">Sales</a></li>
+                    <li><a class="btn p-0 enquire"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>
                 </ul>
             </div> 
         </div>

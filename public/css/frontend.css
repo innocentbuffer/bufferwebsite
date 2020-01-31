@@ -4,6 +4,7 @@
 body{
     font-family: 'minaregular';
     background-color: #fcfcfb;
+    font-size: 18px;
 }
 .buffer-bold li a{
     font-family: 'minabold';
@@ -16,12 +17,13 @@ body{
 .comp-background{
     background-color: #19AA98;
 }
-.comp-background{
+.comp-color{
     color: #19AA98;
 }
 
 footer{
     background-color: #212331;
+    font-size: 0.9rem;
 }
 .footer-text-color{
     color: #bab5df
@@ -263,7 +265,7 @@ footer{
 
 .banner-body{
     position: absolute;
-    top: 180px;
+    top: 270px;
     width: 100%;
 }
 
@@ -368,7 +370,7 @@ footer{
 .trusted-body-pos{
     position: absolute;
     border: 1px solid black;
-    top: -150px;
+    top: -170px;
     background-color: white;
     z-index: 15;
 }
@@ -386,6 +388,13 @@ footer{
 .submenu-content-item:hover{
     text-decoration: none;
     color: #178371;
+}
+
+.solution-card-top{
+    height: 47%;
+}
+.solution-card-bottom{
+    height: 50%;
 }
 
 @keyframes spin{

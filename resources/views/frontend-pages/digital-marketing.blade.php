@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="Buffer helps businesses of all sizes, across industries increase ROI and reach their customers through deployment of creative and effective marketing strategies">
+@endsection
+
 @section('title')
     Digital Marketing
 @endsection
@@ -43,15 +48,15 @@
                             </p>
                             <div>
                                 <strong>With the PPC management you can enjoy: </strong>
-                                <ul>
-                                    <li>Fast Feedback. ...</li>
-                                    <li>Specific Targeting. ...</li>
-                                    <li>Build a Better Brand Recognition. ...</li>
-                                    <li>Reach Local or Global Audiences. ...</li>
-                                    <li>Enjoy the Many Ways to Measure. ...</li>
-                                    <li>Take <strong>Advantage</strong> of Flexible Budgeting. ...</li>
-                                    <li>Test Different Strategies. ...</li>
-                                    <li>Remain Independent from SEO Algorithm Change</li>
+                                <ul class="list-unstyled my-2">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Fast Feedback. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Specific Targeting. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Build a Better Brand Recognition. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Reach Local or Global Audiences. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Enjoy the Many Ways to Measure. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Take <strong>Advantage</strong> of Flexible Budgeting. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Test Different Strategies. ...</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Remain Independent from SEO Algorithm Change</li>
                                 </ul>
                             </div>
                             <button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="pay per click"><span class="button-blink" data-qoute="pay per click"> Get a qoute</span></button>

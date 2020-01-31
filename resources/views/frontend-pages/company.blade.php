@@ -1,5 +1,10 @@
 @extends('layouts.frontend.main')
 
+@section('metatags')
+    @parent
+    <meta name="description" content="Buffer enables monetization of digital content: games, music, movies, apps in Africa and help consumers locate products, services & apps via mobile interactions">
+@endsection
+
 @section('title')
     Company Profile
 @endsection
@@ -11,13 +16,13 @@
                 <div class="row mx-0">
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h3 class="comp_bold">About Us</h3>
-                            <h6>SINCE 2015</h6>
-                            <p>Buffer media has been transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale. We enable monetization of digital content (games, music, movies, apps), in Africa, and help consumers locate amazing products, services & apps via mobile interactions.</p>
-                            <p>In a world of technology, presence is all that matter to a corporate entity. Make your business presence known and felt technologically wise. The world they say is already a global village. Buffer helps you reach the unreached, the era of bricks and mortar marketing is in extinction. With our services, proper product positioning is all you need to place your product in the hearts of your customers. Why not employ the right strategy and let Buffer tell your story better.</p>
+                            <h3 class="comp_bold">Hello</h3>
+                            <h6 class="hello">SINCE 2015</h6>
+                            <p class="hello">Buffer media has been transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale. We enable monetization of digital content (games, music, movies, apps), in Africa, and help consumers locate amazing products, services & apps via mobile interactions.</p>
+                            <p class="hello">In a world of technology, presence is all that matter to a corporate entity. Make your business presence known and felt technologically wise. The world they say is already a global village. Buffer helps you reach the unreached, the era of bricks and mortar marketing is in extinction. With our services, proper product positioning is all you need to place your product in the hearts of your customers. Why not employ the right strategy and let Buffer tell your story better.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 hello">
                         <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                 </div>
@@ -32,7 +37,7 @@
                 </div>
                 <div class="row mx-0">
                     <div class="col-md-3 mb-md-0 mb-3">
-                        <div class="card">
+                        <div class="card border-0 h-100 shadow coreValue1">
                             <img src="images/company/integrity.png" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><strong>INTEGRITY</strong> </h5>
@@ -41,7 +46,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mb-md-0 mb-3">
-                        <div class="card">
+                        <div class="card border-0 h-100 shadow coreValue2">
                             <img src="images/company/reliability.png" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><strong>RELIABILITY</strong> </h5>
@@ -51,7 +56,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mb-md-0 mb-3">
-                        <div class="card">
+                        <div class="card border-0 h-100 shadow coreValue3">
                             <img src="images/company/innovation.png" alt="buffer innovation value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><strong>INNOVATION</strong> </h5>
@@ -61,7 +66,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mb-md-0">
-                        <div class="card">
+                        <div class="card border-0 h-100 shadow coreValue4">
                             <img src="images/company/customer.png" alt="buffer loyalty value" class="mx-auto my-3" style="width:67px;height: 63px" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title text-center"><strong>CUSTOMER SATISFACTION</strong> </h5>
@@ -78,13 +83,13 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                    <div class="col-md-6 mission">
+                        <img src="images/company/evision.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>OUR VISION</h3>
-                            <p>Our Vision is creating value and a unique mobile experience. Armed with our team of experts, we provide the most efficient and reliable portfolio of products and services that are able to survive market and technology dynamics.</p>
+                            <p class="mission">Our Vision is creating value and a unique mobile experience. Armed with our team of experts, we provide the most efficient and reliable portfolio of products and services that are able to survive market and technology dynamics.</p>
                         </div>
                     </div>
                 </div>
@@ -98,11 +103,11 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>OUR MISSION</h3>
-                            <p>We seek lifetime opportunities for people and brands through continuous, innovative and engaging mobile solutions.</p>
+                            <p class="vision">We seek lifetime opportunities for people and brands through continuous, innovative and engaging mobile solutions.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                    <div class="col-md-6 vision">
+                        <img src="images/company/emission.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                 </div>
             </div>
