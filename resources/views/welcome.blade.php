@@ -162,7 +162,7 @@
                         <div class="row d-flex align-items-center justify-content-center trusted-by-row">
                             <div class="col-2 trusted-item">
                                 <div href=""  class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:100%;height:100%">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
@@ -170,7 +170,7 @@
                             </div>
                             <div class="col-2 trusted-item">
                                 <div href=""  class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:100%;height:100%">
+                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>

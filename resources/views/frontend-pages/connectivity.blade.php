@@ -12,7 +12,7 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h6>CONNECTIVITY</h6>
-                            <h1 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h1>
+                            <h3 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
                             
                         </div>
                     </div>
@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/connectivity/ussd.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/connectivity/direct-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/connectivity/wap-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">

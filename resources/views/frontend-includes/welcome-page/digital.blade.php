@@ -4,7 +4,7 @@
         <div class="row ">
             <div class="col-md-3 mb-3">
                 <div class="card border-0 bg-transparent">
-                    <img src="images/solutions/bulk_sms.png" alt="" class="mx-auto" style="width:60px">
+                    <img src="images/icons/perclick.png" alt="" class="mx-auto" style="width:40px">
                     <div class="card-body p-0 text-center">
                         <a href="/digital-marketing#payperclick" class="text-white stretched-link submenu-content-item">Pay per Click</a>
                     </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card border-0 bg-transparent">
-                    <img src="images/solutions/bulk_sms.png" alt="" class="mx-auto" style="width:60px">
+                    <img src="images/icons/email.png" alt="" class="mx-auto" style="width:40px">
                     <div class="card-body p-0 text-center">
                         <a href="/digital-marketing#emailmarketing" class="text-white stretched-link submenu-content-item">Email Marketing</a>
                     </div>

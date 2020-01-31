@@ -8,16 +8,11 @@
    <section>
         <div class="aboutus-section">
             <div class="container">
-                <div class="text-center">
-                    <h1>Howdy People</h1>
-                    <p class="mb-5">
-                        AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.
-                    </p>
-                </div>
                 <div class="row mx-0">
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h5>SINCE 2015</h5>
+                            <h3 class="comp_bold">About Us</h3>
+                            <h6>SINCE 2015</h6>
                             <p>Buffer media has been transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale. We enable monetization of digital content (games, music, movies, apps), in Africa, and help consumers locate amazing products, services & apps via mobile interactions.</p>
                             <p>In a world of technology, presence is all that matter to a corporate entity. Make your business presence known and felt technologically wise. The world they say is already a global village. Buffer helps you reach the unreached, the era of bricks and mortar marketing is in extinction. With our services, proper product positioning is all you need to place your product in the hearts of your customers. Why not employ the right strategy and let Buffer tell your story better.</p>
                         </div>

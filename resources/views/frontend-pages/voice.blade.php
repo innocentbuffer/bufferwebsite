@@ -13,9 +13,9 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h6>VOICE</h6>
-                            <h1 class="comp_bold">STEP-UP LEAD GENERATION AND CUSTOMER EXPERIENCE THROUGH CUSTOMIZABLE & INNOVATIVE VOICE SOLUTIONS.</h1>
+                            <h3 class="comp_bold">STEP-UP LEAD GENERATION AND CUSTOMER EXPERIENCE THROUGH CUSTOMIZABLE & INNOVATIVE VOICE SOLUTIONS.</h3>
                             <p>
-                                SECURE AND RELIABLE VOICE SOLUTION.
+                                Create unique experiences for your customers by personalizing campaigns and enriching their journey with voice applications. We offer secure and reliable voice solutions with a diverse product line up, allowing enterprises to manage inbound & outbound calls.
                             </p>
                         </div>
                     </div>

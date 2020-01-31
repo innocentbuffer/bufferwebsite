@@ -12,9 +12,12 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h6>ENTERPRISE MESSAGING</h6>
-                            <h1 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h1>
+                            <h3 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h3>
                             <p>
-                                PERSONALISED MESSAGING SOLUTIONS WITH HIGHEST OPEN RATES.
+                                If you want your consumers to get your message, you should definitely use mobile messaging services. Buffer offers an extensive messaging portfolio forged on years of experience with handling and delivering the most efficient messaging solutions.
+                            </p>
+                            <p>
+                                Our messaging solutions enable you to integrate with existing business systems within minutes and send personalized, scheduled, and multi-language messages to anyone, anywhere, anytime, and on-time with a highest open rates.
                             </p>
                         </div>
                     </div>
@@ -31,7 +34,7 @@
             <div class="container">
                 <div class="row mx-0" >
                     <div class="col-md-6">
-                        <img src="images/emsg/sms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -57,7 +60,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:283px" srcset="">
                     </div>
                 </div>
             </div>
@@ -69,7 +72,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -96,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/emsging.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>
@@ -135,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>
