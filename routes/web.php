@@ -21,7 +21,8 @@ Route::get('enterprise-messaging', 'FrontPagesController@enterpriseMessaging')->
 Route::get('voice', 'FrontPagesController@voice')->name('voice');
 Route::get('connectivity', 'FrontPagesController@connectivity')->name('connectivity');
 Route::get('digital-marketing', 'FrontPagesController@digitalMarketing')->name('dmtk');
-Route::get('content-distribution', 'FrontPagesController@contentDistribution')->name('contdis');
+Route::get('product', 'FrontPagesController@product')->name('prod');
+Route::get('contactus', 'FrontPagesController@contactUs')->name('contact');
 
 //Auth Controllers
 Auth::routes(['register'=>false]);

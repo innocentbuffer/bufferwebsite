@@ -17,14 +17,14 @@
                 <div class="row mx-0" >
                     <div class="col-md-6">
                         <div class="section-description">
-                            <h6>DIGITAL MARKETING</h6>
+                            <h6 class="solutionscroll">DIGITAL MARKETING</h6>
                             <h3 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
-                            <p>
+                            <p class="solutionscroll">
                             We employ a wide range of research tools to develop a comprehensive digital marketing strategy that will meet your acquisition goals.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -36,19 +36,19 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/dmarketing/perclick.png" alt="About Buffer media" style="width:100%; height:80%" srcset="">
                     </div>
                     <div class="col-md-6">
-                        <div class="section-description">
-                            <h3>(PPC) PAY PER CLICK</h3>
-                            <p>
+                        <div>
+                            <h3 class="solutionscroll">(PPC) PAY PER CLICK</h3>
+                            <p class="solutionscroll">
                                 We have given brands the power to enhance their marketing efforts by using pay per click management to enable business growth.
                                 By running a targeted PPC campaign through our platform, brands can rank better in search results instantly and attract those unattended customers to their website which enables increase in sales.
                             </p>
                             <div>
-                                <strong>With the PPC management you can enjoy: </strong>
-                                <ul class="list-unstyled my-2">
+                                <strong class="solutionscroll">With the PPC management you can enjoy: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
                                     <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Fast Feedback. ...</li>
                                     <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Specific Targeting. ...</li>
                                     <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Build a Better Brand Recognition. ...</li>
@@ -77,11 +77,12 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>CONTENT MARKETING</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="content marketing"><span class="button-blink" data-qoute="content marketing"> Get a qoute</span></button>
 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/dmarketing/conmarketing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -93,12 +94,13 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/dmarketing/inboundmkt.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>INBOUND MARKETING</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="inbound marketing"><span class="button-blink" data-qoute="inbound marketing"> Get a qoute</span></button>
 
                         </div>
@@ -116,11 +118,12 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>EMIAL MARKETING</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="email marketing"><span class="button-blink" data-qoute="email marketing"> Get a qoute</span></button>
 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/dmarketing/email.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>

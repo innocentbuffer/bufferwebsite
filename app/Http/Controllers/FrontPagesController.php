@@ -33,8 +33,12 @@ class FrontPagesController extends Controller
     {
         return view('frontend-pages.digital-marketing', ['otherPages'=>$this->otherPages]);
     }
-    public function contentDistribution()
+    public function product()
     {
-        return view('frontend-pages.content-distribution', ['otherPages'=>$this->otherPages]);
+        return view('frontend-pages.product', ['otherPages'=>$this->otherPages]);
+    }
+    public function contactUs()
+    {
+        return view('frontend-pages.contact-us', ['otherPages'=>$this->otherPages]);
     }
 }

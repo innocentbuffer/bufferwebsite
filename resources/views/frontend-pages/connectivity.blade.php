@@ -21,7 +21,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -33,12 +33,13 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/connectivity/ussd.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>PREMIUM USSD</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="premium ussd"> Get a qoute</span></button>
 
                         </div>
@@ -52,14 +53,14 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <div class="section-description">
                             <h3>DIRECT BILLING SERVICE</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="direct billing service"> Get a qoute</span></button>
-
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/connectivity/direct-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -71,12 +72,13 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 solutionscroll">
                         <img src="images/connectivity/wap-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>WAP BILLING</h3>
+                            <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="wap billing"> Get a qoute</span></button>
 
                         </div>

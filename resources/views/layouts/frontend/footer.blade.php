@@ -54,7 +54,7 @@
                     <li><a href="{{ route('voice') }}">Enterprise Voice</a></li>
                     <li><a href="{{ route('dmtk') }}">Digital Marketing</a></li>
                     <li><a href="{{ route('connectivity') }}">Connectivity</a></li>
-                    <li><a href="{{ route('contdis') }}">Products</a></li>
+                    <li><a href="{{ route('prod') }}">Products</a></li>
                 </ul>
             </div>
         </div>

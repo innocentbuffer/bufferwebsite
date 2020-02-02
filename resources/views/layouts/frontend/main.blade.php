@@ -43,9 +43,53 @@
         <header id="frontend-head" class="buffer-navbar border-0 {{strpos(url()->current(), 'login') ? 'head-static-login' :''}}">
             @include('layouts.frontend.nav')
         </header>
+        
+        <div id="mySidenav" class="sidenav d-md-none">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+            
+            <a class="sidenavsolution">SOLUTIONS <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-container">
+                <a href="{{ route('entmsg') }}">Enterprise messaging</a>
+                <a href="{{ route('voice') }}">Enterprise messaging</a>
+                <a href="{{ route('dmtk') }}">Digital marketing</a>
+                <a href="{{ route('connectivity') }}">Connectivity</a>
+            </div>
+            <a href="#">PORTFOLIO</a>
+            <a href="{{ route('contact') }}">CONTACT</a>
+            <div class="dropdown-divider"></div>
+            <a class="sidenavsolution">Enterprise Messaging <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-container">
+                <a href="/enterprise-messaging#sms">SMS</a>
+                <a href="/enterprise-messaging#rcs">RCS</a>
+                <a href="/enterprise-messaging#whatsapp">Whatsapp Business API</a>
+                <a href="/enterprise-messaging#2-way">2-way Messaging</a>
+                <a href="/enterprise-messaging#number-lookup">Number Lookup</a>
+                <a href="/enterprise-messaging#secure-opt">Secure OPT</a>
+            </div>
+            <a class="sidenavsolution">Enterprise Voice <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-container">
+                <a href="/voice#outbound">Outband Dialer</a>
+                <a href="/voice#ivr">IVR</a>
+                <a href="/voice#click2call">Click 2 call</a>
+            </div>
+            <a class="sidenavsolution">Digital Marketing <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-container">
+                <a href="/digital-marketing#payperclick">Pay per click</a>
+                <a href="/digital-marketing#contentmarketing">Content marketing</a>
+                <a href="/digital-marketing#inbound">Inbound marketing</a>
+                <a href="/digital-marketing#emailmarketing">Email marketing</a>
+            </div>
+            <a class="sidenavsolution">Conectivity <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-container">
+                <a href="/connectivity#premium">Premium USSD</a>
+                <a href="/connectivity#directbilling">Direct billing sevice</a>
+                <a href="/connectivity#wapbilling">Wap billing</a>
+            </div>
+            
+        </div>
         <!-- header end -->
         <!-- main start -->
-        <main>
+        <main id="main">
         @yield('content') 
         </main>
         <!-- main end -->
@@ -101,6 +145,7 @@
 
         sr.reveal('.mission',{opecity:0.3, delay: 400 });
         sr.reveal('.vision',{opecity:0.3, delay: 400 });
+        sr.reveal('.solutionscroll',{opecity:0.3, delay: 400 });
 	</script>
 
 

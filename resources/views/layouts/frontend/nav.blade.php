@@ -1,13 +1,9 @@
 <nav class="navbar navbar-expand-md navbar-light border-0">
     <div class="container ">
         <a class="navbar-brand" href="{{ url('/') }}">
-           
-              
-         
-            <img src="images/logo/nav_logo.png" id="salutelogo" alt="buffer media logo black" style="width:130px; height:43px; ">
-            
+            <img src="images/logo/nav_logo.png" id="salutelogo" alt="buffer media logo black" style="width:100%; height:43px;"> 
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+        <button class="navbar-toggler" type="button" id="smsidebar" >
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -47,7 +43,7 @@
                     <a class="nav-link">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
-                    <a class="nav-link enquire btn text-left">CONTACT</a>
+                    <a href="/contactus" class="nav-link btn text-left">CONTACT</a>
                 </li>
             </ul>
         </div>

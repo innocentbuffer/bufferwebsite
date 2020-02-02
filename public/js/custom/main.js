@@ -102,6 +102,14 @@ $(function(){
         $('.modal-title').text(heading);
         $("#myModal").modal()
     });
+
+    $("#smsidebar").on("click", openNav);
+
+    $(".sidenavsolution").on('click', sideNavSub);
+    $(".sidenavsolution > i").on('click', sideNavSub);
+
+
+
 });
 
 window.addEventListener("scroll", showScrollButton);
@@ -155,7 +163,42 @@ tns({
     autoplayTimeout: 20000
 });
 
+function openNav() {
+    $("#mySidenav").css('width', "250px");
+    $("#mySidenav").css('display', "block");
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+      console.log("ss");
+    $("#mySidenav").css('width', "0");
+    $('.dropdown-container').hide();
+    $("#mySidenav").css('display', "none");
 
+  }
+  function sideNavSub(event){
+      console.log($(event.toElement).text());
+      if($(event.toElement).text()){
+
+        if($(event.target).next().css('display') == "block"){
+            return;
+        }else{
+            $('.dropdown-container').hide();
+            $(event.target).next().show();
+
+        }
+    }else{
+        $(event.target).parent();
+        if($(event.target).parent().next().css('display') == "block"){
+            return;
+        }else{
+            $('.dropdown-container').hide();
+            $(event.target).parent().next().show();
+
+        }
+    }
+    
+  }
   
 
   
