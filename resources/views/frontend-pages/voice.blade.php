@@ -85,7 +85,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:70%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -93,7 +93,36 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                The game-changing plan for your customer service Buffer’s click2call helps take your business to the next level by allowing you offer improved and professional customer service that drive sales while incurring minimal cost.
+                            </p>
+                            <div>
+                                <strong class="solutionscroll">How it Works: </strong>
+                                <p class="solutionscroll">
+                                    The game-changing plan for your customer service Buffer’s click2call helps take your business to the next level by allowing you offer improved and professional customer service that drive sales while incurring minimal cost.
+                                </p>
+                                <p class="solutionscroll">
+                                    The game-changing plan for your customer service Buffer’s click2call helps take your business to the next level by allowing you offer improved and professional customer service that drive sales while incurring minimal cost.
+                                </p>                          
+                            </div>
+                            <div>
+                                <strong class="solutionscroll">With the Click to call solutions you can enjoy: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Increased Conversion.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Increased Sales.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Track and Analyze Website Activities.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Increased ROI</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong class="solutionscroll">Benefits to Your Customers: with this solution your customers will better enjoy </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Secure communication.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Convenient communication.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Saves cost of phone billing.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Better Satisfaction</li>
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="click 2 call"><span class="button-blink" data-qoute="click 2 call"> Get a qoute</span></button>
                         </div>
                     </div>
