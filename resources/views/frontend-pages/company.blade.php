@@ -19,10 +19,13 @@
                             <h3 class="comp_bold">Hello</h3>
                             <h6 class="hello">SINCE 2015</h6>
                             <p class="hello">Buffer media has been transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale. We enable monetization of digital content (games, music, movies, apps), in Africa, and help consumers locate amazing products, services & apps via mobile interactions.</p>
+                            <div class="col-md-6 d-block d-md-none hello mb-4 mb-md-0">
+                                <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                            </div>
                             <p class="hello">In a world of technology, presence is all that matter to a corporate entity. Make your business presence known and felt technologically wise. The world they say is already a global village. Buffer helps you reach the unreached, the era of bricks and mortar marketing is in extinction. With our services, proper product positioning is all you need to place your product in the hearts of your customers. Why not employ the right strategy and let Buffer tell your story better.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 hello">
+                    <div class="col-md-6 d-none d-md-block hello">
                         <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                 </div>
@@ -83,12 +86,15 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6 mission">
+                    <div class="col-md-6 mission d-none d-md-block">
                         <img src="images/company/evision.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>OUR VISION</h3>
+                            <div class="col-md-6 mission d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/company/evision.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                            </div>
                             <p class="mission">Our Vision is creating value and a unique mobile experience. Armed with our team of experts, we provide the most efficient and reliable portfolio of products and services that are able to survive market and technology dynamics.</p>
                         </div>
                     </div>
@@ -103,10 +109,13 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>OUR MISSION</h3>
+                            <div class="col-md-6 vision d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/company/emission.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
+                            </div>
                             <p class="vision">We seek lifetime opportunities for people and brands through continuous, innovative and engaging mobile solutions.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 vision">
+                    <div class="col-md-6 vision d-none d-md-block">
                         <img src="images/company/emission.png" alt="About Buffer media" style="width:100%; height:435px" srcset="">
                     </div>
                 </div>

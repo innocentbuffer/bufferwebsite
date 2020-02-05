@@ -18,6 +18,9 @@
                         <div class="section-description">
                             <h6 class="solutionscroll">ENTERPRISE MESSAGING</h6>
                             <h3 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
                             <p class="solutionscroll">
                                 If you want your consumers to get your message, you should definitely use mobile messaging services. Buffer offers an extensive messaging portfolio forged on years of experience with handling and delivering the most efficient messaging solutions.
                             </p>
@@ -26,7 +29,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -38,12 +41,15 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0" >
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>SMS</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
                             <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="sms"><span class="button-blink" data-qoute="sms"> Get a qoute</span></button>
 
@@ -61,11 +67,14 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>RCS BUSINESS MESSAGING</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:283px" srcset="">
+                            </div>
                             <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="rcs business messaging"><span class="button-blink" data-qoute="rcs business messaging"> Get a qoute</span></button>
                         </div>
                     </div>
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:283px" srcset="">
                     </div>
                 </div>
@@ -77,13 +86,16 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>WHATSAPP BUSINESS API</h3>
-                            <p class="solutionscroll"></p>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
+                            <p class="solutionscroll d-none d-md-block"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="whatsapp business api"><span class="button-blink" data-qoute="whatsapp business api"> Get a qoute</span></button>
 
                         </div>
@@ -101,11 +113,14 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>2-WAY MESSAGING</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/emsging.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
                             <p class="solutionscroll">Get quick access to your customers or clients with our two way messaging platform, also our platform gives  your customers access to directly get in touch with your company, initiate conversation and give you direct feedbacks on your products and services</p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="2-way messaging"><span class="button-blink" data-qoute="2-way messaging"> Get a qoute</span></button>
                         </div>
                     </div>
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/emsging.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
@@ -117,12 +132,15 @@
         <div class="aboutus-section">
             <div class="container">
                 <div class="row mx-0">
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/way-msg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>NUMBER LOOKUP</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/way-msg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
                             <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="number lookup"><span class="button-blink" data-qoute="number lookup"> Get a qoute</span></button>
                         </div>
@@ -141,12 +159,15 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h3>SECURE OPT</h3>
+                            <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
+                                <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                            </div>
                             <p class="solutionscroll"></p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="secure opt"><span class="button-blink" data-qoute="secure opt"> Get a qoute</span></button>
 
                         </div>
                     </div>
-                    <div class="col-md-6 solutionscroll">
+                    <div class="col-md-6 solutionscroll d-none d-md-block">
                         <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>

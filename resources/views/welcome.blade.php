@@ -14,7 +14,7 @@
         <div class="welcome-banner">
             <div class="banner-body ">
                 <div class="row mx-0">
-                    <div class="col-md-7 px-5">
+                    <div class="col-md-7 px-md-5">
                         <div class="my-slider-text">
                             <div >
                                 <h1 class="comp_bold">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
@@ -62,7 +62,15 @@
             </svg>
             <div class="container">
                 <div class="row">
-                <div class="col-md-7">
+                    <div class="col-md-5 order-md-last">
+                        <div class="section-description-left">
+                            <h3>OUR SOLUTIONS</h3>
+                            <p class="cardRevealText mb-3 mb-md-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7 order-md-first">
                         <div class="row">
                             <div class="col-md-4 px-1 ">
                                 <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
@@ -87,14 +95,14 @@
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
+                                <div class="card mb-3 mt-3 mt-md-0 shadow border-0 solution-card-top cardReveal">
                                     <img src="images/icons/inbound_marketing.png" alt="buffer media transactional SMS" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Inbound Marketing</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
-                                        <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
+                                        <a href="/digital-marketing#inbound" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
                                 <div class="card border-0 mb-3 shadow mb-md-0 solution-card-bottom cardReveal">
@@ -104,19 +112,19 @@
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
-                                        <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
+                                        <a href="/voice#ivr" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 px-1">
-                                <div class="card mb-3 shadow border-0 solution-card-top cardReveal">
+                                <div class="card mb-3 mt-4 mt-md-0 shadow border-0 solution-card-top cardReveal">
                                     <img src="images/icons/outband-dialer.png" alt="buffer media outband dialer" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Outband Dialer</h5>
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
-                                        <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
+                                        <a href="/voice#outbound" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
                                 <div class="card shadow border-0 solution-card-bottom cardReveal">
@@ -126,21 +134,14 @@
                                         <p class="card-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
                                         </p>
-                                        <a href="" class="btn stretched-link comp-background text-white">See Solution</a>
+                                        <a href="/digital-marketing#contentmarketing" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-md-5 d-flex">
-                        <div class="section-description-left">
-                            <h3>OUR SOLUTIONS</h3>
-                            <p class="cardRevealText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
-                            </p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 

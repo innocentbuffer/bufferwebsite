@@ -9,9 +9,9 @@
             <div>
                 <p>Buffer is a digital media company and mobile value added service provider focused on delivering innovative mobile solutions to the global media market.</p>
             </div>
-            <div>
+            <div class="mt-3">
                 <strong>Subscribe to our newsletter</strong>
-                <div class="mt-1 mt-md-0">
+                <div>
                     <form action="" method="post">
                         @csrf
                         <div class="input-group">
@@ -69,7 +69,7 @@
                     <li class="list-inline-item"><a href="https://pinterest.com/buffermedia" class="rounded-circle px-2 py-1" title="Buffer Pinterest Link"><i class="b-text-color fa fa-pinterest" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle px-2 py-1" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
-                <ul class="list-unstyled footer-list footer-anchor" class="mr-2">
+                <ul class="list-unstyled footer-list footer-anchor mt-4">
                     <li><a class="btn p-0 enquire"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1"> Support</a></li>
                     <li><a class="btn p-0 enquire"><img src="images/icons/sales.png" alt="contact buffer suport" class="mr-1">Sales</a></li>
                     <li><a class="btn p-0 enquire"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>

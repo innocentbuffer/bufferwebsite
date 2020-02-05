@@ -13,6 +13,7 @@
     <!-- CDN compiled and minified stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     
     
@@ -23,7 +24,9 @@
     <!--
     <link rel="stylesheet" href="css/frontend.min.css">
 -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/frontend.css">
+    
     
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script>
@@ -50,7 +53,7 @@
             <a class="sidenavsolution">SOLUTIONS <i class="fa fa-caret-down"></i></a>
             <div class="dropdown-container">
                 <a href="{{ route('entmsg') }}">Enterprise messaging</a>
-                <a href="{{ route('voice') }}">Enterprise messaging</a>
+                <a href="{{ route('voice') }}">Enterprise voice</a>
                 <a href="{{ route('dmtk') }}">Digital marketing</a>
                 <a href="{{ route('connectivity') }}">Connectivity</a>
             </div>
@@ -89,7 +92,7 @@
         </div>
         <!-- header end -->
         <!-- main start -->
-        <main id="main">
+        <main id="main" class="px-md-3">
         @yield('content') 
         </main>
         <!-- main end -->

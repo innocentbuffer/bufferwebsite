@@ -17,7 +17,7 @@
             <ul class="navbar-nav ml-auto buffer-bold ">
                 <!-- Authentication Links -->
                 <li class="nav-item" id="solution-toggle">
-                    <a class="nav-link">SOLUTIONS</a>
+                    <a class="nav-link portsol">SOLUTIONS</a>
                     <div id="solutions-dropdown">
                         <div class="container my-5">
                             <div class="row mx-0 w-100">
@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">PORTFOLIO</a>
+                    <a class="nav-link portsol">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
                     <a href="/contactus" class="nav-link btn text-left">CONTACT</a>
