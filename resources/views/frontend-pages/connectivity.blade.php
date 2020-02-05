@@ -63,7 +63,23 @@
                             <div class="col-md-6 solutionscroll d-md-none mb-4 mb-md-0">
                                 <img src="images/connectivity/direct-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                For Faster payment process and better customer experience, the Direct Billing services tool comes in handy as it reduces paperworks and lag in processes.
+                            </p>
+                            <p class="solutionscroll">
+                                Here, customers have direct access to bill payments. This service often used in the insurance and health sector, enables swift payment processes and records keeping.                            
+                            </p>
+                            <div>
+                                <strong class="solutionscroll">With our direct billing service, you can enjoy: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Complete transaction visibility through phone bill.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Flexible charging price points.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>High payouts.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>A very low revenue leakage.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Improved customer experience.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Global Reach: 5 billion mobile phones.</li>
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="direct billing service"> Get a qoute</span></button>
                         </div>
                     </div>
