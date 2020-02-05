@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link portsol">PORTFOLIO</a>
+                    <a href="{{env('APP_URL')}}#trustedportfolio" class="nav-link portsol">PORTFOLIO</a>
                 </li>
                 <li class="nav-item action-btn-outline">
                     <a href="/contactus" class="nav-link btn text-left">CONTACT</a>

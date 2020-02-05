@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileImage" content="{{env('APP_URL')}}/images/logo/favicon.png">
+    <meta content="#20BCAD" name="theme-color">
+    <meta content="#20BCAD" name="msapplication-TileColor">
     @show
     <title>@yield('title')</title>
 
@@ -57,7 +60,7 @@
                 <a href="{{ route('dmtk') }}">Digital marketing</a>
                 <a href="{{ route('connectivity') }}">Connectivity</a>
             </div>
-            <a href="#">PORTFOLIO</a>
+            <a href="{{env('APP_URL')}}#trustedportfolio">PORTFOLIO</a>
             <a href="{{ route('contact') }}">CONTACT</a>
             <div class="dropdown-divider"></div>
             <a class="sidenavsolution">Enterprise Messaging <i class="fa fa-caret-down"></i></a>
