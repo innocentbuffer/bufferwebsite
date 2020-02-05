@@ -169,7 +169,7 @@
                         <div class="row d-flex align-items-center justify-content-center trusted-by-row">
                             <div class="col-2 trusted-item trustedContainerImg1">
                                 <div class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/pepsi" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
@@ -177,7 +177,7 @@
                             </div>
                             <div class="col-2 trusted-item trustedContainerImg2">
                                 <div class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/pepsi" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
@@ -185,7 +185,7 @@
                             </div>
                             <div class="col-2 trusted-item trustedContainerImg3">
                                 <div class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="col-2 trusted-item trustedContainerImg4">
                                 <div class="trusted-body">
-                                    <img src="images/clients/2.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>

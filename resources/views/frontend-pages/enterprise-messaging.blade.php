@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:65%" srcset="">
+                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:60%" srcset="">
                     </div>
                 </div>
             </div>

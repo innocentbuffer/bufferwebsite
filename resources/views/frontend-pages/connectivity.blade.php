@@ -44,7 +44,15 @@
                             <div class="col-md-6 solutionscroll d-md-none mb-4 mb-md-0">
                                 <img src="images/connectivity/ussd.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                Premium Unstructured Supplementary Service Data tool allows brands monetize campaigns while customers make use of the customized short codes.
+                            </p>
+                            <p class="solutionscroll">
+                                Familiar to the majority of the mobile market, brands can reach <strong> more than</strong> 444 <strong>million</strong> mobile subscribers in Africa who have prepaid accounts. Brands can also capture and store useful consumer information and target marketing activities accordingly without the use of internet. This therefore, enables <strong>great reach and adoption</strong> within targeted market.
+                            </p>
+                            <p class="solutionscroll">
+                                USSD campaigns allow for a two-way exchange of a sequence of data with a flexible one off request or interactive navigation.
+                            </p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="premium ussd"> Get a qoute</span></button>
                         </div>
                     </div>
