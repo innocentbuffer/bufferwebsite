@@ -153,7 +153,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-description">
+                        <div class="section-description-center">
                             <h3 class="text-center">TRUSTED BY</h3>
                         </div>
                     </div>

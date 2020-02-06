@@ -160,6 +160,15 @@ footer{
 .section-description h3:before{
     position: absolute;
     content: '';
+    left: 0;
+    bottom: -15px;
+    background-color: #19aa98;
+    height: 5px;
+    width: 70px;
+}
+.section-description-center h3:before{
+    position: absolute;
+    content: '';
     left: 47%;
     bottom: -15px;
     background-color: #19aa98;
@@ -506,7 +515,7 @@ footer{
     .contact-form-area input[type='text'] {
         width: 100%;
     }
-    .section-description h3:before{
+    .section-description-center h3:before{
         left: 40%;
     }
     .contact-form-area {
