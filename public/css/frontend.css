@@ -509,6 +509,9 @@ footer{
     .section-description h3:before{
         left: 40%;
     }
+    .contact-form-area {
+        padding: 40px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
