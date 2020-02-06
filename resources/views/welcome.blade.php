@@ -152,38 +152,24 @@
         <div class="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-12">
                         <div class="section-description">
-                            <h3>TRUSTED BY</h3>
-                            <p class="trustedByText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id.
-                            </p>
+                            <h3 class="text-center">TRUSTED BY</h3>
                         </div>
-                    </div>
-                    <div  class="col-md-6">
-
                     </div>
                 </div>
                 <div class="trusted-by ">
                     <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container trustedContainer">
                         <div class="row d-flex align-items-center justify-content-center trusted-by-row">
-                            <div class="col-2 trusted-item trustedContainerImg1">
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg1">
                                 <div class="trusted-body">
-                                    <img src="images/trusted/pepsi" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/uber.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-2 trusted-item trustedContainerImg2">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/pepsi" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-2 trusted-item trustedContainerImg3">
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg2">
                                 <div class="trusted-body">
                                     <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
@@ -191,7 +177,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-2 trusted-item trustedContainerImg4">
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
                                 <div class="trusted-body">
                                     <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
