@@ -179,7 +179,7 @@
                             </div>
                             <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
                                 <div class="trusted-body">
-                                    <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <img src="images/trusted/zenith.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
