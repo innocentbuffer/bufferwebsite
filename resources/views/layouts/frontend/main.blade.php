@@ -107,6 +107,14 @@
         @endif
         <!-- footer end -->
         <!--Scroll-->
+        <div class="reach">
+            <div class="reach-item">
+                <a href="https://api.whatsapp.com/send?phone=2348035756760" class="text-white p-2" title="whatsapp to buffer"><img src="images/icons/whatsapp2.png" alt=""></a>
+            </div>
+            <div class="reach-item">
+                <a href="mailto:info@buffer.media" class="text-white p-2" title="mail to buffer"><img src="images/icons/mail.png" alt=""></a>
+            </div>
+        </div>
         <div class="scrollup-hide scrollup">
             <a href="#top" class="text-white p-2" title="click to scroll up"><i class="fa fa-angle-up" style="font-size:30px"></i></a>
         </div>

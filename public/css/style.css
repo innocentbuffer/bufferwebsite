@@ -843,7 +843,8 @@ ul.dropdown li a:after {
 	position: absolute;
 	right: -55px;
 	top: 7px;
-	z-index: 9 display: inline-block;
+	z-index: 9;
+	display: inline-block;
 }
 
 .learnmore .skill-btn {
@@ -3134,7 +3135,8 @@ footer p {
 	font-weight: 600;
 	-webkit-transition: .7s;
 	transition: .7s;
-	border-radius: 30px transition: .7s;
+	border-radius: 30px; 
+	transition: .7s;
 	border-radius: 30px;
 	border: 2px solid #fff;
 	color: #fff
