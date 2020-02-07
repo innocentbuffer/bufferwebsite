@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:60%" srcset="">
+                        <img src="images/emsg/rcs.png" alt="About Buffer media" style="width:100%; height:40%" srcset="">
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/way-msg.png" alt="About Buffer media" style="width:100%; height:75%" srcset="">
+                        <img src="images/emsg/way-msg.png" alt="About Buffer media" style="width:100%; height:60%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">

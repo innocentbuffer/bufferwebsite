@@ -85,7 +85,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:70%" srcset="">
+                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:60%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
