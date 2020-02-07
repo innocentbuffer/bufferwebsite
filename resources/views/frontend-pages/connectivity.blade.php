@@ -112,7 +112,12 @@
                             <div class="col-md-6 solutionscroll d-md-none mb-4 mb-md-0">
                                 <img src="images/connectivity/wap-billing.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                This platform gives access to sell to customers without credit cards or bank accounts as charges are made through their mobile bills or airtime. This enables an improved customer experience with the 'Single click' purchases where transactions are completed without customers having to send or receive a text message or remember short codes.
+                            </p>
+                            <p class="solutionscroll">
+                                This platform also captures essential details about the product such as: Name, short product description and price of products. This provides your customers with the needed information required to take the required action.
+                            </p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="wap billing"><span class="button-blink" data-qoute="wap billing"> Get a qoute</span></button>
 
                         </div>
