@@ -160,7 +160,7 @@
                 </div>
                 <div class="trusted-by ">
                     <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container trustedContainer">
-                        <div class="row d-flex align-items-center justify-content-center trusted-by-row">
+                        <div class="row mx-0 d-flex align-items-center justify-content-center trusted-by-row">
                             <div class="col-4 col-md-2 trusted-item trustedContainerImg1">
                                 <div class="trusted-body">
                                     <img src="images/trusted/uber.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
@@ -180,6 +180,22 @@
                             <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
                                 <div class="trusted-body">
                                     <img src="images/trusted/zenith.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
+                                <div class="trusted-body">
+                                    <img src="images/trusted/leadway.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
+                                    <p class="trusted-content px-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
+                                <div class="trusted-body">
+                                    <img src="images/trusted/premier.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing. 
                                     </p>
