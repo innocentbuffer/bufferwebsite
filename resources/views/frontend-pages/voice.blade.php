@@ -68,12 +68,32 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/evoice/eivr.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                Effective Voice campaigns require an active and effective customer engagement rate which can be difficult to attract and maintain.
+                            </p>
+                            <p class="solutionscroll">
+                                With Buffer’s IVR solutions customers and potentials customers can have direct access to brand offerings by dialing a number that gives them access to a talk directly with brand representative and communicate complaints on a problem they want to solve.                            
+                            </p>
+                            <p class="solutionscroll">
+                                A dial-in number is created for each campaign and advertised in the media. Target customers can call the number for inquiries or to leave a voice feedback.                            
+                            </p>
+                            <div>
+                                <strong class="solutionscroll">With Buffer IVR solutions  Brands can enjoy: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>  Increased direct customer engagement rate.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Direct feedback from customers and consumers.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Stronger brand image that conveys your brand and business personality.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Increased Operational Efficiency</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Reduced Costs</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Personalized Self-Service: valuable asset to build customer relationships</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Proved Contact Center Metrics</li>
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="interactive voice response"><span class="button-blink" data-qoute="interactive voice response"> Get a qoute</span></button>
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/evoice/eivr.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/evoice/eivr.png" alt="About Buffer media" style="width:100%; height:60%" srcset="">
                     </div>
                 </div>
             </div>
@@ -85,7 +105,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:70%" srcset="">
+                        <img src="images/evoice/tocall.png" alt="About Buffer media" style="width:100%; height:50%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -99,11 +119,11 @@
                             <div>
                                 <strong class="solutionscroll">How it Works: </strong>
                                 <p class="solutionscroll">
-                                    The game-changing plan for your customer service Buffer’s click2call helps take your business to the next level by allowing you offer improved and professional customer service that drive sales while incurring minimal cost.
+                                    Click2call (click to-talk, click-to-dial, click-to-chat, click-to-text etc) is a web-based communication system that can be used by your potential or existing customers. Our solution allows them request an immediate connection with your company by clicking a link on your website and entering a phone number in a dialog box which automatically connects them to your site operators or contact center. It’s often used to convert website traffic into direct telephone communication between your live agents and customers.
                                 </p>
                                 <p class="solutionscroll">
-                                    The game-changing plan for your customer service Buffer’s click2call helps take your business to the next level by allowing you offer improved and professional customer service that drive sales while incurring minimal cost.
-                                </p>                          
+                                    Unlike some other marketing strategies, click to call is a relatively low priced-service that affords you the opportunity of offering personalized service to your customers which consequently result in return visits, increased conversion, increased sales and more loyal customers, hence, giving you a higher return on investment.
+                                </p>                           
                             </div>
                             <div>
                                 <strong class="solutionscroll">With the Click to call solutions you can enjoy: </strong>
@@ -115,7 +135,7 @@
                                 </ul>
                             </div>
                             <div>
-                                <strong class="solutionscroll">Benefits to Your Customers: with this solution your customers will better enjoy </strong>
+                                <strong class="solutionscroll">Benefits to Your Customers: </strong>
                                 <ul class="list-unstyled my-2 solutionscroll">
                                     <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Secure communication.</li>
                                     <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Convenient communication.</li>

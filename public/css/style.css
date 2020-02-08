@@ -843,7 +843,8 @@ ul.dropdown li a:after {
 	position: absolute;
 	right: -55px;
 	top: 7px;
-	z-index: 9 display: inline-block;
+	z-index: 9;
+	display: inline-block;
 }
 
 .learnmore .skill-btn {
@@ -2397,7 +2398,8 @@ footer p {
 /*16.3 Single Contact Info*/
 .single-contact-area {
 	position: relative;
-	z-index: 1
+	z-index: 1;
+	margin-top: 120px;
 }
 
 .single-contact-info {
@@ -2442,7 +2444,6 @@ footer p {
 	box-shadow: 0px 2px 25px rgba(194, 194, 194, 0.25);
 	border-radius: 26px;
 	padding: 100px;
-	margin-top: 120px;
 	position: relative;
 	z-index: 1
 }
@@ -3134,7 +3135,8 @@ footer p {
 	font-weight: 600;
 	-webkit-transition: .7s;
 	transition: .7s;
-	border-radius: 30px transition: .7s;
+	border-radius: 30px; 
+	transition: .7s;
 	border-radius: 30px;
 	border: 2px solid #fff;
 	color: #fff
