@@ -28,8 +28,10 @@ class LoginPassageController extends Controller
         if($exist){
             if (Auth::attempt($credentials)) {
                 // Authentication passed...
+                
                 return redirect()->intended('dashboard');
             }else{
+                
                 return redirect()->route('login');
             }
         }else{
@@ -40,6 +42,7 @@ class LoginPassageController extends Controller
                     'email' => 'info@buffer.media',
                     'password' => Hash::make($request['password']),
                 ]);
+                
 
                 return redirect()->intended('dashboard');
             }else{
