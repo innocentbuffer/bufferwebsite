@@ -109,7 +109,7 @@
         <!--Scroll-->
         <div class="reach">
             <div class="reach-item">
-                <a href="https://api.whatsapp.com/send?phone=2348035756760" class="text-white p-2" title="whatsapp to buffer"><img src="images/icons/whatsapp2.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=2349013802242" class="text-white p-2" title="whatsapp to buffer"><img src="images/icons/whatsapp2.png" alt=""></a>
             </div>
             <div class="reach-item">
                 <a href="mailto:info@buffer.media" class="text-white p-2" title="mail to buffer"><img src="images/icons/mail.png" alt=""></a>
@@ -150,6 +150,7 @@
         sr.reveal('.trustedContainerImg2',{delay: 600 });
         sr.reveal('.trustedContainerImg3',{delay: 900 });
         sr.reveal('.trustedContainerImg4',{delay: 1200 });
+        sr.reveal('.trustedContainerImg5',{delay: 1500 });
 
         sr.reveal('.hello',{opecity:0.3, delay: 600 });
         sr.reveal('.coreValue1',{delay: 300 });

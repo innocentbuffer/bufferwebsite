@@ -1,5 +1,5 @@
 <!-- Logo -->
-<a href="index.html" class="logo">
+<a href="/" class="logo">
     <!-- mini logo -->
     <div class="logo-mini">
         <span class="dark-logo"><img src="images/logo/logo-light.png" alt="logo"></span>

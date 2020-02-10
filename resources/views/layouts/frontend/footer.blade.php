@@ -36,7 +36,23 @@
                 <ul class="list-unstyled footer-list footer-anchor">
                     <li><a href="{{ route('company') }}">Company</a></li>
                     <li><a  href="/contactus" class="btn p-0 ">Contact</a></li>
-                    <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                    @guest
+                        <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                    @else
+                        <li>
+                            
+                            <a href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                           
+                        </li>
+                    @endguest
                     <!--
                     <li><a href="">Careers</a></li>
                     <li><a href="">Blog</a></li>
@@ -70,9 +86,9 @@
                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle px-2 py-1" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
                 <ul class="list-unstyled footer-list footer-anchor mt-4">
-                    <li><a class="btn p-0 enquire"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1"> Support</a></li>
-                    <li><a class="btn p-0 enquire"><img src="images/icons/sales.png" alt="contact buffer suport" class="mr-1">Sales</a></li>
-                    <li><a class="btn p-0 enquire"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>
+                    <li><a class="btn p-0 enquire" data-qoute="support"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1"> Support</a></li>
+                    <li><a class="btn p-0 enquire" data-qoute="sales"><img src="images/icons/sales.png" alt="contact buffer suport" class="mr-1">Sales</a></li>
+                    <li><a class="btn p-0 enquire" data-qoute="dev"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>
                 </ul>
             </div> 
         </div>

@@ -45,6 +45,24 @@
                 <li class="nav-item action-btn-outline">
                     <a href="/contactus" class="nav-link btn text-left">CONTACT</a>
                 </li>
+                @auth
+                <li class="nav-item dropdown">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-dark" href="{{ route('dashboard') }}">
+                            Dashboard
+                        </a>
+                        <a class="dropdown-item text-dark" href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+                    </div>
+                </li>
+                @endauth
             </ul>
         </div>
     </div>

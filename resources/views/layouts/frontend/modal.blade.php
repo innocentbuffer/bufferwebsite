@@ -40,9 +40,37 @@
                             </div>
                         </div>
                     </div>            
-                    <div class="form-group">
-                        <label for="lastname">Email</label>
-                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+                    <div class="row">
+                        <div class="col-6 type-state" id="type-state">
+                            <div class="form-group">
+                                <label for="solutiontype">Solution Type:</label>
+                                <select name="solutiontype" id="solutiontype" class="form-control">
+                                    <option selected>Select a Solution</option>
+                                    <option value="sms">SMS</option>
+                                    <option value="rcs">Rich Communiction Service</option>
+                                    <option value="whatsapp">Whatsapp Business Api</option>
+                                    <option value="2-way-messaging">2-way Messaging</option>
+                                    <option value="number-lookup">Number Lookup</option>
+                                    <option value="secure-opt">Secure OTP</option>
+                                    <option value="outband-dialer">Outband Dialer</option>
+                                    <option value="ivr">Interactive Voice Response</option>
+                                    <option value="click-2-call">Click 2 Call</option>
+                                    <option value="pay-per-click">Pay per Click</option>
+                                    <option value="content-marketing">Content Marketing</option>
+                                    <option value="inbound-marketing">Inbound Marketing</option>
+                                    <option value="email-marketing">Email Marketing</option>
+                                    <option value="premium-ussd">Premium USSD</option>
+                                    <option value="direct-billing-service">Direct Billing Service</option>
+                                    <option value="wap-billing">Wap Billing</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="" id="email-state">
+                            <div class="form-group">
+                                <label for="lastname">Email</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="lastname">Message</label>

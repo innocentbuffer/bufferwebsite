@@ -84,20 +84,37 @@ $(function(){
     $('.enquire').on('click', function(event){
         var heading = "";
         var qoute = "";
-        if(event.target.dataset.qoute)
+        if(event.target.dataset.qoute && event.target.dataset.qoute != "contact" && event.target.dataset.qoute != "support" && event.target.dataset.qoute != "sales" && event.target.dataset.qoute != "dev")
         {
             heading = "Get a qoute on " + event.target.dataset.qoute;
             qoute = event.target.dataset.qoute;
-        }else if(event.target.textContent.toLowerCase() == "contact")
+            $("#type-state").addClass("type-state");
+            $("#email-state").removeClass("col-6");
+            $("#email-state").addClass("col-12");
+        }else if(event.target.dataset.qoute == "contact")
         {
             heading = " Contact Us";
             qoute = event.target.textContent;
+            $("#type-state").addClass("type-state");
+            $("#email-state").removeClass("col-6");
+            $("#email-state").addClass("col-12");
+        }else if(event.target.dataset.qoute == "support" || event.target.dataset.qoute == "sales" || event.target.dataset.qoute == "dev")
+        {
+            
+            heading = event.target.textContent;
+            qoute = event.target.textContent;
+            $("#type-state").addClass("type-state");
+            $("#email-state").removeClass("col-6");
+            $("#email-state").addClass("col-12");
         }else{
             heading = event.target.textContent;
             qoute = event.target.textContent;
+            $("#type-state").removeClass("type-state");
+            $("#email-state").removeClass("col-12");
+            $("#email-state").addClass("col-6");
         }
 
-        console.log(qoute);
+        
         $('#qoutetype').value = qoute;
         $('.modal-title').text(heading);
         $("#myModal").modal()

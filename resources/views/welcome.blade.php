@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="action-btn ">
-                            <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire"><span class="button-blink"> Say Hello</span></button>
+                            <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
                         </div>
                     </div>
                     <div class="col-md-5 d-none d-md-block ">
@@ -185,7 +185,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg4">
                                 <div class="trusted-body">
                                     <img src="images/trusted/leadway.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
@@ -193,7 +193,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
+                            <div class="col-4 col-md-2 trusted-item trustedContainerImg5">
                                 <div class="trusted-body">
                                     <img src="images/trusted/premier.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
                                     <p class="trusted-content px-2">
