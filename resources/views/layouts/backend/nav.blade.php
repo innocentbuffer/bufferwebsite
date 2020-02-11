@@ -46,12 +46,18 @@
                     <!-- Menu Body -->
                     <li class="user-body">
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-person"></i> My Profile</a>
+                        <!--
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-bag"></i> My Balance</a>
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-email-unread"></i> Inbox</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-settings"></i> Account Setting</a>
+                        -->
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ion-log-out"></i> Logout</a>
+                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            <i class="ion-log-out"></i>
+                            {{ __('Logout') }}
+                            
+                        </a>
                         <div class="dropdown-divider"></div>
                         <div class="p-10"><a href="javascript:void(0)" class="btn btn-sm btn-rounded btn-success">View Profile</a></div>
                     </li>
@@ -59,6 +65,7 @@
             </li>		
             
             <!-- Messages -->
+            <!--
             <li class="dropdown messages-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="mdi mdi-email"></i>
@@ -79,9 +86,8 @@
                         </div>
                     </li>
                     <li>
-                    <!-- inner menu: contains the actual data -->
                         <ul class="menu sm-scrol">
-                            <li><!-- start message -->
+                            <li>
                                 <a href="#">
                                     <div class="pull-left">
                                         <img src="../images/user2-160x160.jpg" class="rounded-circle" alt="User Image">
@@ -95,7 +101,6 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end message -->
                             <li>
                                 <a href="#">
                                     <div class="pull-left">
@@ -159,7 +164,9 @@
                     </li>
                 </ul>
             </li>
+            -->
             <!-- Notifications -->
+            <!--
             <li class="dropdown notifications-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="mdi mdi-bell"></i>
@@ -181,7 +188,6 @@
                     </li>
                     
                     <li>
-                    <!-- inner menu: contains the actual data -->
                         <ul class="menu sm-scrol">
                             <li>
                                 <a href="#">
@@ -223,7 +229,9 @@
                     <li class="footer"><a href="#" class="text-white bg-danger">View all</a></li>
                 </ul>
             </li>
+            -->
             <!-- Tasks-->
+            <!--
             <li class="dropdown tasks-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="mdi mdi-bulletin-board"></i>
@@ -245,9 +253,8 @@
                     </li>
                     
                     <li>
-                    <!-- inner menu: contains the actual data -->
                         <ul class="menu sm-scrol">
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Lorem ipsum dolor sit amet
@@ -261,8 +268,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Vestibulum nec ligula
@@ -276,8 +282,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Donec id leo ut ipsum
@@ -291,8 +296,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Praesent vitae tellus
@@ -306,8 +310,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Nam varius sapien
@@ -321,8 +324,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
-                            <li><!-- Task item -->
+                            <li>
                                 <a href="#">
                                     <h3>
                                     Nunc fringilla
@@ -336,16 +338,15 @@
                                     </div>
                                 </a>
                             </li>
-                            <!-- end task item -->
                         </ul>
                     </li>
                     <li class="footer"><a href="#" class="text-white bg-warning">View all tasks</a></li>
                 </ul>
             </li>
-            <!-- Control Sidebar Toggle Button -->
             <li>
                 <a href="#" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></a>
             </li>
+            -->
         </ul>
     </div>
 </nav>

@@ -57,9 +57,16 @@
             </aside>
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
-                @include('layouts.backend.content')
+                @include('layouts.backend.contenthead')
             </div>
             
+            <footer class="main-footer">
+                @include('layouts.backend.footer')
+            </footer>
+
+            <!-- Control Sidebar -->
+            @include('layouts.backend.control-sidebar')
+
         </div>
         <!-- ./wrapper -->
         

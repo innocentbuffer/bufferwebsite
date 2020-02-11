@@ -110,7 +110,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">IVR</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            Effective Voice campaigns require an active and effective customer engagement rate which can be ...
                                         </p>
                                         <a href="/voice#ivr" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>

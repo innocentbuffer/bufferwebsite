@@ -3,126 +3,159 @@
     <!-- sidebar menu-->
     <ul class="sidebar-menu" data-widget="tree">
         <li class="user-profile treeview">
-        <a href="index.html">
-            <img src="images/avatar/7.jpg" alt="user">
-            <span>
-                <span class="d-block font-weight-600 font-size-16">{{$user->name}}</span>
-                <span class="email-id">{{$user->email}}</span>
-            </span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="javascript:void()"><i class="fa fa-user mr-5"></i>My Profile </a></li>
-            <li><a href="javascript:void()"><i class="fa fa-money mr-5"></i>My Balance</a></li>
-            <li><a href="javascript:void()"><i class="fa fa-envelope-open mr-5"></i>Inbox</a></li>
-            <li><a href="javascript:void()"><i class="fa fa-cog mr-5"></i>Account Setting</a></li>
-            <li><a href="javascript:void()"><i class="fa fa-power-off mr-5"></i>Logout</a></li>
-        </ul>
+            <a href="index.html">
+                <img src="images/avatar/7.jpg" alt="user">
+                <span>
+                    <span class="d-block font-weight-600 font-size-16">{{$user->name}}</span>
+                    <span class="email-id">{{$user->email}}</span>
+                </span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="javascript:void()"><i class="fa fa-user mr-5"></i>My Profile </a></li>
+                <!--
+                <li><a href="javascript:void()"><i class="fa fa-money mr-5"></i>My Balance</a></li>
+                <li><a href="javascript:void()"><i class="fa fa-envelope-open mr-5"></i>Inbox</a></li>
+                <li><a href="javascript:void()"><i class="fa fa-cog mr-5"></i>Account Setting</a></li>
+                -->
+                <li>
+                    <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        <i class="fa fa-power-off mr-5"></i>
+                        {{ __('Logout') }}
+                        
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                </li>
+            </ul>
         </li>
+        <li>
+            <a href="/dashboard">
+                <i class="mdi mdi-view-dashboard"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        <li class="treeview">
+            <a href="#">
+                <i class="mdi mdi-plus-box"></i>
+                <span>Creation</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/icons_fontawesome.html"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
+                <li><a href="pages/icons_glyphicons.html"><i class="mdi mdi-toggle-switch-off"></i>Create Role</a></li>
+            </ul>
+        </li> 	
+         
+        <!--
         <li class="header nav-small-cap"><i class="mdi mdi-drag-horizontal mr-5"></i>PERSONAL</li>
         
         
         <li class="treeview active">
-        <a href="#">
-            <i class="mdi mdi-view-dashboard"></i>
-            <span>Dashboard</span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="index.html"><i class="mdi mdi-toggle-switch-off"></i>Main Dashboard</a></li>
-            <li><a href="index-2.html"><i class="mdi mdi-toggle-switch-off"></i>e-Commerce Dashboard</a></li>
-            <li><a href="index-3.html"><i class="mdi mdi-toggle-switch-off"></i>Cryptocurrency</a></li>
-            <li><a href="index-4.html"><i class="mdi mdi-toggle-switch-off"></i>Analytics</a></li>
-            <li><a href="index-5.html"><i class="mdi mdi-toggle-switch-off"></i>Hospital</a></li>
-            <li class="active"><a href="index-6.html"><i class="mdi mdi-toggle-switch-off"></i>Support System</a></li>
-            <li><a href="index-7.html"><i class="mdi mdi-toggle-switch-off"></i>Sales Report</a></li>
-            <li><a href="index-8.html"><i class="mdi mdi-toggle-switch-off"></i>Music</a></li>
-            <li><a href="index-9.html"><i class="mdi mdi-toggle-switch-off"></i>Material</a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-view-dashboard"></i>
+                <span>Dashboard</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="index.html"><i class="mdi mdi-toggle-switch-off"></i>Main Dashboard</a></li>
+                <li><a href="index-2.html"><i class="mdi mdi-toggle-switch-off"></i>e-Commerce Dashboard</a></li>
+                <li><a href="index-3.html"><i class="mdi mdi-toggle-switch-off"></i>Cryptocurrency</a></li>
+                <li><a href="index-4.html"><i class="mdi mdi-toggle-switch-off"></i>Analytics</a></li>
+                <li><a href="index-5.html"><i class="mdi mdi-toggle-switch-off"></i>Hospital</a></li>
+                <li class="active"><a href="index-6.html"><i class="mdi mdi-toggle-switch-off"></i>Support System</a></li>
+                <li><a href="index-7.html"><i class="mdi mdi-toggle-switch-off"></i>Sales Report</a></li>
+                <li><a href="index-8.html"><i class="mdi mdi-toggle-switch-off"></i>Music</a></li>
+                <li><a href="index-9.html"><i class="mdi mdi-toggle-switch-off"></i>Material</a></li>
+            </ul>
         </li> 
         
         <li class="treeview">
-        <a href="#">
-            <i class="mdi mdi-content-copy"></i>
-            <span>Layout Options</span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/layout_boxed.html"><i class="mdi mdi-toggle-switch-off"></i>Boxed</a></li>
-            <li><a href="pages/layout_fixed.html"><i class="mdi mdi-toggle-switch-off"></i>Fixed</a></li>
-            <li><a href="pages/layout_collapsed_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Mini Sidebar</a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-content-copy"></i>
+                <span>Layout Options</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/layout_boxed.html"><i class="mdi mdi-toggle-switch-off"></i>Boxed</a></li>
+                <li><a href="pages/layout_fixed.html"><i class="mdi mdi-toggle-switch-off"></i>Fixed</a></li>
+                <li><a href="pages/layout_collapsed_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Mini Sidebar</a></li>
+            </ul>
         </li>  
         
         <li class="treeview">
-        <a href="#">
-            <i class="mdi mdi-tune-vertical"></i>
-            <span>Page Layouts </span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/page_layout_inner_left_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Left Sidebar </a></li>
-            <li><a href="pages/page_layout_inner_right_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Right Sidebar </a></li>
-            <li><a href="pages/page_layout_inner_fixed_left_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Fixed Left Sidebar </a></li>
-            <li><a href="pages/page_layout_inner_fixed_right_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Fixed Right Sidebar </a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-tune-vertical"></i>
+                <span>Page Layouts </span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/page_layout_inner_left_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Left Sidebar </a></li>
+                <li><a href="pages/page_layout_inner_right_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Right Sidebar </a></li>
+                <li><a href="pages/page_layout_inner_fixed_left_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Fixed Left Sidebar </a></li>
+                <li><a href="pages/page_layout_inner_fixed_right_sidebar.html"><i class="mdi mdi-toggle-switch-off"></i>Inner Fixed Right Sidebar </a></li>
+            </ul>
         </li>
         
         
         <li class="header nav-small-cap"><i class="mdi mdi-drag-horizontal mr-5"></i>APPS</li>
         
         <li class="treeview">
-        <a href="#">
-            <i class="mdi mdi-mailbox"></i> <span>Mailbox</span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/mailbox_inbox.html"><i class="mdi mdi-toggle-switch-off"></i>Inbox</a></li>
-            <li><a href="pages/mailbox_compose.html"><i class="mdi mdi-toggle-switch-off"></i>Compose</a></li>
-            <li><a href="pages/mailbox_read_mail.html"><i class="mdi mdi-toggle-switch-off"></i>Read</a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-mailbox"></i> <span>Mailbox</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/mailbox_inbox.html"><i class="mdi mdi-toggle-switch-off"></i>Inbox</a></li>
+                <li><a href="pages/mailbox_compose.html"><i class="mdi mdi-toggle-switch-off"></i>Compose</a></li>
+                <li><a href="pages/mailbox_read_mail.html"><i class="mdi mdi-toggle-switch-off"></i>Read</a></li>
+            </ul>
         </li>
         
         <li class="treeview">
-        <a href="#">
-            <i class="mdi mdi-contacts"></i>
-            <span>Contact</span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/contact_app_chat.html"><i class="mdi mdi-toggle-switch-off"></i>Chat app</a></li>
-            <li><a href="pages/contact_app.html"><i class="mdi mdi-toggle-switch-off"></i>Contact / Employee</a></li>
-            <li><a href="pages/contact_userlist_grid.html"><i class="mdi mdi-toggle-switch-off"></i>Userlist Grid</a></li>
-            <li><a href="pages/contact_userlist.html"><i class="mdi mdi-toggle-switch-off"></i>Userlist</a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-contacts"></i>
+                <span>Contact</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/contact_app_chat.html"><i class="mdi mdi-toggle-switch-off"></i>Chat app</a></li>
+                <li><a href="pages/contact_app.html"><i class="mdi mdi-toggle-switch-off"></i>Contact / Employee</a></li>
+                <li><a href="pages/contact_userlist_grid.html"><i class="mdi mdi-toggle-switch-off"></i>Userlist Grid</a></li>
+                <li><a href="pages/contact_userlist.html"><i class="mdi mdi-toggle-switch-off"></i>Userlist</a></li>
+            </ul>
         </li>
         
         <li class="treeview">
-        <a href="#">
-            <i class="mdi mdi-apps"></i>
-            <span>Extra</span>
-            <span class="pull-right-container">
-            <i class="fa fa-angle-right pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/extra_app_ticket.html"><i class="mdi mdi-toggle-switch-off"></i>Support Ticket</a></li>
-            <li><a href="pages/extra_calendar.html"><i class="mdi mdi-toggle-switch-off"></i>Calendar</a></li>
-            <li><a href="pages/extra_profile.html"><i class="mdi mdi-toggle-switch-off"></i>Profile</a></li>
-            <li><a href="pages/extra_taskboard.html"><i class="mdi mdi-toggle-switch-off"></i>Project DashBoard</a></li>
-        </ul>
+            <a href="#">
+                <i class="mdi mdi-apps"></i>
+                <span>Extra</span>
+                <span class="pull-right-container">
+                <i class="fa fa-angle-right pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="pages/extra_app_ticket.html"><i class="mdi mdi-toggle-switch-off"></i>Support Ticket</a></li>
+                <li><a href="pages/extra_calendar.html"><i class="mdi mdi-toggle-switch-off"></i>Calendar</a></li>
+                <li><a href="pages/extra_profile.html"><i class="mdi mdi-toggle-switch-off"></i>Profile</a></li>
+                <li><a href="pages/extra_taskboard.html"><i class="mdi mdi-toggle-switch-off"></i>Project DashBoard</a></li>
+            </ul>
         </li>
         
         
@@ -462,7 +495,8 @@
             <i class="mdi mdi-directions"></i>
             <span>Log Out</span>
         </a>
-        </li> 
+        </li>
+        --> 
         
     </ul>
 </section>
