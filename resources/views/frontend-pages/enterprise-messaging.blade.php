@@ -218,13 +218,34 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                One-Time Password (OTP) is a technological mechanism through which a single-use password is generated and sent to the registered mobile number for the user to access a website, platform or process a transaction. It is also known as two-factor authentication. OTP lends an additional layer of security to protect the digital identity of the end users.
+                            </p>
+                            <p class="solutionscroll">
+                               <strong>Buffer state of art OTP solutions</strong>  is tailored for companies to properly secure payment process and confirm transaction which is tailored according to customer's needs and preferences.
+                            </p>
+
+                            <p class="solutionscroll">
+                                This solution is an SMS based confirmatory solutions that override heavy data volumes, message latency and geographies, our OTP (one time password) are highly useful in online transactions like bill payment confirmation, account activation, user registration verification, mobile number validation, etc. wherever reliable authentication support is imperative.                            
+                            </p>
+                            <div class="pt-3">
+                                <strong class="solutionscroll">Benefit of Number lookup service to your brand ? </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Securing Payment and Confirming Transactions.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Blocking Spammers and Bots Similar to Captcha Forms.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Securing Online Documents with Sensitive Information like Payslips, Medical Documents, Legal Documents.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Fast track routing: provide the pace that is needed for authentication messages.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Flexibility: supports multiple sender IDs configuration. </li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Cost effective: low costs, simple and secure channel. </li>
+
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="secure opt"><span class="button-blink" data-qoute="secure opt"> Get a qoute</span></button>
 
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/eotp.png" alt="About Buffer media" style="width:100%; height:50%" srcset="">
                     </div>
                 </div>
             </div>
