@@ -4,10 +4,10 @@
     <ul class="sidebar-menu" data-widget="tree">
         <li class="user-profile treeview">
             <a href="index.html">
-                <img src="images/avatar/7.jpg" alt="user">
+                <img src="{{asset('images/avatar/7.jpg')}}" alt="user">
                 <span>
-                    <span class="d-block font-weight-600 font-size-16">{{$user->name}}</span>
-                    <span class="email-id">{{$user->email}}</span>
+                    <span class="d-block font-weight-600 font-size-16">{{Auth::user()->name}}</span>
+                    <span class="email-id">{{Auth::user()->email}}</span>
                 </span>
                 <span class="pull-right-container">
                 <i class="fa fa-angle-right pull-right"></i>
@@ -48,8 +48,7 @@
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="pages/icons_fontawesome.html"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
-                <li><a href="pages/icons_glyphicons.html"><i class="mdi mdi-toggle-switch-off"></i>Create Role</a></li>
+                <li><a href="{{ route('createuser') }}"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
             </ul>
         </li> 	
          

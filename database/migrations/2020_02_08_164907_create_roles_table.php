@@ -17,7 +17,7 @@ class CreateRolesTable extends Migration
             $table->bigIncrements('id');
             $table->string('slug', 255);
             $table->string('name', 255);
-            $table->text('permission');
+            $table->text('permission')->nullable();
             $table->timestamps();
         });
     }

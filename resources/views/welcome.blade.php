@@ -66,7 +66,7 @@
                         <div class="section-description-left">
                             <h3>OUR SOLUTIONS</h3>
                             <p class="cardRevealText mb-3 mb-md-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus vulputate id. Nulla laoreet maximus feugiat. Nullam rhoncus, orci vitae convallis venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, sit amet hendrerit metus.
+                            We work on a diverse range of projects; from helping start ups get their business up, to crafting digital and mobile solutions that are unique and tailor-made.                            
                             </p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                                     <div class="card-body ">
                                         <h5 class="card-title text-center">SMS</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            Send Bulk SMS messages to all networks in Nigeria and over 600 Networks Worldwide.
                                         </p>
                                         <a href="/enterprise-messaging#sms" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -88,7 +88,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">WhatsApp Business API</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            Buffers WhatsApp Business solutions allows companies to safely and securely message their customers directly.
                                         </p>
                                         <a href="/enterprise-messaging#whatsapp" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -100,7 +100,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Inbound Marketing</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            At Buffer our Inbound marketing services is a buyer-focused, measurable approach.
                                         </p>
                                         <a href="/digital-marketing#inbound" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -122,7 +122,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Outband Dialer</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            Outbound dialer is a system that automatically calls pre defined lists of customers.
                                         </p>
                                         <a href="/voice#outbound" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -132,7 +132,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Content Marketing</h5>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis.
+                                            Your business' online and offline presence revolves around content; indeed, content is king.
                                         </p>
                                         <a href="/digital-marketing#contentmarketing" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -158,48 +158,76 @@
                         </div>
                     </div>
                 </div>
-                <div class="trusted-by ">
-                    <div class="mx-md-4 py-md-4 shadow bg-white position-relative trusted-by-container trustedContainer">
-                        <div class="row mx-0 d-flex align-items-center justify-content-center trusted-by-row">
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg1">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/uber.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                <div class="trusted-by mt-5">
+                    <div class="autoplay">
+                        <div class="" style="height:100%">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/uber.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">Bulk SMS/ Snap Call</h5>
+                                    <p class="card-text">
+                                        Buffer helped Uber increase new driver and rider sign ups.  
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg2">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
-                                    </p>
+                        </div>
+                        <div class="" style="height:100%">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto card-img" alt="" style="width:40%;height:60%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">Bulk SMS/ Transactional SMS</h5>
+                                    <p class="card-text">
+                                        Pepsi employed Buffer’s messaging solutions system. 
+                                    </p>    
                                 </div>
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg3">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/zenith.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                        </div>
+                        <div class="">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/zenith.png" class="d-block my-3 mx-auto card-img" alt="" style="width:40%;height:60%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">Bulk SMS/ Snap Call</h5>
+                                    <p class="card-text">
+                                        Inbound voice and messaging solution was use by Zenith. 
                                     </p>
                                 </div>
+                                
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg4">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/leadway.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                        </div>
+                        <div class="">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/leadway.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">Bulk SMS/ SMS Tagging</h5>
+                                    <p class="card-text">
+                                        Leadway assurance used SMS Tagging from Buffer. 
                                     </p>
                                 </div>
+                                
                             </div>
-                            <div class="col-4 col-md-2 trusted-item trustedContainerImg5">
-                                <div class="trusted-body">
-                                    <img src="images/trusted/premier.png" class="d-block my-3 mx-auto trusted-img" alt="" style="width:80%;height:100%">
-                                    <p class="trusted-content px-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                        </div>
+                        <div class="">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/premier.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">SMS Tagging/Bulk SMS</h5>
+                                    <p class="card-text">
+                                        Baba Ijebu utilized SMS tagging to increase audience sign ups. 
                                     </p>
                                 </div>
+                                
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="card shadow-sm border-0">
+                                <img src="images/trusted/cola.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:55%">
+                                <div class="card-body px-4">
+                                    <h5 class="card-title text-center">SEO/SEM</h5>
+                                    <p class="card-text">
+                                        Buffer deployed its social listening tools, SEO and SEM 
+                                    </p>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>

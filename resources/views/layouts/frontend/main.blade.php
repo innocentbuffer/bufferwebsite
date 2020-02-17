@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+
+    
+
+
     
     
     <!-- Css Vendors-->
@@ -29,7 +33,7 @@
 -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/frontend.css">
-    
+    <link rel="stylesheet" href="css/vendors/slick.css">
     
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script>
@@ -132,36 +136,16 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    
+
     
     <script src="js/app.js"></script>
    
     <script src="js/custom/main.js"></script>
+    <script src="js/vendors/slick.min.js"></script>
+    
 
     <!--Js Vendors -->
-    <script>
-        sr.reveal('.cardReveal',{ delay: 500 });
-        sr.reveal('.cardRevealText',{opecity:0.3, delay: 500 });
-
-        sr.reveal('.trustedContainer',{ delay: 300 });
-        
-        sr.reveal('.trustedByText',{opecity:0.3, delay: 300 });
-        sr.reveal('.trustedContainerImg1',{delay: 300 });
-        sr.reveal('.trustedContainerImg2',{delay: 600 });
-        sr.reveal('.trustedContainerImg3',{delay: 900 });
-        sr.reveal('.trustedContainerImg4',{delay: 1200 });
-        sr.reveal('.trustedContainerImg5',{delay: 1500 });
-
-        sr.reveal('.hello',{opecity:0.3, delay: 600 });
-        sr.reveal('.coreValue1',{delay: 300 });
-        sr.reveal('.coreValue2',{delay: 600 });
-        sr.reveal('.coreValue3',{delay: 900 });
-        sr.reveal('.coreValue4',{delay: 1200 });
-
-        sr.reveal('.mission',{opecity:0.3, delay: 400 });
-        sr.reveal('.vision',{opecity:0.3, delay: 400 });
-        sr.reveal('.solutionscroll',{opecity:0.3, delay: 400 });
-	</script>
+    
 
 
     <!-- custom  minified JavaScript 

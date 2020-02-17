@@ -25,6 +25,8 @@ class LoginPassageController extends Controller
 
         $credentials = $request->only('name', 'password');
 
+       
+
         if($exist){
             if (Auth::attempt($credentials)) {
                 // Authentication passed...
@@ -40,10 +42,10 @@ class LoginPassageController extends Controller
                 User::create([
                     'name' => $request['name'],
                     'email' => 'info@buffer.media',
-                    'password' => Hash::make($request['password']),
+                    'password' => $request['password'],
                 ]);
                 
-
+               
                 return redirect()->intended('dashboard');
             }else{
                 return redirect()->route('login');

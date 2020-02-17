@@ -7,33 +7,35 @@
         <title>@yield('title')</title>
 
         <!-- Bootstrap 4.0-->
-        <link rel="stylesheet" href="assets/vendor_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="{{asset('assets/vendor_components/bootstrap/dist/css/bootstrap.css')}}">
         
         <!-- Bootstrap extend-->
-        <link rel="stylesheet" href="css/bootstrap-extend.css">
+        <link rel="stylesheet" href="{{asset('css/bootstrap-extend.css')}}">
         
         <!-- theme style -->
-        <link rel="stylesheet" href="css/master_style.css">
+        <link rel="stylesheet" href="{{asset('css/master_style.css')}}">
         
         <!-- Superieur Admin skins -->
-        <link rel="stylesheet" href="css/skins/all-skins.css">
+        <link rel="stylesheet" href="{{asset('css/skins/all-skins.css')}}">
         
+
+        <link rel="stylesheet" href="{{asset('css/backend.css')}}">
         
         <!-- fullCalendar -->
-        <link rel="stylesheet" href="assets/vendor_components/fullcalendar/fullcalendar.min.css">
-        <link rel="stylesheet" href="assets/vendor_components/fullcalendar/fullcalendar.print.min.css" media="print">
+        <link rel="stylesheet" href="{{asset('assets/vendor_components/fullcalendar/fullcalendar.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor_components/fullcalendar/fullcalendar.print.min.css')}}" media="print">
         
         <!-- Data Table-->
-        <link rel="stylesheet" type="text/css" href="assets/vendor_components/datatable/datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/vendor_components/datatable/datatables.min.css')}}"/>
         
         <!-- bootstrap wysihtml5 - text editor -->
-        <link rel="stylesheet" href="assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+        <link rel="stylesheet" href="{{asset('assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css')}}">
         
         <!-- Bootstrap switch-->
-        <link rel="stylesheet" href="assets/vendor_components/bootstrap-switch/switch.css">
+        <link rel="stylesheet" href="{{asset('assets/vendor_components/bootstrap-switch/switch.css')}}">
         
         <!-- Morris charts -->
-        <link rel="stylesheet" href="assets/vendor_components/morris.js/morris.css">
+        <link rel="stylesheet" href="{{asset('assets/vendor_components/morris.js/morris.css')}}">
         
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -59,7 +61,7 @@
             <div class="content-wrapper">
                 @include('layouts.backend.contenthead')
             </div>
-            
+
             <footer class="main-footer">
                 @include('layouts.backend.footer')
             </footer>
@@ -71,48 +73,48 @@
         <!-- ./wrapper -->
         
         <!-- jQuery 3 -->
-        <script src="assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+        <script src="{{asset('assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js')}}"></script>
         
         <!-- popper -->
-        <script src="assets/vendor_components/popper/dist/popper.min.js"></script>
+        <script src="{{asset('assets/vendor_components/popper/dist/popper.min.js')}}"></script>
         
         <!-- date-range-picker -->
-        <script src="assets/vendor_components/moment/min/moment.min.js"></script>
-        <script src="assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="{{asset('assets/vendor_components/moment/min/moment.min.js')}}"></script>
+        <script src="{{asset('assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
         
         <!-- Bootstrap 4.0-->
-        <script src="assets/vendor_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="{{asset('assets/vendor_components/bootstrap/dist/js/bootstrap.js')}}"></script>
         
         <!-- Slimscroll -->
-        <script src="assets/vendor_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+        <script src="{{asset('assets/vendor_components/jquery-slimscroll/jquery.slimscroll.js')}}"></script>
         
         <!-- FastClick -->
-        <script src="assets/vendor_components/fastclick/lib/fastclick.js"></script>
+        <script src="{{asset('assets/vendor_components/fastclick/lib/fastclick.js')}}"></script>
         
         <!-- peity -->
-        <script src="assets/vendor_components/jquery.peity/jquery.peity.js"></script>
+        <script src="{{asset('assets/vendor_components/jquery.peity/jquery.peity.js')}}"></script>
         
         <!-- Morris.js charts -->
-        <script src="assets/vendor_components/raphael/raphael.min.js"></script>
-        <script src="assets/vendor_components/morris.js/morris.min.js"></script>
+        <script src="{{asset('assets/vendor_components/raphael/raphael.min.js')}}"></script>
+        <script src="{{asset('assets/vendor_components/morris.js/morris.min.js')}}"></script>
         
-        <!-- This is data table -->
-        <script src="assets/vendor_components/datatable/datatables.min.js"></script>
-        
+        <!-- This is data table 
+        <script src="{{asset('assets/vendor_components/datatable/datatables.min.js')}}"></script>
+        -->
         <!-- Bootstrap WYSIHTML5 -->
-        <script src="assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+        <script src="{{asset('assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js')}}"></script>
         
         <!-- Superieur Admin App -->
-        <script src="js/template.js"></script>
+        <script src="{{asset('js/template.js')}}"></script>
         
         <!-- Superieur Admin for demo purposes -->
-        <script src="js/demo.js"></script>	
+        <script src="{{asset('js/demo.js')}}"></script>	
         
         <!-- Superieur Admin dashboard demo-->
-        <script src="js/pages/dashboard6.js"></script>
+        <script src="{{asset('js/pages/dashboard6.js')}}"></script>
         
         <!-- Superieur Admin for Data Table -->
-        <script src="js/pages/data-table.js"></script>
+        <script src="{{asset('js/pages/data-table.js')}}"></script>
 
     </body>
 </html>

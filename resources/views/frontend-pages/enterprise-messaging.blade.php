@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="row mx-0" >
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:50%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -50,7 +50,27 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/emsg/esms.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                Send Bulk SMS messages to all networks in Nigeria and over 600 Networks Worldwide.
+                            </p>
+                            <p class="solutionscroll">
+                                At buffer our Bulk SMS services is tailored to reach your target Audience through our messaging platform. Get Global reach to more than 1000 networks worldwide at real time. More of our bulk SMS service are                              
+                            </p>
+                            <ol class="solutionscroll">
+                                <li>Transactional SMS</li>
+                                <li>SMS tagging</li>
+                            </ol>
+                            <h5 class="solutionscroll">Transaction:</h5>
+                            <p class="solutionscroll">
+                            At Buffer our transactional SMS services gives you direct access to your customers all over the globe in real-time without any obstruction of DND (do not disturb) protective measures. This helps you company generate more leads, convert, drive up sales and retain your customers.
+                            </p>
+                            <h5 class="solutionscroll">SMS tagging: </h5>
+                            <p class="solutionscroll">
+                            Customers today are bombarded with promotional SMS from multiple. As a result, customers activate DND lists, and get used to ignoring such messages. This makes it especially difficult for promotional messages to get quality impressions.
+                            </p>
+                            <p class="solutionscroll">
+                            SMS Tagging is a unique service that solves this problem by sending promotional messages alongside transactional SMS. The promotional message is added or ‘tagged’ in a transactional SMS, ensuring no new SMS is sent.
+                            </p>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="sms"><span class="button-blink" data-qoute="sms"> Get a qoute</span></button>
 
                         </div>
@@ -115,7 +135,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:45%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -123,7 +143,39 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/emsg/ewhatsapp.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll d-none d-md-block"></p>
+                            <p class="solutionscroll">
+                                The WhatsApp Business API allows businesses to respond to customers on the platform for free for up to 24 hours, charging a fixed fee for each message after that. WhatsApp released its free business application last year, but with over 3 million users now. This brings us to our WhatsApp business API solutions
+                            </p>
+                            <p class="solutionscroll">
+                                Buffers WhatsApp Business solutions allows companies to safely and securely message their customers directly within the WhatsApp messaging platform. One advantage over SMS is that WhatsApp is tied directly to a single phone number and provides a branded business profile rather than a string of digits. This allows your consumers/customers to immediately know who they are chatting with or receiving messages from. Our WhatsApp business API solutions also provides reliable delivery information, providing companies the additional benefit of knowing what messages have been delivered and, ultimately, read.                            
+                            </p>
+                            <div>
+                                <strong class="solutionscroll">Benefits of WhatsApp business API to business productivity: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Appointments reminds.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Shipping alerts.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Order notification.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Products demonstration videos</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Verification codes.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Boarding .</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>2-way customer surveys and support messages.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Its immediate more personal and international in reach.</li>
+
+                                </ul>
+                            </div>
+                            <div class="pt-3">
+                                <strong class="solutionscroll">Benefits of WhatsApp business API to achieving company Objectives: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> More direct significant impact on customer satisfaction.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Global communication reach.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Ability to improve deliverable to clients and customers.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Lowered support costs.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Increasing conversions.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Sharpening security with 2-way end to end encryption.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Achieving other important business KPIs.</li>
+
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="whatsapp business api"><span class="button-blink" data-qoute="whatsapp business api"> Get a qoute</span></button>
 
                         </div>

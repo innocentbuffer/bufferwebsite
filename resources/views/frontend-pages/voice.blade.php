@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="row mx-0">
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/evoice/outbound.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/evoice/outbound.png" alt="About Buffer media" style="width:100%; height:80%" srcset="">
                     </div>
                     <div class="col-md-6">
                         <div class="section-description">
@@ -48,7 +48,30 @@
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/evoice/outbound.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
-                            <p class="solutionscroll"></p>
+                            <p class="solutionscroll">
+                                Outbound dialer is a system that automatically calls pre defined lists of customers and play promotional messages, reminders, or one time passwords (OTP).
+                            </p>
+                            <p class="solutionscroll">
+                                Buffer Outbound Dialer lets you choose your sender, receiver and transmits your Voice message within minutes. We proffer you with the ability to send promotional messages, reminders, updates on your products or services and finally One time passwords (OTP) for secure business transaction.                            
+                            </p>
+                            <p class="solutionscroll">
+                                Additionally, with our extensive reporting facility you can
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>  Increased direct customer engagement rate.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span> Direct feedback from customers and consumers.</li>
+                                </ul>
+                            </p>
+                            <div>
+                                <strong class="solutionscroll">Benefit of OBD to your business: </strong>
+                                <ul class="list-unstyled my-2 solutionscroll">
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Ensure Maximum Reach.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Reduce Ambiguity.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Payment Security.</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Brand Presence</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Lead Generation</li>
+                                    <li><span class="mr-2 comp-color"><i class="fa fa-check"></i></span>Cost-efficient and Effective</li>
+                                </ul>
+                            </div>
                             <button class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="outbound dialer"><span class="button-blink " data-qoute="outbound dialer"> Get a qoute</span></button>
                         </div>
                     </div>

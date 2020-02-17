@@ -47,10 +47,10 @@
                 </li>
                 @auth
                 <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{ Auth::user()->name }} <span class="caret"></span>
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/dashboard" >
+                        DASHBOARD
                     </a>
-
+                    <!--
                     <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item text-dark" href="{{ route('dashboard') }}">
                             Dashboard
@@ -61,6 +61,7 @@
                             {{ __('Logout') }}
                         </a>
                     </div>
+                    -->
                 </li>
                 @endauth
             </ul>

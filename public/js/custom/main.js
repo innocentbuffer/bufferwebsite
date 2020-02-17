@@ -4,48 +4,46 @@ $(function(){
         $('.loader-section').hide();
         $('.main-section').show();
     }, 500);  
-    
-    $(".trusted-item").on('mouseover', function(event){
-        var container = $(event.target).find('div');
-        var containerText = container.children().last();
-        container.addClass('trusted-body-pos');
-        container.addClass('shadow-sm');
-        containerText.show();
-    });
-    
 
-    $(".trusted-content").on('mouseleave', function(event){
-        var containerText = $(event.target);
-        var container = containerText.parent();
-        containerText.hide();
-        container.removeClass('trusted-body-pos');
-        container.removeClass('shadow-sm');
-        console.log(event.target);
-        
-    });
-    $(".trusted-img").on('mouseleave', function(event){
-        var containerText = $(event.target).next();
-        var container = containerText.parent();
-        containerText.hide();
-        container.removeClass('trusted-body-pos');
-        container.removeClass('shadow-sm');
-        console.log(event.target);
-        
-    });
-    $(".trusted-body").on('mouseleave', function(event){
-        var container = $(event.target);
-        var containerText = $(event.target).find('p');
-        container.removeClass('trusted-body-pos');
-        container.removeClass('shadow-sm');
-        containerText.hide();        
-    });
-    $(".trusted-item").on('mouseleave', function(event){
-        var container = $(event.target).find('div');
-        var containerText = container.children().last();
-        container.removeClass('trusted-body-pos');
-        container.removeClass('shadow-sm');
-        containerText.hide();
-    });
+
+    $('.autoplay').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:false,
+        dots: false,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+      });
+    
+    
     
 
    
@@ -216,6 +214,29 @@ function openNav() {
     }
     
   }
+
+  
+        sr.reveal('.cardReveal',{ delay: 500 });
+        sr.reveal('.cardRevealText',{opecity:0.3, delay: 500 });
+
+        sr.reveal('.trustedContainer',{ delay: 300 });
+        
+        sr.reveal('.trustedByText',{opecity:0.3, delay: 300 });
+        sr.reveal('.trustedContainerImg1',{delay: 300 });
+        sr.reveal('.trustedContainerImg2',{delay: 600 });
+        sr.reveal('.trustedContainerImg3',{delay: 900 });
+        sr.reveal('.trustedContainerImg4',{delay: 1200 });
+        sr.reveal('.trustedContainerImg5',{delay: 1500 });
+
+        sr.reveal('.hello',{opecity:0.3, delay: 600 });
+        sr.reveal('.coreValue1',{delay: 300 });
+        sr.reveal('.coreValue2',{delay: 600 });
+        sr.reveal('.coreValue3',{delay: 900 });
+        sr.reveal('.coreValue4',{delay: 1200 });
+
+        sr.reveal('.mission',{opecity:0.3, delay: 400 });
+        sr.reveal('.vision',{opecity:0.3, delay: 400 });
+        sr.reveal('.solutionscroll',{opecity:0.3, delay: 400 });
   
 
   

@@ -38,6 +38,10 @@ class User extends Authenticatable
     ];
     public function roles()
     {
-        return $this->belongToMany('App\Role')->withTimestamps();
+        return $this->belongsToMany('App\Role', 'role_user', 'user_id', 'role_id')->withTimestamps();
+    }
+    public function setPasswordAttribute($value)
+    {
+       $this->attributes['password'] = bcrypt($value);
     }
 }
