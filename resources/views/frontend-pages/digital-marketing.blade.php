@@ -16,11 +16,11 @@
             <div class="container">
                 <div class="row mx-0" >
                     <div class="col-md-6">
-                        <div class="section-description">
+                        <div class="section-description pt-5">
                             <h6 class="solutionscroll">DIGITAL MARKETING</h6>
                             <h3 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
-                                <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                                <img src="images/dmarketing/digmkt.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
                             <p class="solutionscroll">
                             We employ a wide range of research tools to develop a comprehensive digital marketing strategy that will meet your acquisition goals.
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/dmarketing/digmkt.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@
                             <h6 class="solutionscroll">ENTERPRISE MESSAGING</h6>
                             <h3 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h3>
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
-                                <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                                <img src="images/emsg/emsg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
                             <p class="solutionscroll">
                                 If you want your consumers to get your message, you should definitely use mobile messaging services. Buffer offers an extensive messaging portfolio forged on years of experience with handling and delivering the most efficient messaging solutions.
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/emsg/emsg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>

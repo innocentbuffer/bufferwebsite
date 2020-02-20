@@ -13,6 +13,7 @@ class AdminController extends Controller
     public function createUser(){
         return view("backend-pages.createUser");
     }
+
     public function userCreated(Request $request){
 
         $validatedData = $request->validate([
@@ -60,5 +61,10 @@ class AdminController extends Controller
         ]);
 
         return $user;
+    }
+
+    public function usersList()
+    {
+        return view('backend-pages.usersList');
     }
 }

@@ -113,7 +113,7 @@ $(function(){
         }
 
         
-        $('#qoutetype').value = qoute;
+        $('#qoutetype').val(qoute);
         $('.modal-title').text(heading);
         $("#myModal").modal()
     });

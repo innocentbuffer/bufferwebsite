@@ -19,7 +19,7 @@
                             <h6>CONNECTIVITY</h6>
                             <h3 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
                             <div class="col-md-6 solutionscroll d-md-none mb-4 mb-md-0">
-                                <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                                <img src="images/connectivity/connecttop.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>
                             <p class="solutionscroll">
                             AT BUFFER OUR mobile billing and connectivity solutions Enabling brands to generate significant revenue through the sale of their product or service in the digital space. Your customers or consumers can directly pay you for services rendered to them or products they purchase all within fingertips of a mobile device. Want to know more? Scroll down to see our set of mobile billing solutions.                            
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 solutionscroll d-none d-md-block">
-                        <img src="images/company/aboutus.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
+                        <img src="images/connectivity/connecttop.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                     </div>
                 </div>
             </div>

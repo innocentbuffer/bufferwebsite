@@ -33,3 +33,4 @@ Route::post('loginpassage', 'LoginPassageController@authenticate');
 Route::get('dashboard', 'HomeController@index')->name('dashboard');
 Route::get('backend/createuser', 'AdminController@createUser')->name('createuser');
 Route::post('backend/createuser', 'AdminController@userCreated')->name('usercreated');
+Route::get('backend/userslist', 'AdminController@usersList')->name('userslist');

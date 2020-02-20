@@ -49,6 +49,7 @@
             </a>
             <ul class="treeview-menu">
                 <li><a href="{{ route('createuser') }}"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
+                <li><a href="{{ route('userslist') }}"><i class="mdi mdi-toggle-switch-off"></i>Users List</a></li>
             </ul>
         </li> 	
          
