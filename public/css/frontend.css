@@ -511,7 +511,7 @@ footer{
 @media only screen and (max-width: 600px) {
 
     .banner-body {
-        top: 170px;
+        top: 200px;
     }
 
     h1, h3{
@@ -538,6 +538,25 @@ footer{
     }
     .contact-form-area {
         padding: 40px;
+    }
+
+    .welcome-banner{
+        background-image: url('../images/banner/banner.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .overlay{
+        background-color: #000000b8;
+        height: inherit;
+    }
+    .slidetext{
+        color: white;
+    }
+
+    .action-btn #quote {
+        color: white;
     }
 }
 

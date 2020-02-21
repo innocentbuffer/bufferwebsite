@@ -12,41 +12,43 @@
 @section('content')
     <section>
         <div class="welcome-banner">
-            <div class="banner-body ">
-                <div class="row mx-0">
-                    <div class="col-md-7 px-md-5">
-                        <div class="my-slider-text">
-                            <div >
-                                <h1 class="comp_bold">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
-                                <p>
-                                    Buffer helps brands discover new and better ways to achieve their goals and desires around the mobile and digital space by providing solutions that connect them to their interests.
-                                </p>
-                            </div>
-                            <div >
-                                <h1 class="comp_bold text-uppercase">Result driven, yet cost-effective digital and mobile solutions</h1>
-                                <p>
-                                    There are 173 million Nigerians either unreached or underreached, we can help you reach them in minutes and give them the dose of your brand that turns all prospects to customers with out cost-effective solutions.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="action-btn ">
-                            <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
-                        </div>
-                    </div>
-                    <div class="col-md-5 d-none d-md-block ">
-                        <div id="banner-img-slider">
-                            <div class="position-relative" > 
-                                <div class="banner-slide-item banner-img-active" id="video1">
-                                    <video id="vid1" style="width:100%; height:100%" muted>
-                                        <source src="animation/emerg.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                    </video>
+            <div class="overlay">
+                <div class="banner-body ">
+                    <div class="row mx-0">
+                        <div class="col-md-7 px-md-5">
+                            <div class="my-slider-text">
+                                <div >
+                                    <h1 class="comp_bold">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
+                                    <p class="slidetext">
+                                        Buffer helps brands discover new and better ways to achieve their goals and desires around the mobile and digital space by providing solutions that connect them to their interests.
+                                    </p>
                                 </div>
-                                <div class="banner-slide-item" id="video2">
-                                    <video id="vid2" style="width:100%; height:100%"  muted>
-                                        <source src="animation/result.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                    </video>
+                                <div >
+                                    <h1 class="comp_bold text-uppercase">Result driven, yet cost-effective digital and mobile solutions</h1>
+                                    <p class="slidetext">
+                                        There are 173 million Nigerians either unreached or underreached, we can help you reach them in minutes and give them the dose of your brand that turns all prospects to customers with out cost-effective solutions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="action-btn ">
+                                <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-none d-md-block ">
+                            <div id="banner-img-slider">
+                                <div class="position-relative" > 
+                                    <div class="banner-slide-item banner-img-active" id="video1">
+                                        <video id="vid1" style="width:100%; height:100%" muted>
+                                            <source src="animation/emerg.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="banner-slide-item" id="video2">
+                                        <video id="vid2" style="width:100%; height:100%"  muted>
+                                            <source src="animation/result.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                        </video>
+                                    </div>
                                 </div>
                             </div>
                         </div>
