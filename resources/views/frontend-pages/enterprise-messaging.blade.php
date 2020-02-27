@@ -17,7 +17,7 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h6 class="solutionscroll">ENTERPRISE MESSAGING</h6>
-                            <h3 class="comp_bold">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h3>
+                            <h3 class="comp_boldd">KONNECT WITH GLOBAL AUDIENCES INSTANTLY THROUGH OUR CUSTOMIZABLE MESSAGING PLATFORM.</h3>
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/emsg/emsg.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>

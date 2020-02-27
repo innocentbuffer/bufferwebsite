@@ -116,7 +116,7 @@
                 <a href="https://api.whatsapp.com/send?phone=2349013802242" class="text-white p-2" title="whatsapp to buffer"><img src="images/icons/whatsapp2.png" alt=""></a>
             </div>
             <div class="reach-item">
-                <a href="mailto:info@buffer.media" class="text-white p-2" title="mail to buffer"><img src="images/icons/mail.png" alt=""></a>
+                <a href="mailto:hello@buffer.media" class="text-white p-2" title="mail to buffer"><img src="images/icons/mail.png" alt=""></a>
             </div>
         </div>
         <div class="scrollup-hide scrollup">

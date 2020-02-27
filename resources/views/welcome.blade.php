@@ -18,13 +18,13 @@
                         <div class="col-md-7 px-md-5">
                             <div class="my-slider-text">
                                 <div >
-                                    <h1 class="comp_bold">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
+                                    <h1 class="comp_bold banner-title">AFRICA'S EMERGING AND INNOVATIVE MOBILE SOLUTIONS COMPANY.</h1>
                                     <p class="slidetext">
                                         Buffer helps brands discover new and better ways to achieve their goals and desires around the mobile and digital space by providing solutions that connect them to their interests.
                                     </p>
                                 </div>
                                 <div >
-                                    <h1 class="comp_bold text-uppercase">Result driven, yet cost-effective digital and mobile solutions</h1>
+                                    <h1 class="comp_bold text-uppercase banner-title">Result driven, yet cost-effective digital and mobile solutions</h1>
                                     <p class="slidetext">
                                         There are 173 million Nigerians either unreached or underreached, we can help you reach them in minutes and give them the dose of your brand that turns all prospects to customers with out cost-effective solutions.
                                     </p>
@@ -79,7 +79,7 @@
                                     <img src="images/icons/bulk-sms.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body ">
                                         <h5 class="card-title text-center">SMS</h5>
-                                        <p class="card-text">
+                                        <p class="card-text solu-size">
                                             Send Bulk SMS messages to all networks in Nigeria and over 600 Networks Worldwide.
                                         </p>
                                         <a href="/enterprise-messaging#sms" class="btn stretched-link comp-background text-white">See Solution</a>
@@ -89,8 +89,8 @@
                                     <img src="images/icons/whatsapp.png" alt="buffer media bulk sms" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">WhatsApp Business API</h5>
-                                        <p class="card-text">
-                                            Buffers WhatsApp Business solutions allows companies to safely and securely message their customers directly.
+                                        <p class="card-text solu-size">
+                                            Buffers WhatsApp Business solutions allows companies to message their customers.
                                         </p>
                                         <a href="/enterprise-messaging#whatsapp" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -101,7 +101,7 @@
                                     <img src="images/icons/inbound_marketing.png" alt="buffer media transactional SMS" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Inbound Marketing</h5>
-                                        <p class="card-text">
+                                        <p class="card-text solu-size">
                                             At Buffer our Inbound marketing services is a buyer-focused, measurable approach.
                                         </p>
                                         <a href="/digital-marketing#inbound" class="btn stretched-link comp-background text-white">See Solution</a>
@@ -111,7 +111,7 @@
                                     <img src="images/icons/ivr.png" alt="buffer media RCS business messaging" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">IVR</h5>
-                                        <p class="card-text">
+                                        <p class="card-text solu-size">
                                             Effective Voice campaigns require an active and effective customer engagement rate which can be ...
                                         </p>
                                         <a href="/voice#ivr" class="btn stretched-link comp-background text-white">See Solution</a>
@@ -123,7 +123,7 @@
                                     <img src="images/icons/outband-dialer.png" alt="buffer media outband dialer" class="card-img-top mt-2" style="width: 60px;margin: auto;"/>
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Outband Dialer</h5>
-                                        <p class="card-text">
+                                        <p class="card-text solu-size ">
                                             Outbound dialer is a system that automatically calls pre defined lists of customers.
                                         </p>
                                         <a href="/voice#outbound" class="btn stretched-link comp-background text-white">See Solution</a>
@@ -133,8 +133,8 @@
                                     <img src="images/icons/content_marketing.png" alt="buffer media digital content SDP" class="card-img-top mt-2" style="width: 60px;margin: auto;" />
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Content Marketing</h5>
-                                        <p class="card-text">
-                                            Your business' online and offline presence revolves around content; indeed, content is king.
+                                        <p class="card-text solu-size">
+                                            Your business online and offline presence revolves around content.
                                         </p>
                                         <a href="/digital-marketing#contentmarketing" class="btn stretched-link comp-background text-white">See Solution</a>
                                     </div>
@@ -167,7 +167,7 @@
                                 <img src="images/trusted/uber.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">Bulk SMS/ Snap Call</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Buffer helped Uber increase new driver and rider sign ups.  
                                     </p>
                                 </div>
@@ -178,7 +178,7 @@
                                 <img src="images/trusted/pepsi.png" class="d-block my-3 mx-auto card-img" alt="" style="width:40%;height:60%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">Bulk SMS/ Transactional SMS</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Pepsi employed Buffer’s messaging solutions system. 
                                     </p>    
                                 </div>
@@ -189,7 +189,7 @@
                                 <img src="images/trusted/zenith.png" class="d-block my-3 mx-auto card-img" alt="" style="width:40%;height:60%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">Bulk SMS/ Snap Call</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Inbound voice and messaging solution was use by Zenith. 
                                     </p>
                                 </div>
@@ -201,7 +201,7 @@
                                 <img src="images/trusted/leadway.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">Bulk SMS/ SMS Tagging</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Leadway assurance used SMS Tagging from Buffer. 
                                     </p>
                                 </div>
@@ -213,7 +213,7 @@
                                 <img src="images/trusted/premier.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:60%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">SMS Tagging/Bulk SMS</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Baba Ijebu utilized SMS tagging to increase audience sign ups. 
                                     </p>
                                 </div>
@@ -225,7 +225,7 @@
                                 <img src="images/trusted/cola.png" class="d-block my-3 mx-auto trusted-img card-img" alt="" style="width:40%;height:55%">
                                 <div class="card-body px-4">
                                     <h5 class="card-title text-center">SEO/SEM</h5>
-                                    <p class="card-text">
+                                    <p class="card-text solu-size">
                                         Buffer deployed its social listening tools, SEO and SEM 
                                     </p>
                                 </div>

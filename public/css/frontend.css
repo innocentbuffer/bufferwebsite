@@ -14,6 +14,10 @@ body{
     font-family: 'minabold';
     color: #19aa98;
 }
+.comp_boldd{
+    font-family: 'minabold';
+    color: #19aa98;
+}
 .comp-background{
     background-color: #19AA98;
 }
@@ -476,6 +480,15 @@ footer{
     display: none;
 }
 
+.slick-dots > li 
+{ 
+    text-indent: -9999px; 
+}
+
+.solu-size{
+    font-size: 14px;
+}
+
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -548,7 +561,7 @@ footer{
         background-position: center;
     }
     .overlay{
-        background-color: #000000b8;
+        background-color: #00000078;
         height: inherit;
     }
     .slidetext{
@@ -558,6 +571,107 @@ footer{
     .action-btn #quote {
         color: white;
     }
+    .comp_bold {
+        color: white;
+    }
+    
+
+    .navbar-light .navbar-toggler {
+        border-color: white
+    }
+}
+
+@media only screen and (max-width: 600px) and (orientation:landscape){
+
+    .banner-body {
+        top: 70px;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) and (orientation:landscape){
+
+    .banner-body {
+        top: 70px;
+    }
+    .welcome-banner{
+        background-image: url('../images/banner/banner.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .overlay{
+        background-color: #00000078;
+        height: inherit;
+    }
+    .slidetext{
+        color: white;
+    }
+
+    .action-btn #quote {
+        color: white;
+    }
+    .comp_bold {
+        color: white;
+    }
+    
+
+    .navbar-light .navbar-toggler {
+        border-color: white
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) and (orientation:landscape){
+
+    .banner-body {
+        top: 70px;
+    }
+    .welcome-banner{
+        background-image: url('../images/banner/banner.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .overlay{
+        background-color: #00000078;
+        height: inherit;
+    }
+    .slidetext{
+        color: white;
+    }
+
+    .action-btn #quote {
+        color: white;
+    }
+    .comp_bold {
+        color: white;
+    }
+    
+
+    .navbar-light .navbar-toggler {
+        border-color: white
+    }
+
+    
+}
+@media only screen and (max-width: 992px) and (orientation:landscape){
+
+
+    .banner-title {
+        font-size: 1.25rem;
+    }
+    .action-btn {
+        top: 200px;
+    }
+    .scrollup {
+        bottom: 30%;
+    }
+
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

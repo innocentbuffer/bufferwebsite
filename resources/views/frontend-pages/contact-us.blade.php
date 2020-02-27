@@ -24,13 +24,15 @@
 							<h3>Leave a Message</h3>
 						</div>
 						<div class="contact-form">
-							<form action="#">
-								<input type="text" placeholder="First Name" name="lastname">
-								<input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Last Name" name="firstname">
-                                <input type="text" placeholder="Company Name">
-								<input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Position in Company">
-								<input type="email" placeholder="Enter your email">
-								<textarea placeholder="Write your message"></textarea>
+							<form action="/formrequest" method="post">
+								@csrf
+								<input type="text" placeholder="First Name" name="firstname" required>
+								<input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Last Name" name="lastname" required>
+                                <input type="text" placeholder="Company Name" name="company">
+								<input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Position in Company" name="position">
+								<input type="email" placeholder="Enter your email" name="email">
+								<textarea placeholder="Write your message" name="message"></textarea>
+								<input type="hidden" name="qoutetype"  id="qoutetype" value="sales">
 								<div class="send-btn">
 									<input type="submit" value="send me" id="formsend">
 								</div>

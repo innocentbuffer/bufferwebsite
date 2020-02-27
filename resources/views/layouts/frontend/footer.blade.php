@@ -12,10 +12,10 @@
             <div class="mt-3">
                 <strong>Subscribe to our newsletter</strong>
                 <div>
-                    <form action="" method="post">
+                    <form action="/newsletter" method="post">
                         @csrf
                         <div class="input-group">
-                            <input type="email" class="form-control" name="email" placeholder="Your email address" id="email">
+                            <input type="email" class="form-control" name="email" placeholder="Your email address" id="email" required>
                             <div class="input-group-append">
                                 <button class="btn comp-background text-white" type="submit">
                                     <i class="fa fa-paper-plane "></i>
@@ -86,9 +86,9 @@
                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/buffer-media-limited/" class="rounded-circle px-2 py-1" title="Buffer Linked In Link"><i class="b-text-color fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
                 <ul class="list-unstyled footer-list footer-anchor mt-4">
-                    <li><a class="btn p-0 enquire" data-qoute="support"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1"> Support</a></li>
+                    <li data-qoute="support"><a class="btn p-0 enquire" data-qoute="support"><img src="images/icons/support.png" alt="contact buffer suport" class="mr-1" data-qoute="support">Support</a></li>
                     <li><a class="btn p-0 enquire" data-qoute="sales"><img src="images/icons/sales.png" alt="contact buffer suport" class="mr-1">Sales</a></li>
-                    <li><a class="btn p-0 enquire" data-qoute="dev"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>
+                    <li><a class="btn p-0 enquire" data-qoute="developer"><img src="images/icons/dev.png" alt="contact buffer suport" class="mr-1">Developer</a></li>
                 </ul>
             </div> 
         </div>

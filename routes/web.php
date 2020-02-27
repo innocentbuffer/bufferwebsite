@@ -23,6 +23,8 @@ Route::get('connectivity', 'FrontPagesController@connectivity')->name('connectiv
 Route::get('digital-marketing', 'FrontPagesController@digitalMarketing')->name('dmtk');
 Route::get('product', 'FrontPagesController@product')->name('prod');
 Route::get('contactus', 'FrontPagesController@contactUs')->name('contact');
+Route::post('formrequest', 'RequestController@formRequest')->name('formrequest');
+Route::post('newsletter', 'RequestController@newsletterForm')->name('newsletterForm');
 
 //Auth Controllers
 Auth::routes(['register'=>false]);

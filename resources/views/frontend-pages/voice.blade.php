@@ -18,7 +18,7 @@
                     <div class="col-md-6">
                         <div class="section-description">
                             <h6 class="solutionscroll">ENTERPRISE VOICE</h6>
-                            <h3 class="comp_bold">STEP-UP LEAD GENERATION AND CUSTOMER EXPERIENCE THROUGH CUSTOMIZABLE & INNOVATIVE VOICE SOLUTIONS.</h3>
+                            <h3 class="comp_boldd">STEP-UP LEAD GENERATION AND CUSTOMER EXPERIENCE THROUGH CUSTOMIZABLE & INNOVATIVE VOICE SOLUTIONS.</h3>
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/evoice/evoice.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>

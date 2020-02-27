@@ -18,7 +18,7 @@
                     <div class="col-md-6">
                         <div class="section-description pt-5">
                             <h6 class="solutionscroll">DIGITAL MARKETING</h6>
-                            <h3 class="comp_bold">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
+                            <h3 class="comp_boldd">WE EMPLOY A WIDE RANGE OF RESEARCH TOOLS TO DEVELOP A COMPREHENSIVE DIGITAL MARKETING STRATEGY THAT WILL MEET YOUR ACQUISITION GOALS.</h3>
                             <div class="col-md-6 solutionscroll d-block d-md-none mb-4 mb-md-0">
                                 <img src="images/dmarketing/digmkt.png" alt="About Buffer media" style="width:100%; height:100%" srcset="">
                             </div>

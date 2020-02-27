@@ -100,7 +100,8 @@ $(function(){
         {
             
             heading = event.target.textContent;
-            qoute = event.target.textContent;
+            qoute = event.target.dataset.qoute;
+            
             $("#type-state").addClass("type-state");
             $("#email-state").removeClass("col-6");
             $("#email-state").addClass("col-12");
@@ -112,7 +113,7 @@ $(function(){
             $("#email-state").addClass("col-6");
         }
 
-        
+      
         $('#qoutetype').val(qoute);
         $('.modal-title').text(heading);
         $("#myModal").modal()
