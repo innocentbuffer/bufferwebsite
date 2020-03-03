@@ -1,14 +1,15 @@
+<!--
 <aside class="control-sidebar control-sidebar-light">
 	  
 	<div class="rpanel-title"><span class="btn pull-right"><i class="ion ion-close" data-toggle="control-sidebar"></i></span> </div>  
-    <!-- Create the tabs -->
+    
     <ul class="nav nav-tabs control-sidebar-tabs">
       <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab">Tasks</a></li>
       <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">General</a></li>
     </ul>
-    <!-- Tab panes -->
+    
     <div class="tab-content">
-      <!-- Home tab content -->
+      
       <div class="tab-pane" id="control-sidebar-home-tab">
         <h3 class="control-sidebar-heading">Recent Activity</h3>
         <ul class="control-sidebar-menu">
@@ -56,7 +57,6 @@
             </a>
           </li>
         </ul>
-        <!-- /.control-sidebar-menu -->
 
         <h3 class="control-sidebar-heading">Tasks Progress</h3>
         <ul class="control-sidebar-menu">
@@ -109,14 +109,9 @@
             </a>
           </li>
         </ul>
-        <!-- /.control-sidebar-menu -->
 
       </div>
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
       <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
       <div class="tab-pane" id="control-sidebar-settings-tab">
         <form method="post">
           <h3 class="control-sidebar-heading">General Settings</h3>
@@ -129,7 +124,6 @@
               general settings information
             </p>
           </div>
-          <!-- /.form-group -->
 
           <div class="form-group">
             <input type="checkbox" id="allow_mail" class="chk-col-grey" >
@@ -139,7 +133,6 @@
               Other sets of options are available
             </p>
           </div>
-          <!-- /.form-group -->
 
           <div class="form-group">
             <input type="checkbox" id="expose_author" class="chk-col-grey" >
@@ -149,7 +142,6 @@
               Allow the user to show his name in blog posts
             </p>
           </div>
-          <!-- /.form-group -->
 
           <h3 class="control-sidebar-heading">Chat Settings</h3>
 
@@ -157,13 +149,11 @@
             <input type="checkbox" id="show_me_online" class="chk-col-grey" >
 			<label for="show_me_online" class="control-sidebar-subheading ">Show me as online</label>
           </div>
-          <!-- /.form-group -->
 
           <div class="form-group">
             <input type="checkbox" id="off_notifications" class="chk-col-grey" >
 			<label for="off_notifications" class="control-sidebar-subheading ">Turn off notifications</label>
           </div>
-          <!-- /.form-group -->
 
           <div class="form-group">
             <label class="control-sidebar-subheading">              
@@ -171,13 +161,10 @@
               Delete chat history
             </label>
           </div>
-          <!-- /.form-group -->
         </form>
       </div>
-      <!-- /.tab-pane -->
     </div>
   </aside>
-  <!-- /.control-sidebar -->
   
-  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
+  -->

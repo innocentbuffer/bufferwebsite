@@ -283,8 +283,6 @@ footer{
 }
 
 .action-btn{
-    position: absolute;
-    top: 230px;
 }
 
 .action-btn button{
@@ -490,6 +488,7 @@ footer{
 }
 
 
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -531,7 +530,6 @@ footer{
         font-size: 1.5rem;
     }
     .action-btn {
-        top: 280px;
     }
 
     .section-description-left h3 {
@@ -581,49 +579,6 @@ footer{
     }
 }
 
-@media only screen and (max-width: 600px) and (orientation:landscape){
-
-    .banner-body {
-        top: 70px;
-    }
-   
-}
-
-@media only screen and (max-width: 768px) and (orientation:landscape){
-
-    .banner-body {
-        top: 70px;
-    }
-    .welcome-banner{
-        background-image: url('../images/banner/banner.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
-    .overlay{
-        background-color: #00000078;
-        height: inherit;
-    }
-    .slidetext{
-        color: white;
-    }
-
-    .action-btn #quote {
-        color: white;
-    }
-    .comp_bold {
-        color: white;
-    }
-    
-
-    .navbar-light .navbar-toggler {
-        border-color: white
-    }
-
-    
-}
-
 @media only screen and (max-width: 768px) and (orientation:landscape){
 
     .banner-body {
@@ -659,7 +614,12 @@ footer{
     
 }
 @media only screen and (max-width: 992px) and (orientation:landscape){
-
+    .banner-body {
+        top: 100px;
+    }
+    .banner-slide-item {
+        top: -50px;
+    }
 
     .banner-title {
         font-size: 1.25rem;

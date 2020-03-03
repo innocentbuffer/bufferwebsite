@@ -45,7 +45,6 @@
                     </li>
                     <!-- Menu Body -->
                     <li class="user-body">
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-person"></i> My Profile</a>
                         <!--
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-bag"></i> My Balance</a>
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-email-unread"></i> Inbox</a>
@@ -53,13 +52,15 @@
                         <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-settings"></i> Account Setting</a>
                         -->
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                            <i class="ion-log-out"></i>
-                            {{ __('Logout') }}
-                            
-                        </a>
+                        
                         <div class="dropdown-divider"></div>
-                        <div class="p-10"><a href="javascript:void(0)" class="btn btn-sm btn-rounded btn-success">View Profile</a></div>
+                        <div class="p-10">
+                            <a class="btn btn-sm btn-rounded btn-success" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                
+                                {{ __('Logout') }}
+                                
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </li>		

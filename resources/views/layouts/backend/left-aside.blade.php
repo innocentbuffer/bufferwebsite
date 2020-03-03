@@ -14,7 +14,6 @@
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="javascript:void()"><i class="fa fa-user mr-5"></i>My Profile </a></li>
                 <!--
                 <li><a href="javascript:void()"><i class="fa fa-money mr-5"></i>My Balance</a></li>
                 <li><a href="javascript:void()"><i class="fa fa-envelope-open mr-5"></i>Inbox</a></li>
@@ -39,19 +38,43 @@
                 <span>Dashboard</span>
             </a>
         </li>
+        @php
+            $rol = "";
+            foreach(Auth::user()->roles as $role)
+            {
+                $rol = $role->name;
+            }
+        @endphp
+        @if(strtolower($rol) == "admin" || strtolower($rol) == "")
+            <li class="treeview">
+                <a href="#">
+                    <i class="mdi mdi-plus-box"></i>
+                    <span>Creation</span>
+                    <span class="pull-right-container">
+                    <i class="fa fa-angle-right pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ route('createuser') }}"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
+                    <li><a href="{{ route('userslist') }}"><i class="mdi mdi-toggle-switch-off"></i>Users List</a></li>
+                </ul>
+            </li>
+        @endif 	
         <li class="treeview">
             <a href="#">
-                <i class="mdi mdi-plus-box"></i>
-                <span>Creation</span>
+                <i class="mdi mdi-comment-account"></i>
+                <span>Request</span>
                 <span class="pull-right-container">
                 <i class="fa fa-angle-right pull-right"></i>
                 </span>
             </a>
             <ul class="treeview-menu">
-                <li><a href="{{ route('createuser') }}"><i class="mdi mdi-toggle-switch-off"></i>Create User</a></li>
-                <li><a href="{{ route('userslist') }}"><i class="mdi mdi-toggle-switch-off"></i>Users List</a></li>
+                <li><a href="{{ route('qouterequest') }}"><i class="mdi mdi-toggle-switch-off"></i>Qoutes</a></li>
+                <li><a href="{{ route('contactrequest') }}"><i class="mdi mdi-toggle-switch-off"></i>Contacts</a></li>
+                <li><a href="{{ route('newsletter') }}"><i class="mdi mdi-toggle-switch-off"></i>Newsletters</a></li>
+
             </ul>
-        </li> 	
+        </li> 
          
         <!--
         <li class="header nav-small-cap"><i class="mdi mdi-drag-horizontal mr-5"></i>PERSONAL</li>

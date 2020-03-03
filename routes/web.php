@@ -14,7 +14,7 @@
 //Controllers for frontend pages
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 Route::get('portfolio', 'FrontPagesController@portfolio')->name('portfolio');
 Route::get('company', 'FrontPagesController@company')->name('company');
 Route::get('enterprise-messaging', 'FrontPagesController@enterpriseMessaging')->name('entmsg');
@@ -32,7 +32,15 @@ Route::post('loginpassage', 'LoginPassageController@authenticate');
 
 
 
-Route::get('dashboard', 'HomeController@index')->name('dashboard');
-Route::get('backend/createuser', 'AdminController@createUser')->name('createuser');
-Route::post('backend/createuser', 'AdminController@userCreated')->name('usercreated');
-Route::get('backend/userslist', 'AdminController@usersList')->name('userslist');
+
+Route::group(['middleware'=>['backendusers','admin']],function(){
+    Route::get('backend/createuser', 'AdminController@createUser')->name('createuser');
+    Route::post('backend/createuser', 'AdminController@userCreated')->name('usercreated');
+    Route::get('backend/userslist', 'AdminController@usersList')->name('userslist');
+});
+Route::group(['middleware'=>'backendusers'],function(){
+    Route::get('dashboard', 'HomeController@index')->name('dashboard');
+    Route::get('backend/qouterequest', 'AdminController@qouteRequest')->name('qouterequest');
+    Route::get('backend/contactrequest', 'AdminController@contactRequest')->name('contactrequest');
+    Route::get('backend/newsletter', 'AdminController@newsletterRequest')->name('newsletter');
+});

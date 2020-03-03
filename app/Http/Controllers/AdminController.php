@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Role;
 use App\User;
+use App\Qoute;
+use App\Contact;
+use App\Newsletter;
+use Auth;
 
 class AdminController extends Controller
 {
@@ -65,6 +69,29 @@ class AdminController extends Controller
 
     public function usersList()
     {
-        return view('backend-pages.usersList');
+        $users = User::all();
+        return view('backend-pages.usersList',['users'=>$users]);
+    }
+
+    public function qouteRequest()
+    {
+        $qoutes = Qoute::paginate(10);
+        return view('backend-pages.qouterequest',['qoutes'=>$qoutes]);
+    }
+
+    public function contactRequest()
+    {
+        $contacts = Contact::paginate(10);
+        $role = "";
+        foreach(Auth::user()->roles as $role)
+        {
+            $role = $role->name;
+        }
+        return view('backend-pages.contactrequest',['contacts'=>$contacts, 'role' => $role]);
+    }
+    public function newsletterRequest()
+    {
+        $newsletters = Newsletter::paginate(10);
+        return view('backend-pages.newsletter',['newsletters'=>$newsletters]);
     }
 }

@@ -5,3 +5,11 @@
 .comp-background{
     background-color: #19AA98;
 }
+
+.thead-comp-color{
+    background-color: #19AA98;
+    color: white;
+}
+.pagination{
+    justify-content: center;
+}

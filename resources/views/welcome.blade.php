@@ -22,17 +22,21 @@
                                     <p class="slidetext">
                                         Buffer helps brands discover new and better ways to achieve their goals and desires around the mobile and digital space by providing solutions that connect them to their interests.
                                     </p>
+                                    <div class="action-btn ">
+                                        <button  id="quote" class="btn btn-lg enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
+                                    </div>
                                 </div>
                                 <div >
                                     <h1 class="comp_bold text-uppercase banner-title">Result driven, yet cost-effective digital and mobile solutions</h1>
                                     <p class="slidetext">
                                         There are 173 million Nigerians either unreached or underreached, we can help you reach them in minutes and give them the dose of your brand that turns all prospects to customers with out cost-effective solutions.
                                     </p>
+                                    <div class="action-btn ">
+                                        <button  id="quote" class="btn btn-lg enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="action-btn ">
-                                <button  id="quote" class="btn btn-lg shadow enquire"><span class="button-white-blink">Get A Quote</span></button><button id="hello" class="btn btn-lg comp-background shadow ml-1 text-white enquire" data-qoute="contact"><span class="button-blink" data-qoute="contact"> Say Hello</span></button>
-                            </div>
+                            
                         </div>
                         <div class="col-md-5 d-none d-md-block ">
                             <div id="banner-img-slider">
