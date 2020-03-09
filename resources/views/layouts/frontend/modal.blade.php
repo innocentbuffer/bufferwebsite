@@ -92,3 +92,29 @@
         </div>
     </div>
 </div>
+
+<div class="modal" id="successModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title comp_bold">Request Successful</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p class="text-center">
+                    Your request was sent successfully
+                </p>
+            </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn comp-background text-white" data-dismiss="modal">Close</button>
+        </div>
+
+        </div>
+    </div>
+</div>

@@ -21,6 +21,8 @@
 
     
 
+    
+
 
     
     
@@ -142,6 +144,15 @@
    
     <script src="js/custom/main.js"></script>
     <script src="js/vendors/slick.min.js"></script>
+    @if(session('successinfo'))
+        <script>
+            $(function(){
+                $("#successModal").modal();
+            });
+            
+        </script>
+    @endif
+    {{session()->forget('successinfo')}}
     
 
     <!--Js Vendors -->

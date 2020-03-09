@@ -28,7 +28,7 @@ class RequestController extends Controller
                 'message' => $request->message,
             ]);
 
-            return redirect()->back();
+            return redirect()->back()->with('successinfo','success');
 
         }else{
             $qoute="";
@@ -48,7 +48,7 @@ class RequestController extends Controller
                 'message' => $request->message,
             ]);
 
-            return redirect()->back();
+            return redirect()->back()->with('successinfo','success');;
         }
 
     }

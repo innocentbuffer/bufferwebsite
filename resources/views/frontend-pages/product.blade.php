@@ -15,7 +15,7 @@
                 <div class="text-center">
                     <h1>Buffer Products</h1>
                     <p class="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Praesent a viverra leo. Morbi purus augue, lacinia vel molestie.
+                        Below are our upcoming products.
                     </p>
                 </div>
                 <div class="row ">
